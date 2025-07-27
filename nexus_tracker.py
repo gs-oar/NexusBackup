@@ -52,6 +52,22 @@ def download_file(job):
         job['downloaded_path'] = None
         return job
 
+def sanitize_filename(filename, mod_id, version):
+    """
+    Cleans Nexus-style metadata from a filename and appends a canonical version.
+    Example: "MyMod-12345-1-0.7z" -> "MyMod-v1.0.7z"
+    """
+    name_part, extension = os.path.splitext(filename)
+    # This pattern looks for the mod ID, optionally followed by any number of
+    # hyphen-separated numbers (like version parts or timestamps) at the end of the name.
+    pattern = rf'-{mod_id}(?:-\d+)*$'
+    clean_name_part = re.sub(pattern, '', name_part).strip()
+    # If the name becomes empty after cleaning (e.g., filename was just "12345-1.zip"),
+    # we fall back to a safe default name.
+    if not clean_name_part:
+        clean_name_part = f"modfile-{mod_id}"
+    return f"{clean_name_part}-v{version}{extension}"
+    
 # --- Step 2: Configuration ---
 print("--- Step 1: CONFIGURATION ---")
 V1_API_KEY = os.environ.get("NEXUSMODS_V1_API_KEY")
@@ -160,19 +176,29 @@ for mod_api_data in all_mods_from_api:
         versions_found = {}
         for file_info in all_files:
             version = file_info.get("version")
+            uploaded_timestamp = file_info.get("uploaded_timestamp", 0) 
             if version:
-                if version not in versions_found: versions_found[version] = []
-                versions_found[version].append(file_info)
-
+                if version not in versions_found:
+                    versions_found[version] = {
+                        "files": [],
+                        "latest_upload_timestamp": 0
+                    }
+                versions_found[version]["files"].append(file_info)
+                # Keep track of the newest file's timestamp for that version
+                if uploaded_timestamp > versions_found[version]["latest_upload_timestamp"]:
+                    versions_found[version]["latest_upload_timestamp"] = uploaded_timestamp
+                    
         missing_versions_for_this_mod = []
-        for version, files in versions_found.items():
+        # versions_found is now a dict of dicts
+        for version, version_data in versions_found.items():
             release_tag = create_release_tag(uid, mod_api_data.get('name', 'unknown'), version)
             if release_tag not in EXISTING_RELEASES:
                 missing_versions_for_this_mod.append({
                     "version_to_archive": version,
-                    "files_for_version": files
+                    "files_for_version": version_data["files"],
+                    "upload_timestamp": version_data["latest_upload_timestamp"]
                 })
-        
+                
         if missing_versions_for_this_mod:
             mods_to_process[uid] = {
                 "mod_api_data": mod_api_data,
@@ -272,7 +298,8 @@ for uid in mods_to_run_this_time:
                         else:
                             version = job.get('version')
                             name_part, extension = os.path.splitext(downloaded_path)
-                            new_filepath = f"{name_part}-v{version}{extension}"
+                            name = sanitize_filename(name_part, v1_mod_id, version)
+                            new_filepath = f"{name}{extension}"
                             os.rename(downloaded_path, new_filepath)
                             downloaded_file_paths.append(new_filepath)
         
@@ -305,9 +332,12 @@ for uid in mods_to_run_this_time:
                         "pictureUrl": picture_url, "releases": []
                     }
                 
+                upload_timestamp = task.get("upload_timestamp") # Get the timestamp we passed along
+
                 release_data = {
                     "version": version_to_archive, "releaseTag": release_tag,
-                    "updatedAt": new_release.created_at.isoformat(),
+                    "updatedAt": new_release.created_at.isoformat(), # This is the archive date
+                    "uploadTimestamp": upload_timestamp, # This is the true upload date
                     "changelog": changelog_markdown, "assets": release_assets_data
                 }
                 indexed_known_mods[uid]["releases"].append(release_data)
@@ -328,7 +358,7 @@ if something_changed:
     for mod_id in indexed_known_mods:
         if 'releases' in indexed_known_mods[mod_id]:
             indexed_known_mods[mod_id]['releases'].sort(
-                key=lambda r: parse_version(r['version']),
+                key=lambda r: (parse_version(r['version']), r.get('uploadTimestamp', 0)),
                 reverse=True
             )
     try:
