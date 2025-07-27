@@ -52,69 +52,99 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     // --- Modal Functions ---
-    const openModal = (modId) => {
-        const mod = allMods[modId];
-        if (!mod) return;
+	const openModal = (modId) => {
+		const mod = allMods[modId];
+		if (!mod) return;
 
-        // The first release is newest, the rest are older
-        const latestRelease = mod.releases[0];
-        const olderReleases = mod.releases.slice(1);
+		// --- Determine Current Files ---
+		const latestMainRelease = mod.releases[0];
+		const latestOptionalFiles = {};
 
-        // Helper to build a list of download links
-        const buildAssetsHtml = (assets) => {
-            let html = '<h4>Downloads</h4>';
-            if (!assets || assets.length === 0) return '<h4>No download files found for this version.</h4>';
-            const modFiles = assets.filter(asset => !asset.name.startsWith('thumbnail'));
+		// Iterate through ALL releases (newest to oldest) to find the latest version of each optional file.
+		mod.releases.forEach(release => {
+			if (!release.assets) return;
+			release.assets.forEach(asset => {
+				// Consider OPTIONAL, UPDATE, etc. as optional. Exclude MAIN and ARCHIVED.
+				const isOptional = asset.category && !['MAIN', 'OLD_VERSION', 'ARCHIVED', 'THUMBNAIL'].includes(asset.category);
+				if (isOptional) {
+					// Since we iterate newest to oldest, the first time we see a filename, it's the latest version.
+					if (!latestOptionalFiles[asset.name]) {
+						latestOptionalFiles[asset.name] = { ...asset, originalVersion: release.version };
+					}
+				}
+			});
+		});
 
-            if (modFiles.length === 0) return '<h4>No download files found for this version.</h4>';
+		// Helper to build a list of download links from an array of assets
+		const buildAssetsHtml = (assets, title) => {
+			if (!assets || assets.length === 0) return '';
+			
+			// Filter out thumbnail "assets" which are just for data, not download
+			const downloadableAssets = assets.filter(a => a.category !== 'THUMBNAIL');
+			if (downloadableAssets.length === 0) return '';
 
-            modFiles.forEach(file => {
-                html += `<a href="${file.url}" target="_blank">${file.name}</a>`;
-            });
-            return html;
-        };
-        
-        // Build the collapsible "Version History" section
-        let olderVersionsHtml = '';
-        if (olderReleases.length > 0) {
-            olderVersionsHtml = `<details class="version-history">
-                <summary>View Older Versions (${olderReleases.length})</summary>`;
-            olderReleases.forEach(release => {
-                olderVersionsHtml += `
-                    <div class="older-version">
-                        <h3>Version ${release.version}</h3>
-                        ${release.changelog || ''}
-                        ${buildAssetsHtml(release.assets)}
-                    </div>`;
-            });
-            olderVersionsHtml += `</details>`;
-        }
-        
-        const renderedDescription = marked.parse(mod.description || 'No description provided.');
-        const nexusLinkHtml = `<a href="https://www.nexusmods.com/${mod.game}/mods/${mod.modId}" class="view-on-nexus" target="_blank">View on Nexus Mods</a>`;
+			let html = `<h4>${title}</h4>`;
+			downloadableAssets.forEach(file => {
+				let versionInfo = '';
+				// Add version info to optional files to avoid confusion
+				if (title.toLowerCase().includes('optional')) {
+					versionInfo = ` <span class="file-version">(for v${file.originalVersion})</span>`;
+				}
+				html += `<a href="${file.url}" target="_blank">${file.name}</a>${versionInfo}`;
+			});
+			return html;
+		};
 
-        modalBody.innerHTML = `
-            <h2>${mod.name} - v${latestRelease.version}</h2>
-            <div class="modal-layout">
-                <div class="modal-left-column">
-                    ${mod.pictureUrl ? `<img src="${mod.pictureUrl}" alt="${mod.name}" class="modal-thumbnail">` : ''}
-                    ${nexusLinkHtml}
-                    <div class="assets">${buildAssetsHtml(latestRelease.assets)}</div>
-                </div>
-                <div class="modal-right-column">
-                    <div class="description">${renderedDescription}</div>
-                    ${latestRelease.changelog || ''}
-                    ${olderVersionsHtml}
-                </div>
-            </div>
-        `;
-        
-        const modalThumbnail = modalBody.querySelector('.modal-thumbnail');
-        if (modalThumbnail) {
-            modalThumbnail.addEventListener('click', () => openLightbox(modalThumbnail.src));
-        }
-        modalOverlay.classList.remove('hidden');
-    };
+		const mainFiles = latestMainRelease.assets.filter(a => a.category === 'MAIN');
+		const mainFilesHtml = buildAssetsHtml(mainFiles, 'Main Files');
+		const optionalFilesHtml = buildAssetsHtml(Object.values(latestOptionalFiles), 'Optional Files & Patches');
+
+		// --- Build Version History ---
+		let olderVersionsHtml = '';
+		if (mod.releases.length > 0) {
+			olderVersionsHtml = `<details class="version-history">
+				<summary>View Full Version History (${mod.releases.length})</summary>`;
+			mod.releases.forEach(release => {
+				// In history, we show ALL files for that specific version release
+				const allVersionFiles = buildAssetsHtml(release.assets, 'Downloads for this version');
+				olderVersionsHtml += `
+					<div class="older-version">
+						<h3>Version ${release.version}</h3>
+						${release.changelog || ''}
+						${allVersionFiles || 'No files recorded for this version.'}
+					</div>`;
+			});
+			olderVersionsHtml += `</details>`;
+		}
+		
+		const renderedDescription = marked.parse(mod.description || 'No description provided.');
+		const nexusLinkHtml = `<a href="https://www.nexusmods.com/${mod.game}/mods/${mod.modId}" class="view-on-nexus" target="_blank">View on Nexus Mods</a>`;
+
+		modalBody.innerHTML = `
+			<h2>${mod.name} - v${latestMainRelease.version}</h2>
+			<div class="modal-layout">
+				<div class="modal-left-column">
+					${mod.pictureUrl ? `<img src="${mod.pictureUrl}" alt="${mod.name}" class="modal-thumbnail">` : ''}
+					${nexusLinkHtml}
+					<div class="assets">
+						${mainFilesHtml}
+						${optionalFilesHtml}
+					</div>
+				</div>
+				<div class="modal-right-column">
+					<div class="description">${renderedDescription}</div>
+					${latestMainRelease.changelog || ''}
+					${olderVersionsHtml}
+				</div>
+			</div>
+		`;
+		
+		const modalThumbnail = modalBody.querySelector('.modal-thumbnail');
+		if (modalThumbnail) {
+			modalThumbnail.addEventListener('click', () => openLightbox(modalThumbnail.src));
+		}
+		modalOverlay.classList.remove('hidden');
+	};
 
     const closeModal = () => modalOverlay.classList.add('hidden');
     const openLightbox = (imageUrl) => { lightboxImage.src = imageUrl; lightboxOverlay.classList.remove('hidden'); };

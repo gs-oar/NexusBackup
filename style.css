@@ -267,3 +267,13 @@ body.light-mode #close-button:hover { color: #121212; }
     border-top: none;
     padding-top: 0;
 }
+
+.file-version {
+    font-size: 0.8em;
+    color: #aaa;
+    margin-left: 8px;
+}
+
+body.light-mode .file-version {
+    color: #555;
+}

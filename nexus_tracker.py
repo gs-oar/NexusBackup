@@ -259,7 +259,7 @@ for uid in mods_to_run_this_time:
         if picture_url:
             file_ext = os.path.splitext(picture_url)[1] or '.jpg'
             thumb_path = os.path.join(DOWNLOADS_DIR, f"thumbnail{file_ext}")
-            download_jobs.append({'url': picture_url, 'path': thumb_path, 'is_thumbnail': True})
+            download_jobs.append({'url': picture_url, 'path': thumb_path, 'is_thumbnail': True, 'category': 'THUMBNAIL'})
 
         for file_info in files_for_version:
             category_name = file_info.get("category_name")
@@ -278,13 +278,14 @@ for uid in mods_to_run_this_time:
                 original_filepath = os.path.join(DOWNLOADS_DIR, file_name)
                 download_jobs.append({
                     'url': download_uri, 'path': original_filepath,
-                    'is_thumbnail': False, 'version': version_to_archive
+                    'is_thumbnail': False, 'version': version_to_archive,
+                    'category': file_info.get("category_name", "UNKNOWN")
                 })
                 time.sleep(1)
             except Exception as e:
                 print(f"    > ERROR getting download link for {file_name}: {e}")
 
-        downloaded_file_paths = []
+        downloaded_files_data = []
         if download_jobs:
             print(f"  > Starting parallel download of {len(download_jobs)} files using {MAX_WORKERS} workers...")
             with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
@@ -293,17 +294,22 @@ for uid in mods_to_run_this_time:
                 for job in results:
                     downloaded_path = job.get('downloaded_path')
                     if downloaded_path:
-                        if job.get('is_thumbnail'):
-                            downloaded_file_paths.append(downloaded_path)
-                        else:
+                        file_data = {
+                            'path': downloaded_path,
+                            'category': job.get('category', 'UNKNOWN')
+                        }
+                        
+                        if not job.get('is_thumbnail'):
                             version = job.get('version')
                             name_part, extension = os.path.splitext(downloaded_path)
                             name = sanitize_filename(name_part, v1_mod_id, version)
                             new_filepath = f"{name}{extension}"
                             os.rename(downloaded_path, new_filepath)
-                            downloaded_file_paths.append(new_filepath)
-        
-        if downloaded_file_paths:
+                            file_data['path'] = new_filepath
+                        
+                        downloaded_files_data.append(file_data)
+
+        if downloaded_files_data:
             try:
                 print("  > Creating GitHub release...")
                 release_name = f"{mod_name} - v{version_to_archive}"
@@ -317,10 +323,22 @@ for uid in mods_to_run_this_time:
                 
                 print("  > Uploading assets...")
                 release_assets_data = []
-                for asset_path in downloaded_file_paths:
+                for asset_data in downloaded_files_data:
+                    asset_path = asset_data['path']
+                    category = asset_data['category']
+
+                    # Do not upload the thumbnail image as a release asset; it's only used for data.json
+                    if category == 'THUMBNAIL':
+                        continue
+
                     print(f"    - Uploading {os.path.basename(asset_path)}")
                     asset = new_release.upload_asset(asset_path)
-                    release_assets_data.append({"name": asset.name, "url": asset.browser_download_url})
+                    
+                    release_assets_data.append({
+                        "name": asset.name, 
+                        "url": asset.browser_download_url,
+                        "category": category
+                    })
 
                 print(f"SUCCESS: Release '{release_name}' created successfully.\n")
                 
@@ -338,7 +356,8 @@ for uid in mods_to_run_this_time:
                     "version": version_to_archive, "releaseTag": release_tag,
                     "updatedAt": new_release.created_at.isoformat(), # This is the archive date
                     "uploadTimestamp": upload_timestamp, # This is the true upload date
-                    "changelog": changelog_markdown, "assets": release_assets_data
+                    "changelog": changelog_markdown, 
+                    "assets": release_assets_data
                 }
                 indexed_known_mods[uid]["releases"].append(release_data)
                 something_changed = True
@@ -350,7 +369,7 @@ for uid in mods_to_run_this_time:
 
         if os.path.exists(DOWNLOADS_DIR):
             shutil.rmtree(DOWNLOADS_DIR)
-
+    
 # --- Step 8: Save Data ---
 if something_changed:
     print(f"\n--- Step 7: SAVING UPDATED DATA ---")
