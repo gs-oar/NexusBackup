@@ -22,16 +22,51 @@ def format_nexus_description(text):
     into clean, GitHub-flavored Markdown.
     """
     if not text: return "No description provided."
+
+    # --- Pre-processing ---
+    # Convert HTML line breaks to newlines and normalize line endings
     text = re.sub(r'<br\s*/?>', '\n', text, flags=re.IGNORECASE)
     text = text.replace('\r\n', '\n')
-    text = re.sub(r'\[\*\]', '\n* ', text, flags=re.IGNORECASE)
-    text = re.sub(r'\[/?list\]', '\n', text, flags=re.IGNORECASE)
+
+    # --- Block-level BBCode to Markdown/HTML ---
+    # [hr] to Markdown horizontal rule
+    text = re.sub(r'\[hr\]', '\n---\n', text, flags=re.IGNORECASE)
+
+    # [spoiler=Title]...[/spoiler] and [spoiler]...[/spoiler] to <details> tag
+    text = re.sub(r'\[spoiler=(.*?)\](.*?)\[/spoiler\]', r'<details><summary>\1</summary>\n\n\2\n\n</details>', text, flags=re.IGNORECASE | re.DOTALL)
+    text = re.sub(r'\[spoiler\](.*?)\[/spoiler\]', r'<details><summary>Spoiler</summary>\n\n\1\n\n</details>', text, flags=re.IGNORECASE | re.DOTALL)
+
+    # [quote=Author]...[/quote] and [quote]...[/quote] to Markdown blockquotes
+    text = re.sub(r'\[quote=(.*?)\](.*?)\s*\[/quote\]', r'> **\1 wrote:**\n> \2', text, flags=re.IGNORECASE | re.DOTALL)
+    text = re.sub(r'\[quote\](.*?)\s*\[/quote\]', r'> \1', text, flags=re.IGNORECASE | re.DOTALL)
+    # This part handles multi-line quotes by adding '>' to each line within the block.
+    text = '\n'.join([f'> {line}' if line.startswith(' ') and i > 0 and text.splitlines()[i-1].startswith('>') else line for i, line in enumerate(text.splitlines())])
+
+    # [list] and [*] for bullet points
+    text = re.sub(r'\[\*\](.*?)(?=\[\*\]|\[/list\])', r'\n* \1', text, flags=re.IGNORECASE | re.DOTALL)
+    text = re.sub(r'\[/?list\]', '', text, flags=re.IGNORECASE)
+
+    # --- Inline BBCode to Markdown ---
+    # Bold, Italic, Strikethrough
+    text = re.sub(r'\[b\](.*?)\[/b\]', r'**\1**', text, flags=re.IGNORECASE | re.DOTALL)
+    text = re.sub(r'\[i\](.*?)\[/i\]', r'*\1*', text, flags=re.IGNORECASE | re.DOTALL)
+    text = re.sub(r'\[s\](.*?)\[/s\]', r'~~\1~~', text, flags=re.IGNORECASE | re.DOTALL)
+
+    # Images and URLs
     text = re.sub(r'\[img\](.*?)\[/img\]', r'![Image](\1)', text, flags=re.IGNORECASE)
     text = re.sub(r'\[url=(.*?)\](.*?)\[/url\]', r'[\2](\1)', text, flags=re.IGNORECASE)
     text = re.sub(r'\[url\](.*?)\[/url\]', r'<\1>', text, flags=re.IGNORECASE)
+
+    # --- Strip unsupported tags ---
+    # This will remove tags like [size=...], [color=...], [font=...], [u]...[/u] etc.
+    # It keeps the content inside the tags.
+    text = re.sub(r'\[/?(size|color|font|u|center|right|left|indent)(=[^\]]*)?\]', '', text, flags=re.IGNORECASE)
+
+    # --- Post-processing ---
+    # Collapse excess newlines
     text = re.sub(r'\n{3,}', '\n\n', text)
     return text.strip()
-
+    
 def download_file(job):
     """
     Downloads a single file based on a job dictionary.
