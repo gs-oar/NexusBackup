@@ -24,7 +24,7 @@ jobs:
           
           # gh release delete with --cleanup-tag is the most robust way to do this,
           # as it removes both the release and the underlying git tag in one step.
-          gh release list --json tagName -q '.[].tagName' | while read -r tag; do
+          gh release list --limit 1000 --json tagName -q '.[].tagName' | while read -r tag; do
             if [ -n "$tag" ]; then
               echo "Deleting release and tag: $tag"
               gh release delete "$tag" --yes --cleanup-tag
@@ -40,7 +40,7 @@ jobs:
           echo "Removed local data.json file."
 
       - name: Commit and push the deletion of data.json
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v6
         with:
           commit_message: "Automated: Flush data.json"
           # Only commit if data.json was actually changed (i.e. deleted)
