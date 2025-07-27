@@ -1024,6 +1024,25 @@
     "releases": [
       {
         "version": "1.2",
+        "releaseTag": "dragon-song-7318624402058-v1.3",
+        "updatedAt": "2025-07-27T15:01:24+00:00",
+        "uploadTimestamp": 1727091834,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.3</summary>\n\n- Added rings and chain only chestpiece\n BHUNP bodyslide adjustments</details>",
+        "assets": [
+          {
+            "name": "BHUNP.Bodyslide-v1.3.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dragon-song-7318624402058-v1.3/BHUNP.Bodyslide-v1.3.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Dragon.Song.CBBE.3BA-v1.3.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dragon-song-7318624402058-v1.3/Dragon.Song.CBBE.3BA-v1.3.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.2",
         "releaseTag": "dragon-song-7318624402058-v1.2",
         "updatedAt": "2025-07-27T15:01:24+00:00",
         "uploadTimestamp": 1727091834,
