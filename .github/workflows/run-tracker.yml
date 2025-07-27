@@ -1,0 +1,56 @@
+name: Nexus Mods Backup
+
+# Controls when the action will run
+on:
+  # Runs on a schedule (at 05:00 UTC every day)
+  schedule:
+    - cron: '0 5 * * *'
+  
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+        
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          
+      - name: Set up Python
+        id: setup-python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Cache pip packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      # Installs the dependencies from requirements.txt
+      # If the cache was restored, this step will be almost instant because it finds
+      # the packages in the cache instead of downloading them.
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      # Runs the main python script
+      - name: Run Nexus Mods Tracker
+        run: python nexus_tracker.py
+        env:
+          NEXUSMODS_V1_API_KEY: ${{ secrets.NEXUSMODS_V1_API_KEY }}
+          NEXUS_USERID: ${{ secrets.NEXUS_USERID }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push data.json
+        uses: stefanzweifel/git-auto-commit-action@v6
+        with:
+          commit_message: "Automated: Update mod data file"
+          file_pattern: "data.json"

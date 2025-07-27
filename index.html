@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contentcat Contents</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Contentcat Contents</h1>
+        <button id="theme-toggle-button">☀️</button>
+        <input type="text" id="search-bar" placeholder="Search for mods...">
+    </header>
+    <main id="mod-gallery">
+        <p id="loading-message">Loading mods from GitHub...</p>
+    </main>
+
+    <div id="modal-overlay" class="hidden">
+        <div id="modal-content">
+            <button id="close-button">×</button>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+    <div id="lightbox-overlay" class="hidden">
+        <button id="lightbox-close-button">×</button>
+        <img id="lightbox-image" src="" alt="Enlarged thumbnail">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

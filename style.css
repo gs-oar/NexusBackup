@@ -1,0 +1,269 @@
+/* --- General and Header Styles --- */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: #1f1f1f;
+    border-bottom: 1px solid #333;
+    transition: background-color 0.3s, border-bottom 0.3s;
+}
+#theme-toggle-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #e0e0e0;
+}
+#search-bar {
+    width: 50%;
+    max-width: 500px;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 1px solid #444;
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+    margin-top: 10px;
+}
+main {
+    padding: 20px;
+}
+
+/* --- Gallery Card Styles --- */
+#mod-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+}
+.mod-card {
+    background-color: #1f1f1f;
+    border: 1px solid #333;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    position: relative;
+}
+.mod-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+.mod-card:active {
+    transform: scale(0.98) translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.mod-card .thumbnail-container {
+    width: 100%;
+    padding-top: 75%; /* 4:3 Aspect Ratio */
+    background-size: cover;
+    background-position: center;
+    background-color: #2a2a2a;
+}
+.mod-card .title-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
+    color: white;
+    padding: 20px 10px 10px 10px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+}
+.summary-tooltip {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.85em;
+    line-height: 1.4;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s, visibility 0.2s;
+    z-index: 5;
+}
+.mod-card:hover .summary-tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* --- Main Modal Styles --- */
+#modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+#modal-overlay:not(.hidden) {
+    opacity: 1;
+    pointer-events: auto;
+}
+#modal-content {
+    background-color: #2a2a2a;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 1200px; 
+    width: 95%;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.5);
+    transform: scale(0.95);
+    transition: transform 0.3s ease;
+}
+#modal-overlay:not(.hidden) #modal-content {
+    transform: scale(1);
+}
+#close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    color: #aaa;
+    font-size: 28px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+#close-button:hover { color: white; }
+#modal-body .modal-layout { display: flex; gap: 30px; }
+#modal-body .modal-left-column { flex: 0 0 300px; }
+#modal-body .modal-right-column { flex: 1; min-width: 0; }
+#modal-body .modal-thumbnail {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+#modal-body h2 { margin-top: 0; }
+#modal-body .description { line-height: 1.6; }
+#modal-body .description img { max-width: 100%; }
+#modal-body .description a { color: #8ab4f8; }
+.view-on-nexus {
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    background-color: #f69422;
+    color: #121212;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+.view-on-nexus:hover { background-color: #ffad4d; }
+#modal-body .assets a {
+    display: block;
+    margin: 8px 0;
+    color: #8ab4f8;
+    text-decoration: none;
+}
+#modal-body .assets a:hover { text-decoration: underline; }
+
+/* --- Image Lightbox Styles --- */
+#lightbox-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    cursor: pointer;
+}
+#lightbox-image {
+    max-width: 90vw;
+    max-height: 90vh;
+    box-shadow: 0 0 50px rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+#lightbox-close-button {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 40px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.hidden { display: none !important; }
+
+/* --- Responsive Design --- */
+@media (max-width: 768px) {
+    #modal-body .modal-layout { flex-direction: column; }
+    #modal-body .modal-left-column { flex-basis: auto; }
+}
+
+/* --- Light Mode Theme --- */
+body.light-mode {
+    background-color: #f0f0f0;
+    color: #121212;
+}
+body.light-mode header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+body.light-mode #search-bar {
+    background-color: #e0e0e0;
+    border-color: #ccc;
+    color: #121212;
+}
+body.light-mode .mod-card {
+    background-color: #ffffff;
+    border-color: #ddd;
+}
+body.light-mode #theme-toggle-button { color: #121212; }
+body.light-mode #modal-content { background-color: #f9f9f9; }
+body.light-mode #close-button { color: #555; }
+body.light-mode #close-button:hover { color: #121212; }
+
+.version-history {
+    margin-top: 30px;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+}
+.version-history summary {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.older-version {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px dashed #333;
+}
+.older-version:first-of-type {
+    margin-top: 20px;
+    border-top: none;
+    padding-top: 0;
+}

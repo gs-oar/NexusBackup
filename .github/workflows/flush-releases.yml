@@ -1,0 +1,47 @@
+name: Manual Flush All Releases
+
+# This workflow is ONLY triggered manually
+on:
+  workflow_dispatch:
+
+jobs:
+  flush_all_releases_and_tags:
+    runs-on: ubuntu-latest
+
+    # Permissions are required for both deleting releases and committing changes
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Delete all releases and associated tags
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "--- Deleting all GitHub Releases and Tags ---"
+          
+          # gh release delete with --cleanup-tag is the most robust way to do this,
+          # as it removes both the release and the underlying git tag in one step.
+          gh release list --json tagName -q '.[].tagName' | while read -r tag; do
+            if [ -n "$tag" ]; then
+              echo "Deleting release and tag: $tag"
+              gh release delete "$tag" --yes --cleanup-tag
+            fi
+          done
+          
+          echo "--- All releases have been deleted. ---"
+
+      - name: Delete local data.json file
+        run: |
+          # The -f flag ensures this step doesn't fail if the file doesn't exist
+          rm -f data.json
+          echo "Removed local data.json file."
+
+      - name: Commit and push the deletion of data.json
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Automated: Flush data.json"
+          # Only commit if data.json was actually changed (i.e. deleted)
+          file_pattern: "data.json"
