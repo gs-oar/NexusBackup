@@ -76,7 +76,7 @@ def download_file(job):
     destination_path = job['path']
     try:
         print(f"    [Thread] Downloading '{os.path.basename(destination_path)}'...")
-        with requests.get(url, stream=True) as r:
+        with requests.get(url, stream=True, timeout=(DOWNLOAD_CONNECT_TIMEOUT, DOWNLOAD_READ_TIMEOUT)) as r:
             r.raise_for_status()
             with open(destination_path, "wb") as f:
                 shutil.copyfileobj(r.raw, f)
@@ -87,6 +87,34 @@ def download_file(job):
         job['downloaded_path'] = None
         return job
 
+def requests_with_retry(method, url, **kwargs):
+    """
+    Makes an HTTP request with a retry mechanism for transient errors.
+    """
+    retries = 0
+    while retries < MAX_RETRIES:
+        try:
+            # Add a default timeout if not specified in the call
+            if 'timeout' not in kwargs:
+                kwargs['timeout'] = REQUESTS_TIMEOUT
+            
+            response = requests.request(method, url, **kwargs)
+            response.raise_for_status()  # Raise HTTPError for bad responses (4xx or 5xx)
+            return response
+        
+        except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
+            retries += 1
+            if retries >= MAX_RETRIES:
+                print(f"  > ERROR: Max retries reached for {method} {url}. Last error: {e}")
+                raise  # Re-raise the last exception after all retries fail
+            
+            wait_time = BACKOFF_FACTOR * (2 ** (retries - 1))
+            print(f"  > WARNING: Request failed ({e}). Retrying in {wait_time} seconds... ({retries}/{MAX_RETRIES})")
+            time.sleep(wait_time)
+            
+    # This line should not be reached if MAX_RETRIES > 0, but as a fallback:
+    raise Exception(f"Request failed after {MAX_RETRIES} retries for {url}")
+    
 def sanitize_filename(filename, mod_id, version):
     """
     Cleans Nexus-style metadata from a filename and appends a canonical version.
@@ -114,6 +142,12 @@ THROTTLE_LIMIT = 30
 DATA_FILE = "data.json"
 INVALID_FILE_CATEGORIES = {"ARCHIVED", "ARCHIVE"}
 MAX_WORKERS = 4
+
+REQUESTS_TIMEOUT = 30  # Timeout for API calls in seconds
+DOWNLOAD_CONNECT_TIMEOUT = 15 # Time to establish a download connection
+DOWNLOAD_READ_TIMEOUT = 120 # Time to wait for data once connected
+MAX_RETRIES = 3
+BACKOFF_FACTOR = 2  # Seconds to wait after first failure
 
 # --- Safety Checks ---
 if not V1_API_KEY:
@@ -158,36 +192,40 @@ graphql_query = """
 """
 all_mods_from_api = []
 try:
-    initial_response = requests.post(V2_GQL_URL, json={"query": graphql_query, "variables": {"uploaderId": USER_ID_TO_TRACK, "count": 1, "offset": 0}})
-    initial_response.raise_for_status()
+    print("Fetching total mod count...")
+    initial_response = requests_with_retry(
+        "POST", V2_GQL_URL, 
+        json={"query": graphql_query, "variables": {"uploaderId": USER_ID_TO_TRACK, "count": 1, "offset": 0}}
+    )
     response_json = initial_response.json()
     if "errors" in response_json:
         print("FATAL ERROR: GraphQL API returned errors.")
         print(json.dumps(response_json["errors"], indent=2))
         exit(1)
+        
     total_count = response_json["data"]["mods"]["totalCount"]
     print(f"Total mods to fetch from API: {total_count}")
     page_size = 50
     num_pages = math.ceil(total_count / page_size)
+    
     for page_num in range(num_pages):
         offset = page_num * page_size
         print(f"Fetching page {page_num + 1}/{num_pages}...")
         variables = {"uploaderId": USER_ID_TO_TRACK, "count": page_size, "offset": offset}
-        response = requests.post(V2_GQL_URL, json={"query": graphql_query, "variables": variables})
-        response.raise_for_status()
+        
+        response = requests_with_retry("POST", V2_GQL_URL, json={"query": graphql_query, "variables": variables})
         page_json = response.json()
+        
         if "errors" in page_json:
             print(f"ERROR: GraphQL API returned errors on page {page_num + 1}.")
             print(json.dumps(page_json["errors"], indent=2))
             continue
         all_mods_from_api.extend(page_json["data"]["mods"]["nodes"])
+
 except Exception as e:
     print(f"FATAL ERROR: An unexpected error occurred while fetching the mod list. Error: {e}")
-    if 'initial_response' in locals() and initial_response:
-        print("--- Raw API Response Text ---")
-        print(initial_response.text)
-        print("-----------------------------")
     exit(1)
+
 print(f"Successfully retrieved info for {len(all_mods_from_api)} mods.")
 
 # --- Step 6: Create "To-Do List" Grouped by Mod ---
@@ -204,7 +242,7 @@ for mod_api_data in all_mods_from_api:
 
     try:
         files_url = f"{V1_API_BASE_URL}/v1/games/{game_domain}/mods/{v1_mod_id}/files.json"
-        files_response = requests.get(files_url, headers=V1_HEADERS)
+        files_response = requests_with_retry("GET", files_url, headers=V1_HEADERS)
         if files_response.status_code != 200: continue
         
         all_files = files_response.json()["files"]
@@ -273,7 +311,7 @@ for uid in mods_to_run_this_time:
         try:
             print("  > Getting changelogs...")
             changelogs_url = f"{V1_API_BASE_URL}/v1/games/{game_domain}/mods/{v1_mod_id}/changelogs.json"
-            changelogs_response = requests.get(changelogs_url, headers=V1_HEADERS)
+            changelogs_response = requests_with_retry("GET", changelogs_url, headers=V1_HEADERS)
             if changelogs_response.status_code == 200:
                 all_changelogs = changelogs_response.json()
                 version_changelog = all_changelogs.get(version_to_archive)
@@ -306,7 +344,7 @@ for uid in mods_to_run_this_time:
             try:
                 print(f"    > Getting download link for: '{file_name}'")
                 link_url = f"{V1_API_BASE_URL}/v1/games/{game_domain}/mods/{v1_mod_id}/files/{file_id}/download_link.json"
-                link_response = requests.get(link_url, headers=V1_HEADERS)
+                link_response = requests_with_retry("GET", link_url, headers=V1_HEADERS)
                 link_response.raise_for_status()
                 download_uri = link_response.json()[0]["URI"]
                 
