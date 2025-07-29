@@ -2684,5 +2684,318 @@
         ]
       }
     ]
+  },
+  "7318624389484": {
+    "id": "7318624389484",
+    "modId": 117100,
+    "name": "Dio Brando",
+    "game": "skyrimspecialedition",
+    "summary": "\u3053\u306e\u30c7\u30a3\u30aa\u3060",
+    "description": "![Image](https://static.jojowiki.com/images/0/06/latest/20201018034932/2_PBMovie_Pilot_DioFangExpose.gif)\n\nThis adds Dio Brando from JoJo's Bizarre Adventure series as a wearable armor that replaces your character model. It works on both male and female characters.\n\nThis model specifically is from Phantom Blood.\n\nesl flagged esp. Use additemmenu. No crafting recipes.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if your game version is below 1.6.1130, and FSMP for the cape.\n\nPoses used in the screenshots are from [JoJo's Bizarre Poses](https://www.nexusmods.com/skyrimspecialedition/mods/104205)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/dio-brando-7318624389484-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.1",
+        "releaseTag": "dio-brando-7318624389484-v1.1",
+        "updatedAt": "2025-07-29T12:51:27+00:00",
+        "uploadTimestamp": 1713544257,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Dio.Brando-492595-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dio-brando-7318624389484-v1.1/Dio.Brando-492595-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "dio-brando-7318624389484-v1",
+        "updatedAt": "2025-07-29T12:51:27+00:00",
+        "uploadTimestamp": 1713473502,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Dio.Brando-492281-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dio-brando-7318624389484-v1/Dio.Brando-492281-v1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624389404": {
+    "id": "7318624389404",
+    "modId": 117020,
+    "name": "Tied Bikini CBBE 3BA",
+    "game": "skyrimspecialedition",
+    "summary": "Adds a set of bikini for CBBE 3BA. 17 colors.",
+    "description": "A set of tied bikini. Comes in 17 colors, I got carried away with the recolors this time.\n\nesl flagged esp. Build with bodyslide and use additemmenu. Screenshots welcome.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/tied-bikini-cbbe-7318624389404-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "tied-bikini-cbbe-7318624389404-v1",
+        "updatedAt": "2025-07-29T12:51:27+00:00",
+        "uploadTimestamp": 1713385308,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Tied.Bikini-491931-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/tied-bikini-cbbe-7318624389404-v1/Tied.Bikini-491931-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624389331": {
+    "id": "7318624389331",
+    "modId": 116947,
+    "name": "Lady Flirt CBBE 3BA SMP",
+    "game": "skyrimspecialedition",
+    "summary": "Lady Flirt outfit set converted from Oblivion to SSE CBBE 3BA with SMP skirt.",
+    "description": "Another Oblivion outfit conversion. I think this one was originally made by Krista.\n\nTexture upscaled to 4k and SMP added to the skirt.\n\nesl flagged esp. Build with bodyslide and use additemmenu. No crafting recipes.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if your game version is below 1.6.1130, racemenu for NiOverride heels, and FSMP for the dress.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/lady-flirt-cbbe-7318624389331-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "lady-flirt-cbbe-7318624389331-v1",
+        "updatedAt": "2025-07-29T12:51:27+00:00",
+        "uploadTimestamp": 1713304956,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Lady.Flirt-491619-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/lady-flirt-cbbe-7318624389331-v1/Lady.Flirt-491619-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624389147": {
+    "id": "7318624389147",
+    "modId": 116763,
+    "name": "ProType Mericano Dress",
+    "game": "skyrimspecialedition",
+    "summary": "ProType's Mericano dress converted from Oblivion. Nine colors, CBBE 3BA, SMP skirt.",
+    "description": "ProType's Mericano dress converted from Oblivion to SSE CBBE 3BA. \n\nDress comes in nine colors, heels has four colors. Texture upscaled to 4k and SMP added to the skirt.\n\nesl flagged esp. Build with bodyslide and use additemmenu. No crafting recipes.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if your game version is below 1.6.1130, racemenu for NiOverride heels, and FSMP for the dress.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/protype-mericano-dress-7318624389147-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.1",
+        "releaseTag": "protype-mericano-dress-7318624389147-v1.1",
+        "updatedAt": "2025-07-29T12:51:27+00:00",
+        "uploadTimestamp": 1713187764,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "ProType.Mericano.Dress-491044-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/protype-mericano-dress-7318624389147-v1.1/ProType.Mericano.Dress-491044-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "protype-mericano-dress-7318624389147-v1",
+        "updatedAt": "2025-07-29T12:51:27+00:00",
+        "uploadTimestamp": 1713125117,
+        "changelog": "",
+        "assets": []
+      }
+    ]
+  },
+  "7318624388785": {
+    "id": "7318624388785",
+    "modId": 116401,
+    "name": "Simply Sexy Sweater",
+    "game": "skyrimspecialedition",
+    "summary": "Adds a sweater dress and thigh high boots for CBBE 3BA. 6 colors.",
+    "description": "I like sweaters and there are barely any sweater mods, so here is another one. \n\nThis outfit has two pieces: dress and thigh high boots. Comes in six colors: beige, blue, green, pink, blue stripes, and red stripes. \n\nesl flagged esp. Build with bodyslide and use additemmenu. Screenshots welcome.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130, and racemenu for NiOverride boots.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/simply-sexy-sweater-7318624388785-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.1",
+        "releaseTag": "simply-sexy-sweater-7318624388785-v1.1",
+        "updatedAt": "2025-07-29T12:51:27+00:00",
+        "uploadTimestamp": 1713842966,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Adjusted normal map to be less shiny\n</details>",
+        "assets": [
+          {
+            "name": "Simply.Sexy.Sweater-493849-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/simply-sexy-sweater-7318624388785-v1.1/Simply.Sexy.Sweater-493849-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "simply-sexy-sweater-7318624388785-v1",
+        "updatedAt": "2025-07-29T12:51:27+00:00",
+        "uploadTimestamp": 1712778939,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Simply.Sexy.Sweater-489364-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/simply-sexy-sweater-7318624388785-v1/Simply.Sexy.Sweater-489364-v1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624388760": {
+    "id": "7318624388760",
+    "modId": 116376,
+    "name": "Hezimao 5 Dress",
+    "game": "skyrimspecialedition",
+    "summary": "Dress with SMP skirt physics for CBBE 3BA, comes in 8 colors.",
+    "description": "Hezimao 5 dress converted from [Oldrim UNP ](http://www.9dmsgame.net/thread-165528-1-1.html)to CBBE 3BA bodyslide. \n\nTexture upscaled to 4k. 8 colors available, 4 original from Hezimao and 4 recolors by me.\n\nesl flagged esp. Build with bodyslide and use additemmenu. Screenshots welcome.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130, and  [FSMP](https://www.nexusmods.com/skyrimspecialedition/mods/57339) for the dress.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/hezimao-5-dress-7318624388760-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.1",
+        "releaseTag": "hezimao-5-dress-7318624388760-v1.1",
+        "updatedAt": "2025-07-29T12:51:27+00:00",
+        "uploadTimestamp": 1719218165,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Bodyslide bone weights repainted to improve transition between dress top and skirt, should get also rid of gaps\n</details>",
+        "assets": [
+          {
+            "name": "Hezimao.5.Dress-514431-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/hezimao-5-dress-7318624388760-v1.1/Hezimao.5.Dress-514431-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "hezimao-5-dress-7318624388760-v1",
+        "updatedAt": "2025-07-29T12:51:27+00:00",
+        "uploadTimestamp": 1712755120,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Hezimao.5.Dress-489255-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/hezimao-5-dress-7318624388760-v1/Hezimao.5.Dress-489255-v1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624388735": {
+    "id": "7318624388735",
+    "modId": 116351,
+    "name": "Elven Daggers",
+    "game": "skyrimspecialedition",
+    "summary": "Adds two elven themed daggers, leaf and fingertip. Craftable and upgradeable.",
+    "description": "Adds two elven daggers to the game. \n\nCraft with 2 moonstone ingots and 2 quicksilver ingots. Slightly better than vanilla elven dagger.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/elven-daggers-7318624388735-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "elven-daggers-7318624388735-v1",
+        "updatedAt": "2025-07-29T12:51:27+00:00",
+        "uploadTimestamp": 1712765075,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Elven.Daggers-489177-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/elven-daggers-7318624388735-v1/Elven.Daggers-489177-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Blade.recolors-489291-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/elven-daggers-7318624388735-v1/Blade.recolors-489291-v1.7z",
+            "category": "OPTIONAL"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624388706": {
+    "id": "7318624388706",
+    "modId": 116322,
+    "name": "ProType Peppermint Dress",
+    "game": "skyrimspecialedition",
+    "summary": "ProType's Peppermint dress converted from Oblivion. Five colors, CBBE 3BA, SMP skirt.",
+    "description": "ProType's Peppermint dress converted from Oblivion to SSE CBBE 3BA bodyslide with SMP. \n\nThis outfit has three pieces: dress, panties, and thigh high/heels. Comes in five colors: pink and orange from the original, blue, beige and white added here. \n\nTexture upscaled to 4k and SMP added to the skirt.\n\nesl flagged esp. Build with bodyslide and use additemmenu. Screenshots welcome.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130, FSMP for the dress, and racemenu for NiOverride heels.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/protype-peppermint-dress-7318624388706-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "protype-peppermint-dress-7318624388706-v1",
+        "updatedAt": "2025-07-29T12:51:27+00:00",
+        "uploadTimestamp": 1712690801,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "ProType.Peppermint.Dress-489089-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/protype-peppermint-dress-7318624388706-v1/ProType.Peppermint.Dress-489089-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624388320": {
+    "id": "7318624388320",
+    "modId": 115936,
+    "name": "ProType Nurse Dress",
+    "game": "skyrimspecialedition",
+    "summary": "ProType's Nurse dress converted from Oblivion. Nine colors, CBBE 3BA, SMP skirt.",
+    "description": "ProType's Nurse dress converted from Oblivion to SSE CBBE 3BA bodyslide with SMP. \n\nComes in nine colors. Texture upscaled to 4k and SMP added to the skirt.\n\nesl flagged esp. Build with bodyslide and use AIM. Screenshots welcome.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130, and FSMP for the dress.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/protype-nurse-dress-7318624388320-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.1",
+        "releaseTag": "protype-nurse-dress-7318624388320-v1.1",
+        "updatedAt": "2025-07-29T12:51:27+00:00",
+        "uploadTimestamp": 1712349476,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "ProType.Nurse.Dress-487808-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/protype-nurse-dress-7318624388320-v1.1/ProType.Nurse.Dress-487808-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "protype-nurse-dress-7318624388320-v1",
+        "updatedAt": "2025-07-29T12:51:27+00:00",
+        "uploadTimestamp": 1712327271,
+        "changelog": "",
+        "assets": []
+      }
+    ]
+  },
+  "7318624388170": {
+    "id": "7318624388170",
+    "modId": 115786,
+    "name": "ProType Rocco Dress",
+    "game": "skyrimspecialedition",
+    "summary": "ProType's Rocco dress and sandals converted from Oblivion. Six colors, CBBE 3BA, SMP skirt.",
+    "description": "ProType's Rocco dress and sandals converted from Oblivion to SSE CBBE 3BA bodyslide with SMP. \n\nThis outfit has four pieces: dress, choker, panty, and sandals.\n\nComes in six colors: black, red, denim, cat from the original, and white and yellow added in the conversion. Texture upscaled to 4k and SMP added to the skirt.\n\nesl flagged esp. Build with bodyslide and use AIM. Screenshots welcome.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130, and FSMP for the dress.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/protype-rocco-dress-7318624388170-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "protype-rocco-dress-7318624388170-v1",
+        "updatedAt": "2025-07-29T12:51:27+00:00",
+        "uploadTimestamp": 1712174066,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "ProType.Rocco.Dress-487205-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/protype-rocco-dress-7318624388170-v1/ProType.Rocco.Dress-487205-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
