@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const gallery = document.getElementById('mod-gallery');
     const loadingMessage = document.getElementById('loading-message');
     const searchBar = document.getElementById('search-bar');
+    const sortBy = document.getElementById('sort-by');
     const themeToggleButton = document.getElementById('theme-toggle-button');
     const modalOverlay = document.getElementById('modal-overlay');
     const modalBody = document.getElementById('modal-body');
@@ -11,44 +12,84 @@ document.addEventListener('DOMContentLoaded', () => {
     const lightboxImage = document.getElementById('lightbox-image');
     const lightboxCloseButton = document.getElementById('lightbox-close-button');
 
-    // --- Configuration ---
-    const repoOwner = 'gs-oar';
-    const repoName = 'NexusBackup';
-
+    // --- State ---
     const dataUrl = 'data.json';
-    
-    // The data.json is an object where keys are mod UIDs
     let allMods = {}; 
+    let imageObserver;
 
-    // --- Main Render Function ---
-    // Renders the main gallery view, showing only the latest version of each mod.
-    const renderGallery = (modsToRender) => {
+    // --- Image Lazy Loading ---
+    const setupIntersectionObserver = () => {
+        imageObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const card = entry.target;
+                    const thumbnailContainer = card.querySelector('.thumbnail-container');
+                    const imageUrl = thumbnailContainer.dataset.src;
+                    if (imageUrl) {
+                        thumbnailContainer.style.backgroundImage = `url('${imageUrl}')`;
+                    }
+                    observer.unobserve(card); // Stop observing once loaded
+                }
+            });
+        }, { rootMargin: '0px 0px 200px 0px' }); // Load images 200px before they enter viewport
+    };
+
+    // --- Main Logic ---
+    const displayMods = (modsToDisplay) => {
         gallery.innerHTML = ''; // Clear the gallery first
-        if (Object.keys(modsToRender).length === 0) {
+        if (modsToDisplay.length === 0) {
             gallery.innerHTML = '<p>No mods match your criteria.</p>';
             return;
         }
 
-        // Sort the mods themselves by the date of their latest release
-        const sortedMods = Object.values(modsToRender).sort((a, b) => {
-            return new Date(a.releases[0].updatedAt) - new Date(b.releases[0].updatedAt);
-        }).reverse(); // Newest first
-		
-        sortedMods.forEach(mod => {
+        modsToDisplay.forEach(mod => {
             const latestRelease = mod.releases[0]; // The first release is the newest
             const modCard = document.createElement('div');
             modCard.className = 'mod-card';
-            modCard.dataset.modId = mod.id; // The main mod UID
+            modCard.dataset.modId = mod.id;
 
             const summary = mod.summary ? mod.summary.replace(/"/g, '"') : 'No summary available.';
+            const imageUrl = mod.pictureUrl || '';
 
             modCard.innerHTML = `
                 <div class="summary-tooltip">${summary}</div>
-                <div class="thumbnail-container" style="background-image: url('${mod.pictureUrl || ''}')"></div>
+                <div class="thumbnail-container" data-src="${imageUrl}"></div>
                 <div class="title-overlay">${mod.name} - v${latestRelease.version}</div>
             `;
             gallery.appendChild(modCard);
+            imageObserver.observe(modCard); // Observe the new card for lazy loading
         });
+    };
+
+    const updateGallery = () => {
+        const searchTerm = searchBar.value.toLowerCase();
+        const sortValue = sortBy.value;
+
+        // 1. Filter mods based on search term
+        const filteredMods = Object.values(allMods).filter(mod => {
+            const title = mod.name.toLowerCase();
+            const description = (mod.description || '').toLowerCase();
+            return title.includes(searchTerm) || description.includes(searchTerm);
+        });
+
+        // 2. Sort the filtered mods
+        filteredMods.sort((a, b) => {
+            const releaseA = a.releases[0];
+            const releaseB = b.releases[0];
+
+            switch (sortValue) {
+                case 'uploadTimestamp':
+                    return (releaseB.uploadTimestamp || 0) - (releaseA.uploadTimestamp || 0);
+                case 'name':
+                    return a.name.localeCompare(b.name);
+                case 'updatedAt': // Default case
+                default:
+                    return new Date(releaseB.updatedAt) - new Date(releaseA.updatedAt);
+            }
+        });
+
+        // 3. Display the final list
+        displayMods(filteredMods);
     };
 
     // --- Modal Functions ---
@@ -79,14 +120,12 @@ document.addEventListener('DOMContentLoaded', () => {
 		const buildAssetsHtml = (assets, title) => {
 			if (!assets || assets.length === 0) return '';
 			
-			// Filter out thumbnail "assets" which are just for data, not download
 			const downloadableAssets = assets.filter(a => a.category !== 'THUMBNAIL');
 			if (downloadableAssets.length === 0) return '';
 
 			let html = `<h4>${title}</h4>`;
 			downloadableAssets.forEach(file => {
 				let versionInfo = '';
-				// Add version info to optional files to avoid confusion
 				if (title.toLowerCase().includes('optional')) {
 					versionInfo = ` <span class="file-version">(for v${file.originalVersion})</span>`;
 				}
@@ -105,7 +144,6 @@ document.addEventListener('DOMContentLoaded', () => {
 			olderVersionsHtml = `<details class="version-history">
 				<summary>View Full Version History (${mod.releases.length})</summary>`;
 			mod.releases.forEach(release => {
-				// In history, we show ALL files for that specific version release
 				const allVersionFiles = buildAssetsHtml(release.assets, 'Downloads for this version');
 				olderVersionsHtml += `
 					<div class="older-version">
@@ -159,7 +197,8 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(data => {
             loadingMessage.style.display = 'none';
             allMods = data;
-            renderGallery(allMods);
+            setupIntersectionObserver();
+            updateGallery(); // Initial render
 		})
         .catch(error => {
             console.error('Error fetching data.json:', error);
@@ -194,17 +233,6 @@ document.addEventListener('DOMContentLoaded', () => {
     lightboxCloseButton.addEventListener('click', closeLightbox);
     lightboxOverlay.addEventListener('click', (e) => { if (e.target === lightboxOverlay) closeLightbox(); });
 
-    searchBar.addEventListener('input', (e) => {
-        const searchTerm = e.target.value.toLowerCase();
-        const filteredMods = {};
-        for (const modId in allMods) {
-            const mod = allMods[modId];
-            const title = mod.name.toLowerCase();
-            const description = (mod.description || '').toLowerCase();
-            if (title.includes(searchTerm) || description.includes(searchTerm)) {
-                filteredMods[modId] = mod;
-            }
-        }
-        renderGallery(filteredMods);
-    });
+    searchBar.addEventListener('input', updateGallery);
+    sortBy.addEventListener('change', updateGallery);
 });

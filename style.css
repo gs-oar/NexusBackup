@@ -12,6 +12,9 @@ header {
     background-color: #1f1f1f;
     border-bottom: 1px solid #333;
     transition: background-color 0.3s, border-bottom 0.3s;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 #theme-toggle-button {
     position: absolute;
@@ -23,6 +26,14 @@ header {
     cursor: pointer;
     color: #e0e0e0;
 }
+.controls-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
 #search-bar {
     width: 50%;
     max-width: 500px;
@@ -32,7 +43,15 @@ header {
     border: 1px solid #444;
     background-color: #2a2a2a;
     color: #e0e0e0;
-    margin-top: 10px;
+}
+#sort-by {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 1px solid #444;
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+    cursor: pointer;
 }
 main {
     padding: 20px;
@@ -67,6 +86,7 @@ main {
     background-size: cover;
     background-position: center;
     background-color: #2a2a2a;
+    transition: background-image 0.3s ease-in-out;
 }
 .mod-card .title-overlay {
     position: absolute;
@@ -233,7 +253,8 @@ body.light-mode header {
     background-color: #ffffff;
     border-bottom: 1px solid #ddd;
 }
-body.light-mode #search-bar {
+body.light-mode #search-bar,
+body.light-mode #sort-by {
     background-color: #e0e0e0;
     border-color: #ccc;
     color: #121212;
