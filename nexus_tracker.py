@@ -8,6 +8,7 @@ from github import Github
 import re
 from packaging.version import parse as parse_version
 from concurrent.futures import ThreadPoolExecutor
+from github.GithubException import GithubException
 
 # --- Step 1: Helper Functions ---
 def create_release_tag(uid, mod_name, version):
@@ -16,6 +17,18 @@ def create_release_tag(uid, mod_name, version):
     safe_slug = re.sub(r'[^a-z0-9-]', '', slug_part)
     return f"{safe_slug}-{uid}-v{version}"
 
+def parse_uid_from_tag(tag):
+    parts = tag.split('-')
+    # Expects a format like 'slug-part-UID-vVERSION'
+    if len(parts) >= 3 and parts[-2].isdigit():
+        return parts[-2]
+    return None
+
+def parse_version_from_tag(tag):
+    if '-v' in tag:
+        return tag.split('-v')[-1]
+    return "0.0.0" # Fallback version
+    
 def format_nexus_description(text):
     """
     Converts a Nexus description (mix of BBCode, HTML breaks, and text)

@@ -11,7 +11,14 @@
     <header>
         <h1>Contentcat Contents</h1>
         <button id="theme-toggle-button">☀️</button>
-        <input type="text" id="search-bar" placeholder="Search for mods...">
+		<div class="controls-container">
+			<input type="text" id="search-bar" placeholder="Search for mods...">
+			<select id="sort-by">
+				<option value="updatedAt">Sort by: Archive Date</option>
+				<option value="uploadTimestamp">Sort by: Nexus Upload Date</option>
+				<option value="name">Sort by: Name (A-Z)</option>
+			</select>
+		</div>		
     </header>
     <main id="mod-gallery">
         <p id="loading-message">Loading mods from GitHub...</p>
