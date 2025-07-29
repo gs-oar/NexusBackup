@@ -400,12 +400,14 @@ for uid in mods_to_run_this_time:
                     asset_path = asset_data['path']
                     category = asset_data['category']
 
-                    # Do not upload the thumbnail image as a release asset; it's only used for data.json
-                    if category == 'THUMBNAIL':
-                        continue
-
                     print(f"    - Uploading {os.path.basename(asset_path)}")
                     asset = new_release.upload_asset(asset_path)
+                    
+                    if category == 'THUMBNAIL':
+                        new_picture_url = asset.browser_download_url
+                        # We don't add the thumbnail to the release assets list in data.json
+                        # because it's considered metadata, but we've stored its URL.
+                        continue
                     
                     release_assets_data.append({
                         "name": asset.name, 
@@ -420,7 +422,7 @@ for uid in mods_to_run_this_time:
                     indexed_known_mods[uid] = {
                         "id": uid, "modId": v1_mod_id, "name": mod_name, "game": game_domain,
                         "summary": summary, "description": format_nexus_description(description or summary),
-                        "pictureUrl": picture_url, "releases": []
+                        "pictureUrl": new_picture_url, "releases": []
                     }
                 
                 upload_timestamp = task.get("upload_timestamp") # Get the timestamp we passed along
