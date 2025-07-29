@@ -2092,5 +2092,400 @@
         ]
       }
     ]
+  },
+  "7318624394917": {
+    "id": "7318624394917",
+    "modId": 122533,
+    "name": "Ayleid Piercings Varla SMP Bodyslide",
+    "game": "skyrimspecialedition",
+    "summary": "Adds SMP bodyslide files for four Varla accessories from Imperial2000's ayleid piercings",
+    "description": "Adds SMP enabled bodyslide files and xml configs for Varla amulet, belly and nipple piercings, and earrings from [Ayleid Piercings](https://www.nexusmods.com/skyrimspecialedition/mods/76204)\ufeff.\n\nSee gif for preview, some parts work better than others. I can't seem to get the nipple piercings to behave realistically, so this is mostly a preview to see if there's interest for this at this state or if anyone knows how to rig the\u00a0nipple piercings with 3BA's multiple breast bones causing issues.\n\nAlso added a height adjustment slider to earrings bodyslide.\n\nYou will need the original mod.",
+    "pictureUrl": "https://staticdelivery.nexusmods.com/mods/1704/images/122533/122533-1719159196-690011627.gif",
+    "releases": [
+      {
+        "version": "2",
+        "releaseTag": "ayleid-piercings-varla-7318624394917-v2",
+        "updatedAt": "2025-07-28T06:14:54+00:00",
+        "uploadTimestamp": 1719591821,
+        "changelog": "<details>\n<summary>Click to view Changelog for v2</summary>\n\n- Belly, amulet, and nipple piercings xml changes. Nipple piercings bone weights and rigging changed.\n</details>",
+        "assets": [
+          {
+            "name": "Varla.SMP.Bodyslide-v2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/ayleid-piercings-varla-7318624394917-v2/Varla.SMP.Bodyslide-v2.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "ayleid-piercings-varla-7318624394917-v1",
+        "updatedAt": "2025-07-28T06:14:54+00:00",
+        "uploadTimestamp": 1719159301,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Varla.SMP.Bodyslide-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/ayleid-piercings-varla-7318624394917-v1/Varla.SMP.Bodyslide-v1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624394689": {
+    "id": "7318624394689",
+    "modId": 122305,
+    "name": "Dancing Wave",
+    "game": "skyrimspecialedition",
+    "summary": "Adds a set of underwear for CBBE 3BA and BHUNP. 12 colors.",
+    "description": "An outfit set of underwear. Comes in 12 colors. Default 2K textures, 4K optionally available.\n\nesl flagged esp. No default meshes. Build with bodyslide and use additemmenu. Screenshots welcome.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if your game version is below 1.6.1130",
+    "pictureUrl": "https://staticdelivery.nexusmods.com/mods/1704/images/122305/122305-1718852411-813098250.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "dancing-wave-7318624394689-v1",
+        "updatedAt": "2025-07-28T06:14:54+00:00",
+        "uploadTimestamp": 1727180820,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Dancing.Wave-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dancing-wave-7318624394689-v1/Dancing.Wave-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "4K.Textures-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dancing-wave-7318624394689-v1/4K.Textures-v1.7z",
+            "category": "OPTIONAL"
+          },
+          {
+            "name": "Alternate.esp-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dancing-wave-7318624394689-v1/Alternate.esp-v1.7z",
+            "category": "OPTIONAL"
+          },
+          {
+            "name": "BHUNP.Bodyslide-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dancing-wave-7318624394689-v1/BHUNP.Bodyslide-v1.7z",
+            "category": "OPTIONAL"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624394553": {
+    "id": "7318624394553",
+    "modId": 122169,
+    "name": "Yoga Clothes",
+    "game": "skyrimspecialedition",
+    "summary": "Adds a set of yoga clothes for CBBE 3BA and BHUNP. 11 colors.",
+    "description": "An outfit set of yoga clothes. Comes in 11 colors and two variants for top and leggings.\n\nesl flagged esp. No default meshes. Build with bodyslide and use additemmenu. Screenshots welcome.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if your game version is below 1.6.1130",
+    "pictureUrl": "https://staticdelivery.nexusmods.com/mods/1704/images/122169/122169-1718726680-1496717212.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "yoga-clothes-7318624394553-v1",
+        "updatedAt": "2025-07-28T06:14:54+00:00",
+        "uploadTimestamp": 1739634094,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Yoga.Clothes-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/yoga-clothes-7318624394553-v1/Yoga.Clothes-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Yoga.Clothes.BHUNP-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/yoga-clothes-7318624394553-v1/Yoga.Clothes.BHUNP-v1.zip",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624392587": {
+    "id": "7318624392587",
+    "modId": 120203,
+    "name": "Tribal Clothes",
+    "game": "skyrimspecialedition",
+    "summary": "Tribal Clothes outfit set converted from Oblivion/Oldrim? to CBBE 3BA and BHUNP with SMP added. 4 colors.",
+    "description": "There are many versions of this outfit around, but this one is mine.\n\nI think this outfit was originally ported to Oldrim by Krista then backported to Oblivion, but honestly I'm not very sure.\n\nSMP added to top and bottom. Also added two extra colors for leather (black and white), and a cloth retexture using the vanilla ragged trousers.\n\nTextures upscaled to 4K.\n\nesl flagged esp. No prebuilt meshes, build with bodyslide and use additemmenu. No crafting recipes.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if your game version is below 1.6.1130, and FSMP.",
+    "pictureUrl": "https://staticdelivery.nexusmods.com/mods/1704/images/120203/120203-1744998138-2069672006.png",
+    "releases": [
+      {
+        "version": "1.5",
+        "releaseTag": "tribal-clothes-7318624392587-v1.5",
+        "updatedAt": "2025-07-28T06:14:54+00:00",
+        "uploadTimestamp": 1749571060,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.5</summary>\n\n- Top bone weight changes, SMP should be slightly better<br />added bhunp because people kept asking\n</details>",
+        "assets": [
+          {
+            "name": "Tribal.Clothes-v1.5.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/tribal-clothes-7318624392587-v1.5/Tribal.Clothes-v1.5.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Tribal.Clothes.BHUNP-v1.5.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/tribal-clothes-7318624392587-v1.5/Tribal.Clothes.BHUNP-v1.5.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.4",
+        "releaseTag": "tribal-clothes-7318624392587-v1.4",
+        "updatedAt": "2025-07-28T06:14:54+00:00",
+        "uploadTimestamp": 1718695517,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.4</summary>\n\n- Fixed replacer no model on male characters by adding vanilla roughspun tunic mesh to cloth top\n</details>",
+        "assets": [
+          {
+            "name": "Tribal.Clothes-v1.4.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/tribal-clothes-7318624392587-v1.4/Tribal.Clothes-v1.4.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.3",
+        "releaseTag": "tribal-clothes-7318624392587-v1.3",
+        "updatedAt": "2025-07-28T06:14:54+00:00",
+        "uploadTimestamp": 1716960848,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.3</summary>\n\n- Lighting issue actually fixed this time by decreasing alpha threshold by a lot, also fixed incorrect ground mesh texture for cloth top\n</details>",
+        "assets": [
+          {
+            "name": "Tribal.Clothes-v1.3.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/tribal-clothes-7318624392587-v1.3/Tribal.Clothes-v1.3.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.2",
+        "releaseTag": "tribal-clothes-7318624392587-v1.2",
+        "updatedAt": "2025-07-28T06:14:54+00:00",
+        "uploadTimestamp": 1716960232,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.2</summary>\n\n- Fixed default ground mesh texture path\n</details>",
+        "assets": [
+          {
+            "name": "Tribal.Clothes-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/tribal-clothes-7318624392587-v1.2/Tribal.Clothes-v1.2.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "releaseTag": "tribal-clothes-7318624392587-v1.1",
+        "updatedAt": "2025-07-28T06:14:54+00:00",
+        "uploadTimestamp": 1716854933,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Disabled alpha blend, should hopefully fix weird effects from lighting\n</details>",
+        "assets": [
+          {
+            "name": "Tribal.Clothes-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/tribal-clothes-7318624392587-v1.1/Tribal.Clothes-v1.1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "tribal-clothes-7318624392587-v1",
+        "updatedAt": "2025-07-28T06:14:54+00:00",
+        "uploadTimestamp": 1716955897,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Tribal.Clothes-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/tribal-clothes-7318624392587-v1/Tribal.Clothes-v1.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "Roughspun.Tunic.Replacer-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/tribal-clothes-7318624392587-v1/Roughspun.Tunic.Replacer-v1.7z",
+            "category": "OPTIONAL"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624391690": {
+    "id": "7318624391690",
+    "modId": 119306,
+    "name": "Alecu Elegant Dress",
+    "game": "skyrimspecialedition",
+    "summary": "Elegant Dress by Alecu converted from Oblivion HGEC to SSE CBBE 3BA with SMP. 6 colors.",
+    "description": "[Elegant dress from Oblivion ](https://www.nexusmods.com/oblivion/mods/37910)converted at the suggestion of someone in comment section.\n\nSMP added to the skirt. There's a long version and a short version. Comes in 6 colors.\n\n~~I can't seem to figure out why the upper body SMP doesn't work on the long dress, if anyone knows what's up please let me know so I can fix it. ~~(Now fixed! I still don't know what was wrong with it though)\n\nesl flagged esp. No prebuilt meshes, build with bodyslide and use additemmenu. No crafting recipes.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if your game version is below 1.6.1130, racemenu for NiOverride heels, and FSMP for the dress.",
+    "pictureUrl": "https://staticdelivery.nexusmods.com/mods/1704/images/119306/119306-1719196301-177462433.jpeg",
+    "releases": [
+      {
+        "version": "1.3",
+        "releaseTag": "alecu-elegant-dress-7318624391690-v1.3",
+        "updatedAt": "2025-07-28T06:14:54+00:00",
+        "uploadTimestamp": 1720187925,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.3</summary>\n\n- Added new sliders for adjusting upper body shape for large breasts. Added sound record distributor config to add heels sounds to heels if you have it installed\n</details>",
+        "assets": [
+          {
+            "name": "Alecu.Elegant.Dress-v1.3.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/alecu-elegant-dress-7318624391690-v1.3/Alecu.Elegant.Dress-v1.3.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.2",
+        "releaseTag": "alecu-elegant-dress-7318624391690-v1.2",
+        "updatedAt": "2025-07-28T06:14:54+00:00",
+        "uploadTimestamp": 1719198138,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.2</summary>\n\n- Forgot to add back in VirtualGround to long dress, fixed now. Also recompressed all textures with BC7 linear\n</details>",
+        "assets": [
+          {
+            "name": "Alecu.Elegant.Dress-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/alecu-elegant-dress-7318624391690-v1.2/Alecu.Elegant.Dress-v1.2.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "releaseTag": "alecu-elegant-dress-7318624391690-v1.1",
+        "updatedAt": "2025-07-28T06:14:54+00:00",
+        "uploadTimestamp": 1719196277,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Repainted long dress SMP and redid bodyslide which fixed top half of body not working with SMP, also added a zap slider\n</details>",
+        "assets": [
+          {
+            "name": "Alecu.Elegant.Dress-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/alecu-elegant-dress-7318624391690-v1.1/Alecu.Elegant.Dress-v1.1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "alecu-elegant-dress-7318624391690-v1",
+        "updatedAt": "2025-07-28T06:14:54+00:00",
+        "uploadTimestamp": 1715568235,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Elegant.Dress-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/alecu-elegant-dress-7318624391690-v1/Elegant.Dress-v1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624391508": {
+    "id": "7318624391508",
+    "modId": 119124,
+    "name": "ProType Sugar Dress",
+    "game": "skyrimspecialedition",
+    "summary": "ProType's Sugar dress converted from Oblivion. Five colors, CBBE 3BA, SMP skirt.",
+    "description": "ProType's Sugar dress converted from Oblivion to SSE CBBE 3BA. \n\nDress comes in five colors, heels has four colors. Black and pink from original mod; blue, yellow, and white added in conversion.\n\n Texture upscaled to 4k and SMP added to the skirt.\n\nesl flagged esp. No defualt meshes, build with bodyslide and use additemmenu. No crafting recipes.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if your game version is below 1.6.1130, racemenu for NiOverride heels, and FSMP for the dress.",
+    "pictureUrl": "https://staticdelivery.nexusmods.com/mods/1704/images/119124/119124-1715367632-1296971015.png",
+    "releases": [
+      {
+        "version": "1.1",
+        "releaseTag": "protype-sugar-dress-7318624391508-v1.1",
+        "updatedAt": "2025-07-28T06:14:54+00:00",
+        "uploadTimestamp": 1717224022,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Heels bodyslide fixed\n</details>",
+        "assets": [
+          {
+            "name": "ProType.Sugar.Dress-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/protype-sugar-dress-7318624391508-v1.1/ProType.Sugar.Dress-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "protype-sugar-dress-7318624391508-v1",
+        "updatedAt": "2025-07-28T06:14:54+00:00",
+        "uploadTimestamp": 1715367749,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "ProType.Sugar.Dress-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/protype-sugar-dress-7318624391508-v1/ProType.Sugar.Dress-v1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624390557": {
+    "id": "7318624390557",
+    "modId": 118173,
+    "name": "Tank Top and Shorts",
+    "game": "skyrimspecialedition",
+    "summary": "Adds a set of tank tops and shorts for CBBE 3BA. 14 colors.",
+    "description": "An outfit set of modern tank top and shorts. Comes in 14 colors.\n\nesl flagged esp. No default meshes. Build with bodyslide and use additemmenu. Screenshots welcome.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if your game version is below 1.6.1130",
+    "pictureUrl": "https://staticdelivery.nexusmods.com/mods/1704/images/118173/118173-1714447249-1459616740.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "tank-top-and-7318624390557-v1",
+        "updatedAt": "2025-07-28T06:14:54+00:00",
+        "uploadTimestamp": 1714447342,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Tank.Top.and.Shorts-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/tank-top-and-7318624390557-v1/Tank.Top.and.Shorts-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624390023": {
+    "id": "7318624390023",
+    "modId": 117639,
+    "name": "Robert HGEC Underwear",
+    "game": "skyrimspecialedition",
+    "summary": "Two sets of Oblivion underwear from Robert body and HGEC converted for CBBE 3BA.",
+    "description": "I received suggestion to port [Izumiko's HGEC underwear replacer ](https://www.nexusmods.com/oblivion/mods/46630)and [underwear from Robert's female body](https://www.nexusmods.com/oblivion/mods/15624) from Oblivion, so here they are.\n\nSince these were originally from Oblivion, the textures have been upscaled so they wouldn't look horrible on a modern resolution. They still don't look great, but that is at least an improvement.\n\nesl flagged esp. No prebuilt meshes. Build with bodyslide and use additemmenu.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if your game version is below 1.6.1130.",
+    "pictureUrl": "https://staticdelivery.nexusmods.com/mods/1704/images/117639/117639-1713972625-113122384.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "robert-hgec-underwear-7318624390023-v1",
+        "updatedAt": "2025-07-28T06:14:54+00:00",
+        "uploadTimestamp": 1713972857,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Roberts.HGEC.Underwear-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/robert-hgec-underwear-7318624390023-v1/Roberts.HGEC.Underwear-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624389867": {
+    "id": "7318624389867",
+    "modId": 117483,
+    "name": "Sylvia Heels",
+    "game": "skyrimspecialedition",
+    "summary": "Adds platform heels to the game for CBBE. 11 colors.",
+    "description": "A set of unique platform heels. I have no idea if this is actually possible to realistically wear, probably not?\n\nesl flagged esp. Use additemmenu.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if your game version is below 1.6.1130 and racemenu for NiOverride heels.",
+    "pictureUrl": "https://staticdelivery.nexusmods.com/mods/1704/images/117483/117483-1713828219-1974823443.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "sylvia-heels-7318624389867-v1",
+        "updatedAt": "2025-07-28T06:14:54+00:00",
+        "uploadTimestamp": 1713828305,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Sylvia.Heels-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/sylvia-heels-7318624389867-v1/Sylvia.Heels-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
