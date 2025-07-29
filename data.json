@@ -3649,5 +3649,423 @@
         ]
       }
     ]
+  },
+  "7318624386180": {
+    "id": "7318624386180",
+    "modId": 113796,
+    "name": "Mooncakes",
+    "game": "skyrimspecialedition",
+    "summary": "New fangled pastry from Akavir. Adds mooncakes to the game. Craftable.",
+    "description": "From the enigmatic lands of Akavir, a new culinary delight has made its way to the shores of Skyrim.\n\nRestores health, craftable at an oven with butter and flour.\n\nesl flagged esp. You will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/mooncakes-7318624386180-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "mooncakes-7318624386180-v1",
+        "updatedAt": "2025-07-29T15:20:02+00:00",
+        "uploadTimestamp": 1710293888,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Mooncakes-479606-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/mooncakes-7318624386180-v1/Mooncakes-479606-v1.zip",
+            "category": "MAIN"
+          },
+          {
+            "name": "Mooncakes.Description.Framework.ini-479651-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/mooncakes-7318624386180-v1/Mooncakes.Description.Framework.ini-479651-v1.zip",
+            "category": "OPTIONAL"
+          },
+          {
+            "name": "Illegal.Mooncakes-479916-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/mooncakes-7318624386180-v1/Illegal.Mooncakes-479916-v1.zip",
+            "category": "OPTIONAL"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624386123": {
+    "id": "7318624386123",
+    "modId": 113739,
+    "name": "Stop Sign",
+    "game": "skyrimspecialedition",
+    "summary": "A giant stop sign for your dragonborn to STOP Alduin with. Greataxe, esl flagged.",
+    "description": "Have you ever found yourself in the midst of the main quest, thinking, \"If only I could tell Alduin to just... STOP\"? Well, now you can, with the borrowed power of municipal traffic control! You will halt the return of the dragons in no time with this sign.\n\n**Features Include:**\n\n* **Amazing DeSIGN:** Comes in a vibrant red! Very fashionable and practical to catch the eyes of oncoming traffic.\n\n* **Versatile Use:** Not just for stopping world-eaters! Also effective in halting forsworns, intrusive Thalmor agents, and random wolves.\n\nIn more practical terms, this is a greataxe. Craft with 5 steel ingots, additionally you can temper with 1 ingot.\n\nFeel free to upload screenshots of your adventures with the Stop Sign! I love seeing my work in action and how it contributes to stopping Alduin in your playthroughs.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/stop-sign-7318624386123-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "stop-sign-7318624386123-v1",
+        "updatedAt": "2025-07-29T15:20:02+00:00",
+        "uploadTimestamp": 1710167176,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Stop.Sign-479424-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/stop-sign-7318624386123-v1/Stop.Sign-479424-v1.zip",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624386060": {
+    "id": "7318624386060",
+    "modId": 113676,
+    "name": "Ice Cream Cones",
+    "game": "skyrimspecialedition",
+    "summary": "Adds ice cream cones to the game. Three flavors! Craftable.",
+    "description": "Introducing the coolest, sweetest mod this year: ice cream cones.\n\nAdds ice cream cones to the game with three flavors (strawberry, vanilla, chocolate)\n\nRestores health and gives you a small resist frost effect\n\nCraftable at an oven with butter and flour. Why? Magic. Why doesn't it melt? Magic.\n\nesl flagged esp. You will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/ice-cream-cones-7318624386060-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "ice-cream-cones-7318624386060-v1",
+        "updatedAt": "2025-07-29T15:20:02+00:00",
+        "uploadTimestamp": 1710114978,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Ice.Cream.Cones-479234-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/ice-cream-cones-7318624386060-v1/Ice.Cream.Cones-479234-v1.zip",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624386022": {
+    "id": "7318624386022",
+    "modId": 113638,
+    "name": "Burger King Crown",
+    "game": "skyrimspecialedition",
+    "summary": "Burger King crown! Fit for a high king, fit for a burger king. For both male/female characters.",
+    "description": "In a world where the choice of headgear has been tragically limited to horned helmets, hoods, and circlets, the Burger King Crown emerges as a symbol of true royalty. Crafted from the finest paper the realm has to offer, this crown makes every tavern bard sing songs of your greasy glory.\n\nesl flagged esp. Craftable with 1 gold ingot.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/burger-king-crown-7318624386022-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.2",
+        "releaseTag": "burger-king-crown-7318624386022-v1.2",
+        "updatedAt": "2025-07-29T15:20:02+00:00",
+        "uploadTimestamp": 1739695764,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.2</summary>\n\n- fixed crafting recipe, added ground mesh\n</details>",
+        "assets": [
+          {
+            "name": "Burger.King.Crown-595346-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/burger-king-crown-7318624386022-v1.2/Burger.King.Crown-595346-v1.2.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "releaseTag": "burger-king-crown-7318624386022-v1.1",
+        "updatedAt": "2025-07-29T15:20:02+00:00",
+        "uploadTimestamp": 1710102697,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Added burger jarl variant\n</details>",
+        "assets": [
+          {
+            "name": "Burger.King.Crown.1-479170-v1.1.1-113638-1-1-1710102697.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/burger-king-crown-7318624386022-v1.1/Burger.King.Crown.1-479170-v1.1.1-113638-1-1-1710102697.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "burger-king-crown-7318624386022-v1",
+        "updatedAt": "2025-07-29T15:20:02+00:00",
+        "uploadTimestamp": 1710082543,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Burger.King.Crown-479052-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/burger-king-crown-7318624386022-v1/Burger.King.Crown-479052-v1.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624385976": {
+    "id": "7318624385976",
+    "modId": 113592,
+    "name": "Sweet Roll Outfit",
+    "game": "skyrimspecialedition",
+    "summary": "Now you can wear a giant sweet roll! Comes with sweet roll hat. CBBE 3BA, HIMBO bodyslide.",
+    "description": "Did someone steal your sweet roll? Now you don't have to worry about it, since this one will be too big for them to steal once you put it on. Bonus sweet roll hat to keep it out of reach of children.\n\nThis is just a simple and silly mod that puts the the [sweet roll mesh ](https://www.nexusmods.com/skyrimspecialedition/mods/44077)by Kadreus onto bodies. \n\nThis works with CBBE, and I have also included default meshes/bodyslide files for HIMBO, but I didn't test HIMBO so I have no idea if it actually works. There's bodyslide files but they don't really matter that much since the sweet rolls don't reshape with the player body. It'll all get covered by the sweet roll anyway unless you are going wild with the sliders.\n\nesl flagged esp. Build with bodyslide.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/sweet-roll-outfit-7318624385976-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "sweet-roll-outfit-7318624385976-v1",
+        "updatedAt": "2025-07-29T15:20:02+00:00",
+        "uploadTimestamp": 1710046285,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Sweet.Roll.Outfit.CBBE.3BA.HIMBO.Bodyslide-478886-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/sweet-roll-outfit-7318624385976-v1/Sweet.Roll.Outfit.CBBE.3BA.HIMBO.Bodyslide-478886-v1.zip",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624385362": {
+    "id": "7318624385362",
+    "modId": 112978,
+    "name": "TD Mingxia Armor",
+    "game": "skyrimspecialedition",
+    "summary": "TD Mingxia light armor set from Moonlight Blade, converted to SSE CBBE 3BA BS. SMP physics added.",
+    "description": "[Oldrim UNPB outfit ](https://mod.3dmgame.com/mod/49306)originally ported from Moonlight Blade by cornboy on 3dm, now converted for SSE CBBE 3BA bodyslide. Maybe this is Akavir-themed enough to be lore friendly?\n\nComes in two color variants, red/black and gold/black. I added SMP to the skirt flaps, the cape, and the ropes on the back, so you need F-SMP. I also did some texture reprocessing/upscaling to 4k, but the original textures were not super good quality to begin with.\n\nThere are zap sliders for front/back skirt, as well as the ropes on the back. There's just a lot of moving parts, so some clipping or weird physics will happen if you are using some of the more extreme bodyslide presets.\n\nesl flagged esp. Build with bodyslide and use additemmenu.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/td-mingxia-armor-7318624385362-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.1",
+        "releaseTag": "td-mingxia-armor-7318624385362-v1.1",
+        "updatedAt": "2025-07-29T15:20:02+00:00",
+        "uploadTimestamp": 1710781815,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Added ground meshes and KID file\n</details>",
+        "assets": [
+          {
+            "name": "TD.Mingxia.Armor-481905-v1.1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/td-mingxia-armor-7318624385362-v1.1/TD.Mingxia.Armor-481905-v1.1.zip",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "td-mingxia-armor-7318624385362-v1",
+        "updatedAt": "2025-07-29T15:20:02+00:00",
+        "uploadTimestamp": 1709442900,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "TD.Mingxia.Armor.CBBE.3BA.Bodyslide.SMP-476463-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/td-mingxia-armor-7318624385362-v1/TD.Mingxia.Armor.CBBE.3BA.Bodyslide.SMP-476463-v1.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624385358": {
+    "id": "7318624385358",
+    "modId": 112974,
+    "name": "Bisquits Priestess of Mara",
+    "game": "skyrimspecialedition",
+    "summary": "Priestess of Mara by bisquits from Oblivion converted for SSE CBBE 3BA. Bodyslide, SMP accessories, two color variants.",
+    "description": "[Oblivion outfit ](https://www.nexusmods.com/oblivion/mods/38199)originally by bisquits now converted for SSE CBBE 3BA bodyslide.\n\nComes in two colors, gold and silver. I added SMP to the earrings and navel piercing, so you will also need F-SMP.\n\nesl flagged esp. Build with bodyslide and use additemmenu.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/bisquits-priestess-of-7318624385358-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1.2",
+        "releaseTag": "bisquits-priestess-of-7318624385358-v1.2",
+        "updatedAt": "2025-07-29T15:20:02+00:00",
+        "uploadTimestamp": 1726721247,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.2</summary>\n\n- Texture compression changes\n</details>",
+        "assets": [
+          {
+            "name": "Bisquits.Priestess.of.Mara-543752-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/bisquits-priestess-of-7318624385358-v1.2/Bisquits.Priestess.of.Mara-543752-v1.2.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "releaseTag": "bisquits-priestess-of-7318624385358-v1.1",
+        "updatedAt": "2025-07-29T15:20:02+00:00",
+        "uploadTimestamp": 1710797287,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Added ground meshes, KID ini\n</details>",
+        "assets": [
+          {
+            "name": "Bisquits.Priestess.of.Mara-482008-v1.1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/bisquits-priestess-of-7318624385358-v1.1/Bisquits.Priestess.of.Mara-482008-v1.1.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "bisquits-priestess-of-7318624385358-v1",
+        "updatedAt": "2025-07-29T15:20:02+00:00",
+        "uploadTimestamp": 1709437049,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Bisquits.Priestess.of.Mara.CBBE.3BA.Bodyslide-476451-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/bisquits-priestess-of-7318624385358-v1/Bisquits.Priestess.of.Mara.CBBE.3BA.Bodyslide-476451-v1.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624385357": {
+    "id": "7318624385357",
+    "modId": 112973,
+    "name": "Korana Priestess Of Dibella",
+    "game": "skyrimspecialedition",
+    "summary": "Korana's Priestess Of Dibella HGEC from Oblivion converted for SSE CBBE 3BA and BHUNPv4, two color variants",
+    "description": "[Oblivion outfit ](https://www.nexusmods.com/oblivion/mods/32855/)originally by Korana. \n\nComes in two colors, gold and silver.\n\nesl flagged esp. Build with bodyslide and use additemmenu.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/korana-priestess-of-7318624385357-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.1",
+        "releaseTag": "korana-priestess-of-7318624385357-v1.1",
+        "updatedAt": "2025-07-29T15:20:02+00:00",
+        "uploadTimestamp": 1741998164,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Added ground meshes and KID file\n</details>",
+        "assets": [
+          {
+            "name": "Korana.Priestess.Of.Dibella-542383-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/korana-priestess-of-7318624385357-v1.1/Korana.Priestess.Of.Dibella-542383-v1.1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Korana.Priestess.Of.Dibella.BHUNP-605726-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/korana-priestess-of-7318624385357-v1.1/Korana.Priestess.Of.Dibella.BHUNP-605726-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "korana-priestess-of-7318624385357-v1",
+        "updatedAt": "2025-07-29T15:20:02+00:00",
+        "uploadTimestamp": 1709434612,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Korana.Priestess.Of.Dibella.CBBE.3BA.Bodyslide-476447-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/korana-priestess-of-7318624385357-v1/Korana.Priestess.Of.Dibella.CBBE.3BA.Bodyslide-476447-v1.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624383518": {
+    "id": "7318624383518",
+    "modId": 111134,
+    "name": "Hezimao Shine Dress 3",
+    "game": "skyrimspecialedition",
+    "summary": "Dress from Shine ported to Oldrim, converted to CBBE 3BA and BHUNPv4. SMP skirt physics.",
+    "description": "Dress from Shine first ported to Oldrim for UNP by Hezimao on [9dm](http://www.9dmsgame.net/thread-180820-1-1.html), now converted to CBBE 3BA and\u00a0BHUNPv4 bodyslide with color variants added. SMP skirt physics.\n\nComes in three colors (a pale green, slightly blue, slightly pink). They might all look white, but if you look closely, there is a semblance of color.\n\nesl flagged esp. Build with bodyslide, use some kind of additemmenu mod.\n\nRequirements:\n\nCBBE 3BA or BHUNPv4\n\nBodyslide\n\nFSMP\ufeff\n\nRacemenu\n\n![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/hezimao-shine-dress-7318624383518-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "2.1",
+        "releaseTag": "hezimao-shine-dress-7318624383518-v2.1",
+        "updatedAt": "2025-07-29T15:20:02+00:00",
+        "uploadTimestamp": 1740921355,
+        "changelog": "<details>\n<summary>Click to view Changelog for v2.1</summary>\n\n- Added BHUNP conversion\n</details>",
+        "assets": [
+          {
+            "name": "Hezimao.Shine.Dress.3-542881-v2.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/hezimao-shine-dress-7318624383518-v2.1/Hezimao.Shine.Dress.3-542881-v2.1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Hezimao.Shine.Dress.3.BHUNP-600939-v2.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/hezimao-shine-dress-7318624383518-v2.1/Hezimao.Shine.Dress.3.BHUNP-600939-v2.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "2",
+        "releaseTag": "hezimao-shine-dress-7318624383518-v2",
+        "updatedAt": "2025-07-29T15:20:02+00:00",
+        "uploadTimestamp": 1719231593,
+        "changelog": "<details>\n<summary>Click to view Changelog for v2</summary>\n\n- Re-released: increased polygon count in blender, bone weights fully repainted, textures recompressed with BC7 linear. This should be much better than before\n</details>",
+        "assets": [
+          {
+            "name": "Hezimao.Shine.Dress.3-514472-v2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/hezimao-shine-dress-7318624383518-v2/Hezimao.Shine.Dress.3-514472-v2.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "releaseTag": "hezimao-shine-dress-7318624383518-v1.1",
+        "updatedAt": "2025-07-29T15:20:02+00:00",
+        "uploadTimestamp": 1710865516,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Added ground meshes and KID file\n</details>",
+        "assets": [
+          {
+            "name": "Hezimao.Shine.Dress.3-482229-v1.1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/hezimao-shine-dress-7318624383518-v1.1/Hezimao.Shine.Dress.3-482229-v1.1.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "hezimao-shine-dress-7318624383518-v1",
+        "updatedAt": "2025-07-29T15:20:02+00:00",
+        "uploadTimestamp": 1707323350,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Hezimao.Shine.Dress.3.CBBE.3BA.SMP.Bodyslide-468657-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/hezimao-shine-dress-7318624383518-v1/Hezimao.Shine.Dress.3.CBBE.3BA.SMP.Bodyslide-468657-v1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624383460": {
+    "id": "7318624383460",
+    "modId": 111076,
+    "name": "Hezimao Shine Dress",
+    "game": "skyrimspecialedition",
+    "summary": "Dress from Shine with SMP skirt physics, comes in 6 colors. CBBE 3BA bodyslide.",
+    "description": "It's a really nice and flowy dress, but I'm too lazy to put a video of it up so you'll just have to trust me.\n\nDress from Papergame's Shine. Original Oldrim UNP port by Hezimao on [9dm](http://www.9dmsgame.net/thread-180161-1-1.html), converted to CBBE 3BA with additional color variants added. \n\nComes in six colors (black, white, red, pink, yellow, blue).\n\nesl flagged esp. Build with bodyslide, use some kind of additemmenu mod. You'll also want a SMP implementation.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if your game version is below 1.6.1130",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/hezimao-shine-dress-7318624383460-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.2",
+        "releaseTag": "hezimao-shine-dress-7318624383460-v1.2",
+        "updatedAt": "2025-07-29T15:20:02+00:00",
+        "uploadTimestamp": 1710795879,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.2</summary>\n\n- added ground mesh and KID ini\n</details>",
+        "assets": [
+          {
+            "name": "Hezimao.Shine.Dress-482001-v1.2.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/hezimao-shine-dress-7318624383460-v1.2/Hezimao.Shine.Dress-482001-v1.2.zip",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "releaseTag": "hezimao-shine-dress-7318624383460-v1.1",
+        "updatedAt": "2025-07-29T15:20:02+00:00",
+        "uploadTimestamp": 1710449724,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Fix esp record for AIM users\n</details>",
+        "assets": [
+          {
+            "name": "Hezimao.Shine.Dress-480604-v1.1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/hezimao-shine-dress-7318624383460-v1.1/Hezimao.Shine.Dress-480604-v1.1.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "hezimao-shine-dress-7318624383460-v1",
+        "updatedAt": "2025-07-29T15:20:02+00:00",
+        "uploadTimestamp": 1707265349,
+        "changelog": "",
+        "assets": []
+      }
+    ]
   }
 }
