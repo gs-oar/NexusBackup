@@ -2997,5 +2997,364 @@
         ]
       }
     ]
+  },
+  "7318624387682": {
+    "id": "7318624387682",
+    "modId": 115298,
+    "name": "Gilded Doublet SMP",
+    "game": "skyrimspecialedition",
+    "summary": "Gilded doublet set by Ellise converted from Oldrim for SSE CBBE 3BA and BHUNP with SMP added.",
+    "description": "Gilded doublet set [originally from Oldrim ](https://www.nexusmods.com/skyrim/mods/44567)by Ellise. SMP physics added to the shirt-skirt part.\n\nComes in the original 7 colors, no recolors this time. Textures upscaled to 4K, with original 2K set available in optional downloads. \n\nThe original mod was for both male and female characters, so I did convert the male outfit meshes to be compatible with SSE but didn't make any bodyslide files or add the SMP to the shirt for it. It should still work for vanilla male bodies and it will still have the better quality upscaled textures. \n\nBHUNP bodyslide files also available in optional downloads, but I don't use BHUNP so you might have to make some minor adjustments if you do use it.\n\nesl flagged esp. Build with bodyslide and use AIM. Screenshots welcome.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130 and [FSMP](https://www.nexusmods.com/skyrimspecialedition/mods/57339).",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/gilded-doublet-smp-7318624387682-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.1",
+        "releaseTag": "gilded-doublet-smp-7318624387682-v1.1",
+        "updatedAt": "2025-07-29T12:58:39+00:00",
+        "uploadTimestamp": 1711721408,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Fixed pants zap/recolor issue\n</details>",
+        "assets": [
+          {
+            "name": "Gilded.Doublet-485317-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gilded-doublet-smp-7318624387682-v1.1/Gilded.Doublet-485317-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "gilded-doublet-smp-7318624387682-v1",
+        "updatedAt": "2025-07-29T12:58:39+00:00",
+        "uploadTimestamp": 1711670865,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Gilded.Doublet-485098-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gilded-doublet-smp-7318624387682-v1/Gilded.Doublet-485098-v1.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "BHUNP.Bodyslide.Files-485100-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gilded-doublet-smp-7318624387682-v1/BHUNP.Bodyslide.Files-485100-v1.7z",
+            "category": "OPTIONAL"
+          },
+          {
+            "name": "Original.2K.Textures-485101-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gilded-doublet-smp-7318624387682-v1/Original.2K.Textures-485101-v1.7z",
+            "category": "OPTIONAL"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624387517": {
+    "id": "7318624387517",
+    "modId": 115133,
+    "name": "ProType DiDi Dress",
+    "game": "skyrimspecialedition",
+    "summary": "ProType's DiDi dress converted from Oblivion for CBBE 3BA, 6 colors and SMP skirt.",
+    "description": "ProType's Celia dress converted from Oblivion to SSE CBBE 3BA with SMP added to the skirt. \n\nComes in six colors, blue and red 2 from the original, I added black, green, red and blue 2.\n\nesl flagged esp. Build with bodyslide and use AIM. Screenshots welcome.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130 and FSMP for the dress.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/protype-didi-dress-7318624387517-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "protype-didi-dress-7318624387517-v1",
+        "updatedAt": "2025-07-29T12:58:39+00:00",
+        "uploadTimestamp": 1711547317,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "ProType.DiDi.Dress-484471-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/protype-didi-dress-7318624387517-v1/ProType.DiDi.Dress-484471-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Uniboob.BS.files-484611-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/protype-didi-dress-7318624387517-v1/Uniboob.BS.files-484611-v1.7z",
+            "category": "OPTIONAL"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624387445": {
+    "id": "7318624387445",
+    "modId": 115061,
+    "name": "Lady Camellia",
+    "game": "skyrimspecialedition",
+    "summary": "Lady Camellia underwear set by Petrovich converted from Oblivion for SSE CBBE 3BA. 7 colors.",
+    "description": "Lady Camellia set [originally from Oblivion ](https://www.nexusmods.com/oblivion/mods/19579)by Petrovich.\n\nComes in 7 colors with original black, white, red and\u00a0additional color variants (blue, yellow, green, pink) added. Textures upscaled to 4K.\n\nesl flagged esp. Build with bodyslide and use AIM. Screenshots welcome.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/lady-camellia-7318624387445-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "lady-camellia-7318624387445-v1",
+        "updatedAt": "2025-07-29T12:58:39+00:00",
+        "uploadTimestamp": 1711423629,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1</summary>\n\n- Untested BHUNP conversion is also available now\n</details>",
+        "assets": [
+          {
+            "name": "Lady.Camellia-484239-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/lady-camellia-7318624387445-v1/Lady.Camellia-484239-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "BHUNP.Bodyslide.Files-484243-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/lady-camellia-7318624387445-v1/BHUNP.Bodyslide.Files-484243-v1.7z",
+            "category": "OPTIONAL"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624387405": {
+    "id": "7318624387405",
+    "modId": 115021,
+    "name": "ProType Celia Dress",
+    "game": "skyrimspecialedition",
+    "summary": "ProType's Celia dress converted from Oblivion for CBBE 3BA, 6 colors and SMP skirt.",
+    "description": "ProType's Celia dress converted from Oblivion to SSE CBBE 3BA bodyslide with SMP added to the skirt. \n\nComes in six colors: red, black, and red floral from the original, and I added yellow, white and purple floral.\n\nesl flagged esp. Build with bodyslide and use AIM. Screenshots welcome.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130 and FSMP for the dress.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/protype-celia-dress-7318624387405-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "protype-celia-dress-7318624387405-v1",
+        "updatedAt": "2025-07-29T12:58:39+00:00",
+        "uploadTimestamp": 1711382845,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "ProType.Celia-484091-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/protype-celia-dress-7318624387405-v1/ProType.Celia-484091-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624387249": {
+    "id": "7318624387249",
+    "modId": 114865,
+    "name": "Lady Jasmine",
+    "game": "skyrimspecialedition",
+    "summary": "Set of underwear by Petrovich converted from Oblivion for SSE CBBE 3BA. 5 colors.",
+    "description": "Lady Jasmine set [originally from Oblivion ](https://www.nexusmods.com/oblivion/mods/17810)by Petrovich.\n\nConverted to CBBE 3BA with additional color variants (blue, yellow, pink) added. Outfit has 5 pieces: top, panty, stockings, boots, and sleeves. Comes in 5 colors with the original black and white. \n\nTextures upscaled to 4K, another set of upscaled 4K textures using a different model is available in optional downloads, but I liked the default ones more.\n\nesl flagged esp. Build with bodyslide and use AIM. Screenshots welcome.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/lady-jasmine-7318624387249-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.1",
+        "releaseTag": "lady-jasmine-7318624387249-v1.1",
+        "updatedAt": "2025-07-29T12:58:39+00:00",
+        "uploadTimestamp": 1711239519,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Added feet reference mesh to boots since they are slightly transparent\n</details>",
+        "assets": [
+          {
+            "name": "Lady.Jasmine-483535-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/lady-jasmine-7318624387249-v1.1/Lady.Jasmine-483535-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "lady-jasmine-7318624387249-v1",
+        "updatedAt": "2025-07-29T12:58:39+00:00",
+        "uploadTimestamp": 1711234163,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Lady.Jasmine-483510-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/lady-jasmine-7318624387249-v1/Lady.Jasmine-483510-v1.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "Alternate.4K.Textures-483511-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/lady-jasmine-7318624387249-v1/Alternate.4K.Textures-483511-v1.7z",
+            "category": "OPTIONAL"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624387225": {
+    "id": "7318624387225",
+    "modId": 114841,
+    "name": "Lady Mist",
+    "game": "skyrimspecialedition",
+    "summary": "Set of underwear by Petrovich converted from Oblivion for SSE CBBE 3BA. 7 colors.",
+    "description": "Set of transparent underwear [originally from Oblivion ](https://www.nexusmods.com/oblivion/mods/29144)by Petrovich.\n\nConverted to CBBE 3BA with additional color variants (blue, green, purple, orange) added. Comes in 7 colors now along with the original black, white and pink. Textures also upscaled to 4K.\n\nesl flagged esp. Build with bodyslide and use AIM. Screenshots welcome.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/lady-mist-7318624387225-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.1",
+        "releaseTag": "lady-mist-7318624387225-v1.1",
+        "updatedAt": "2025-07-29T12:58:39+00:00",
+        "uploadTimestamp": 1711223738,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Fixed top bodyslide not working\n</details>",
+        "assets": [
+          {
+            "name": "Lady.Mist-483469-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/lady-mist-7318624387225-v1.1/Lady.Mist-483469-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "lady-mist-7318624387225-v1",
+        "updatedAt": "2025-07-29T12:58:39+00:00",
+        "uploadTimestamp": 1711215887,
+        "changelog": "",
+        "assets": []
+      }
+    ]
+  },
+  "7318624387127": {
+    "id": "7318624387127",
+    "modId": 114743,
+    "name": "Hezimao 3 Swimsuit",
+    "game": "skyrimspecialedition",
+    "summary": "One piece swimsuit in 14 colors for CBBE 3BA and BHUNP",
+    "description": "One piece swimsuit. [Oldrim UNP mod ](http://www.9dmsgame.net/thread-165527-1-1.html)by Hezimao.\n\nConverted to CBBE 3BA and (untested) BHUNP with a lot of additional color variants added. Comes in 14 colors now.\n\nesl flagged esp. Build with bodyslide and use AIM. Screenshots welcome.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/hezimao-3-swimsuit-7318624387127-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "hezimao-3-swimsuit-7318624387127-v1",
+        "updatedAt": "2025-07-29T12:58:39+00:00",
+        "uploadTimestamp": 1711119222,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Hezimao.3.Swimsuit-483113-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/hezimao-3-swimsuit-7318624387127-v1/Hezimao.3.Swimsuit-483113-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624387064": {
+    "id": "7318624387064",
+    "modId": 114680,
+    "name": "ProType Moonstone Dress",
+    "game": "skyrimspecialedition",
+    "summary": "ProType's Moonstone dress and shoes converted from Oblivion. Four colors, CBBE 3BA, SMP skirt.",
+    "description": "ProType's Moonstone dress converted from Oblivion to SSE CBBE 3BA bodyslide with SMP. \n\nComes in four colors: white, black, red, blue. Texture upscaled to 4k and SMP added to the skirt. Original 2k textures available in optional downloads. \n\nThe SMP physics doesn't always look realistic because the original mesh has the folds and they sometimes get deformed in a strange way by the SMP bones, but I have no idea how to improve this without restricting the skirt's movement range too much.\n\nesl flagged esp. Build with bodyslide and use AIM. Screenshots welcome.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130, and FSMP for the dress.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/protype-moonstone-dress-7318624387064-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "protype-moonstone-dress-7318624387064-v1",
+        "updatedAt": "2025-07-29T12:58:39+00:00",
+        "uploadTimestamp": 1711048421,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "ProType.Moonstone.Dress-482878-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/protype-moonstone-dress-7318624387064-v1/ProType.Moonstone.Dress-482878-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Original.2K.Textures-482879-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/protype-moonstone-dress-7318624387064-v1/Original.2K.Textures-482879-v1.7z",
+            "category": "OPTIONAL"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624387013": {
+    "id": "7318624387013",
+    "modId": 114629,
+    "name": "Eyren Ambassador of Darkness",
+    "game": "skyrimspecialedition",
+    "summary": "Eyren's Ambassador of Darkness set converted from Oblivion HGEC to SSE CBBE 3BA. SMP for skirts.",
+    "description": "Eyren's [Ambassador of Darkness ](https://www.nexusmods.com/oblivion/mods/23666)set converted from Oblivion HGEC to SSE CBBE 3BA bodyslide with SMP added to the skirts. \n\nThe main install has upscaled 4k textures, upscaled 2k and original 1k textures are available in optional downloads.\n\nesl flagged esp. Build with bodyslide and use AIM. Screenshots welcome.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130, FSMP for the skirt, and Racemenu for NiOverride boots.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/eyren-ambassador-of-7318624387013-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.2",
+        "releaseTag": "eyren-ambassador-of-7318624387013-v1.2",
+        "updatedAt": "2025-07-29T12:58:39+00:00",
+        "uploadTimestamp": 1715622533,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.2</summary>\n\n- Fixed some minor mesh clipping on gloves\n</details>",
+        "assets": [
+          {
+            "name": "Ambassador.of.Darkness-500727-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/eyren-ambassador-of-7318624387013-v1.2/Ambassador.of.Darkness-500727-v1.2.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "releaseTag": "eyren-ambassador-of-7318624387013-v1.1",
+        "updatedAt": "2025-07-29T12:58:39+00:00",
+        "uploadTimestamp": 1711030134,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Fixed first person gloves mesh, added a couple of new zap sliders, default installation now also comes with 4K textures. 1K textures now optional in downloads\n</details>",
+        "assets": [
+          {
+            "name": "Ambassador.of.Darkness-482804-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/eyren-ambassador-of-7318624387013-v1.1/Ambassador.of.Darkness-482804-v1.1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "eyren-ambassador-of-7318624387013-v1",
+        "updatedAt": "2025-07-29T12:58:39+00:00",
+        "uploadTimestamp": 1711030175,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Ambassador.of.Darkness-482691-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/eyren-ambassador-of-7318624387013-v1/Ambassador.of.Darkness-482691-v1.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "2K.Textures-482692-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/eyren-ambassador-of-7318624387013-v1/2K.Textures-482692-v1.7z",
+            "category": "OPTIONAL"
+          },
+          {
+            "name": "4K.Textures-482696-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/eyren-ambassador-of-7318624387013-v1/4K.Textures-482696-v1.7z",
+            "category": "OPTIONAL"
+          },
+          {
+            "name": "1K.Textures-482805-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/eyren-ambassador-of-7318624387013-v1/1K.Textures-482805-v1.7z",
+            "category": "OPTIONAL"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624386968": {
+    "id": "7318624386968",
+    "modId": 114584,
+    "name": "ProType Gothica Dress",
+    "game": "skyrimspecialedition",
+    "summary": "ProType's Gothica dress and boots converted from Oblivion. Four colors, SMP CBBE 3BA",
+    "description": "ProType's Gothica dress converted from Oblivion to SSE CBBE 3BA bodyslide with SMP. \n\nTexture upscaled to 4k and two new color variants added for a total of four colors for dress and boots. Necklace comes in two colors.\n\nesl flagged esp. Build with bodyslide and use AIM. Screenshots welcome.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130, FSMP for the dress, and Racemenu for NiOverride boots.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/protype-gothica-dress-7318624386968-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "protype-gothica-dress-7318624386968-v1",
+        "updatedAt": "2025-07-29T12:58:39+00:00",
+        "uploadTimestamp": 1710951833,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "ProType.Gothica.Dress-482549-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/protype-gothica-dress-7318624386968-v1/ProType.Gothica.Dress-482549-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
