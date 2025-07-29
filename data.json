@@ -4067,5 +4067,570 @@
         "assets": []
       }
     ]
+  },
+  "7318624383443": {
+    "id": "7318624383443",
+    "modId": 111059,
+    "name": "Bisquits Pain Bringer",
+    "game": "skyrimspecialedition",
+    "summary": "Oblivion outfit originally by bisquits now converted for SSE CBBE 3BA bodyslide. Upscaled texture and color variant.",
+    "description": "[bisquit's Oblivion Pain Bringer armor ](https://www.nexusmods.com/oblivion/mods/16838)set converted for CBBE 3BA Bodyslide. \n\nI upscaled the texture, increased mesh vertex count, and added a silver color variant. I also split up the pieces so top and bottom can be separated.\n\nesl flagged esp. Build with bodyslide and use additemmenu.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130\n\n![Image](https://files.catbox.moe/q1t6kx.gif)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/bisquits-pain-bringer-7318624383443-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.3",
+        "releaseTag": "bisquits-pain-bringer-7318624383443-v1.3",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1719233738,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.3</summary>\n\n- Recompressed textures with BC7 linear, some normal map changes\n</details>",
+        "assets": [
+          {
+            "name": "Bisquits.Pain.Bringer-514481-v1.3.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/bisquits-pain-bringer-7318624383443-v1.3/Bisquits.Pain.Bringer-514481-v1.3.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.2",
+        "releaseTag": "bisquits-pain-bringer-7318624383443-v1.2",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1710795763,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.2</summary>\n\n- Fixed ground meshes, 1st person mesh for hands, redid chest piece bodyslide, added KID ini\n</details>",
+        "assets": [
+          {
+            "name": "Bisquits.Pain.Bringer-482000-v1.2.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/bisquits-pain-bringer-7318624383443-v1.2/Bisquits.Pain.Bringer-482000-v1.2.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "releaseTag": "bisquits-pain-bringer-7318624383443-v1.1",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1707413125,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Fixed body reference issue with racemenu overlays not showing up, added thigh and leg cuffs, optional zaps\n</details>",
+        "assets": [
+          {
+            "name": "Bisquits.Pain.Bringer.CBBE.3BA.Bodyslide-468963-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/bisquits-pain-bringer-7318624383443-v1.1/Bisquits.Pain.Bringer.CBBE.3BA.Bodyslide-468963-v1.1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "bisquits-pain-bringer-7318624383443-v1",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1707252141,
+        "changelog": "",
+        "assets": []
+      }
+    ]
+  },
+  "7318624383372": {
+    "id": "7318624383372",
+    "modId": 110988,
+    "name": "Hezimao 42 Dress",
+    "game": "skyrimspecialedition",
+    "summary": "See-through short dress. CBBE 3BA and BHUNP Bodyslide",
+    "description": "See-through short dress in three colors. [Oldrim UNP mod ](http://www.9dmsgame.com/thread-174655-1-4.html)by Hezimao, [converted to CBBE ](https://www.loverslab.com/topic/24385-outfit-studiobodyslide-2-cbbe-conversions/?do=findComment&amp;comment=2758509)by Sorceress99 on Loverslab. \n\nConverted to CBBE 3BA and BHUNP with additional color variants added. Comes in three colors (black, white, red). \n\nesl flagged esp. Build using bodyslide, and use additemmenu.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/hezimao-42-dress-7318624383372-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.3",
+        "releaseTag": "hezimao-42-dress-7318624383372-v1.3",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1726372081,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Hezimao.42.Dress-542343-v1.3.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/hezimao-42-dress-7318624383372-v1.3/Hezimao.42.Dress-542343-v1.3.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.2",
+        "releaseTag": "hezimao-42-dress-7318624383372-v1.2",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1710794446,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.2</summary>\n\n- BHUNP bodyslide added, pieces separated, added ground mesh, esp restructured and added KID ini\n</details>",
+        "assets": [
+          {
+            "name": "Hezimao.42.Dress-481997-v1.2.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/hezimao-42-dress-7318624383372-v1.2/Hezimao.42.Dress-481997-v1.2.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "releaseTag": "hezimao-42-dress-7318624383372-v1.1",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1710449778,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Fix esp record for AIM users\n</details>",
+        "assets": [
+          {
+            "name": "Hezimao.42.Dress-480605-v1.1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/hezimao-42-dress-7318624383372-v1.1/Hezimao.42.Dress-480605-v1.1.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "hezimao-42-dress-7318624383372-v1",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1707186789,
+        "changelog": "",
+        "assets": []
+      }
+    ]
+  },
+  "7318624383368": {
+    "id": "7318624383368",
+    "modId": 110984,
+    "name": "ProType Summertime Dress",
+    "game": "skyrimspecialedition",
+    "summary": "ProType Summertime Dress from Oblivion converted to CBBE 3BA with SMP skirt. Four colors and transparency options.",
+    "description": "ProType Summertime Dress from Oblivion, originally converted to Oldrim CBBE by Sorceress99 from Loverslab, converted here to SSE CBBE 3BA with texture upscaled to 4k and optional SMP for the skirt.\n\nDress with four colors and transparency options, and panty in black or white. esl flagged esp, build with bodyslide and use additemmenu.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/protype-summertime-dress-7318624383368-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.3",
+        "releaseTag": "protype-summertime-dress-7318624383368-v1.3",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1719211554,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.3</summary>\n\n- Increased normal map alpha, redid bodyslide bone weights with uniboob reference, recompressed textures with BC7 linear\n</details>",
+        "assets": [
+          {
+            "name": "ProType.Summertime.Dress-514412-v1.3.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/protype-summertime-dress-7318624383368-v1.3/ProType.Summertime.Dress-514412-v1.3.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.2",
+        "releaseTag": "protype-summertime-dress-7318624383368-v1.2",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1711116802,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.2</summary>\n\n- Heels bodyslide added\n</details>",
+        "assets": [
+          {
+            "name": "ProType.Summertime.Dress-483106-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/protype-summertime-dress-7318624383368-v1.2/ProType.Summertime.Dress-483106-v1.2.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.1.1",
+        "releaseTag": "protype-summertime-dress-7318624383368-v1.1.1",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1710859043,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "ProType.Summertime.Dress-482193-v1.1.1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/protype-summertime-dress-7318624383368-v1.1.1/ProType.Summertime.Dress-482193-v1.1.1.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "releaseTag": "protype-summertime-dress-7318624383368-v1.1",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1710803885,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Reorganized esp/bodyslide to reuse mesh and added ground meshes, added pink and blue, added SMP\n</details>",
+        "assets": [
+          {
+            "name": "ProType.Summertime.Dress-482031-v1.1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/protype-summertime-dress-7318624383368-v1.1/ProType.Summertime.Dress-482031-v1.1.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "protype-summertime-dress-7318624383368-v1",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1707182827,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "ProType.Summertime.Dress.CBBE.3BA.Bodyslide-468163-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/protype-summertime-dress-7318624383368-v1/ProType.Summertime.Dress.CBBE.3BA.Bodyslide-468163-v1.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624383362": {
+    "id": "7318624383362",
+    "modId": 110978,
+    "name": "Simple Knit Sweater",
+    "game": "skyrimspecialedition",
+    "summary": "2 sweater variants, 10 colors each. CBBE 3BA Bodyslide.",
+    "description": "2 sweater variants (regular, short), 10  colors each. CBBE 3BA Bodyslide. Original Oblivion mod by Nailflan, converted to SSE for 3BA and texture upscaled.\n\nesl flagged esp, build with bodyslide and spawn with additemmenu.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/simple-knit-sweater-7318624383362-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.2",
+        "releaseTag": "simple-knit-sweater-7318624383362-v1.2",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1726368036,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.2</summary>\n\n- Added 5 new colors\n</details>",
+        "assets": [
+          {
+            "name": "Simple.Knit.Sweater-542323-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/simple-knit-sweater-7318624383362-v1.2/Simple.Knit.Sweater-542323-v1.2.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "releaseTag": "simple-knit-sweater-7318624383362-v1.1",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1719895031,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Simple.Knit.Sweater-516903-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/simple-knit-sweater-7318624383362-v1.1/Simple.Knit.Sweater-516903-v1.1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "simple-knit-sweater-7318624383362-v1",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1710099596,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Simple.Knit.Sweater.CBBE.3BA.Bodyslide-479156-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/simple-knit-sweater-7318624383362-v1/Simple.Knit.Sweater.CBBE.3BA.Bodyslide-479156-v1.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624383360": {
+    "id": "7318624383360",
+    "modId": 110976,
+    "name": "Speed Buster Ofuda",
+    "game": "skyrimspecialedition",
+    "summary": "2 sets of 4 Ofuda \"armor\" variants. CBBE 3BA Bodyslide.",
+    "description": "An ofuda is a blessed cloth talisman, so this will protect you against evil, right?\n\n[Original Oblivion mod ](https://www.nexusmods.com/oblivion/mods/22912?tab=description)from Speed Buster, converted to [Oldrim UNPB ](https://www.loverslab.com/files/file/2048-spb-ofuda-for-unp-jiggle/)by asenasen. This is a CBBE 3BA conversion with texture upscaling.\n\nesl flagged esp. Build with bodyslide and use additemmenu or some similar mod.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if your game version is below 1.6.1130",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/speed-buster-ofuda-7318624383360-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.1",
+        "releaseTag": "speed-buster-ofuda-7318624383360-v1.1",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1726370418,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Speed.Buster.Ofuda-542334-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/speed-buster-ofuda-7318624383360-v1.1/Speed.Buster.Ofuda-542334-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "speed-buster-ofuda-7318624383360-v1",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1707174201,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1</summary>\n\n- Fixed ground meshes, added KID ini\n</details>",
+        "assets": [
+          {
+            "name": "Speed.Buster.Ofuda.CBBE.3BA.Bodyslide-468130-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/speed-buster-ofuda-7318624383360-v1/Speed.Buster.Ofuda.CBBE.3BA.Bodyslide-468130-v1.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624383359": {
+    "id": "7318624383359",
+    "modId": 110975,
+    "name": "Heimu Dudou",
+    "game": "skyrimspecialedition",
+    "summary": "Chinese dudou/undershirt and panty. 3 colors/4 texture variants. For CBBE 3BA/BHUNP. esl flagged esp.",
+    "description": "4 pieces of Chinese dudou/undershirt and panty. Original Oldrim mod by Heimu. Converted to SSE for CBBE 3BA  (and BHUNP, but it's untested) bodyslide and texture upscaled to 4k. Comes in whole outfit/top/panty options. I also added black and white variants. \n\nesl flagged esp. Use some kind of additemmenu mod.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/heimu-dudou-7318624383359-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "2.2",
+        "releaseTag": "heimu-dudou-7318624383359-v2.2",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1745627451,
+        "changelog": "<details>\n<summary>Click to view Changelog for v2.2</summary>\n\n- Fixed BHUNP bodyslide group, added mipmaps\n</details>",
+        "assets": [
+          {
+            "name": "Heimu.Dudou-621160-v2.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/heimu-dudou-7318624383359-v2.2/Heimu.Dudou-621160-v2.2.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "2.1",
+        "releaseTag": "heimu-dudou-7318624383359-v2.1",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1712750120,
+        "changelog": "<details>\n<summary>Click to view Changelog for v2.1</summary>\n\n- Fixed 3BA reference body in bodyslide\n</details>",
+        "assets": [
+          {
+            "name": "Heimu.Dudou-489241-v2.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/heimu-dudou-7318624383359-v2.1/Heimu.Dudou-489241-v2.1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "2",
+        "releaseTag": "heimu-dudou-7318624383359-v2",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1710790013,
+        "changelog": "<details>\n<summary>Click to view Changelog for v2</summary>\n\n- Bodyslide redone, added white/black variants, pieces separated, added ground mesh, esp restructured and added KID ini.\n</details>",
+        "assets": [
+          {
+            "name": "Heimu.Dudou-481964-v2.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/heimu-dudou-7318624383359-v2/Heimu.Dudou-481964-v2.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "heimu-dudou-7318624383359-v1",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1707173563,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Heimu.Dudou.CBBE.3BA.Bodyslide-468128-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/heimu-dudou-7318624383359-v1/Heimu.Dudou.CBBE.3BA.Bodyslide-468128-v1.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624383336": {
+    "id": "7318624383336",
+    "modId": 110952,
+    "name": "Blade and Soul Renzuneiyi CBBE 3BA",
+    "game": "skyrimspecialedition",
+    "summary": "Human underwear set from Blade and Soul.",
+    "description": "Human underwear set originally from Blade and Soul. Contains two sets, same top but one with leggings and one with underwear.\n\nConverted to CBBE 3BA and texture upscaled. esl flagged esp. Build using bodyslide.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/blade-and-soul-7318624383336-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.1",
+        "releaseTag": "blade-and-soul-7318624383336-v1.1",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1710785915,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Added ground meshes and KID file\n</details>",
+        "assets": [
+          {
+            "name": "Blade.and.Soul.Renzuneiyi-481932-v1.1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/blade-and-soul-7318624383336-v1.1/Blade.and.Soul.Renzuneiyi-481932-v1.1.zip",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "blade-and-soul-7318624383336-v1",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1707151885,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Blade.and.Soul.Renzuneiyi.Human.Underwear.CBBE.3BA-468038-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/blade-and-soul-7318624383336-v1/Blade.and.Soul.Renzuneiyi.Human.Underwear.CBBE.3BA-468038-v1.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624383309": {
+    "id": "7318624383309",
+    "modId": 110925,
+    "name": "Blade and Soul Negligee",
+    "game": "skyrimspecialedition",
+    "summary": "Blade and Soul Negligee set for CBBE 3BA Bodyslide.",
+    "description": "Blade and Soul Negligee set converted to CBBE 3BA Bodyslide. I also upscaled the texture to 4k. esl flagged esp.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/blade-and-soul-7318624383309-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.2",
+        "releaseTag": "blade-and-soul-7318624383309-v1.2",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1726734571,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.2</summary>\n\n- Added white recolor, increased polygon counts\n</details>",
+        "assets": [
+          {
+            "name": "Blade.and.Soul.Negligee-543778-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/blade-and-soul-7318624383309-v1.2/Blade.and.Soul.Negligee-543778-v1.2.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "releaseTag": "blade-and-soul-7318624383309-v1.1",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1710870563,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Added ground meshes and KID file\n</details>",
+        "assets": [
+          {
+            "name": "Blade.and.Soul.Negligee-482249-v1.1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/blade-and-soul-7318624383309-v1.1/Blade.and.Soul.Negligee-482249-v1.1.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "blade-and-soul-7318624383309-v1",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1707142674,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Blade.and.Soul.Negligee.CBBE.3BA.Bodyslide-467925-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/blade-and-soul-7318624383309-v1/Blade.and.Soul.Negligee.CBBE.3BA.Bodyslide-467925-v1.zip",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "Blade.and.Soul.Negligee.CBBE.3BA.Bodyslide-467989-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/blade-and-soul-7318624383309-v1/Blade.and.Soul.Negligee.CBBE.3BA.Bodyslide-467989-v1.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624383307": {
+    "id": "7318624383307",
+    "modId": 110923,
+    "name": "Blade and Soul Pure White",
+    "game": "skyrimspecialedition",
+    "summary": "Pure White Set from Blade and Soul, two tops, three panties, two heels, choker, tie, necklace, thigh and calf band. CBBE 3BA Bodyslide.",
+    "description": "Pure White Set from Blade and Soul, originally converted to Skyrim by [Outlawer's workshop](https://www.patreon.com/posts/bns-purewhite-30362586). Two shirt variants (with or without bra), three neck accessories (necktie, necklace, choker), three underwear variants (slot 49), two leg accessories (slot 53), and two heel varieties.\n\nI made the 3BA conversion, upscaled textures to 4k, added bodyslide files for the pieces not in the original, and made some esp edits.\n\nesl flagged esp.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/blade-and-soul-7318624383307-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.3",
+        "releaseTag": "blade-and-soul-7318624383307-v1.3",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1726734472,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.3</summary>\n\n- Some meshes polygon increased and bone weights reweighted, texture compression changes,\n</details>",
+        "assets": [
+          {
+            "name": "Blade.and.Soul.Pure.White-543777-v1.3.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/blade-and-soul-7318624383307-v1.3/Blade.and.Soul.Pure.White-543777-v1.3.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.2",
+        "releaseTag": "blade-and-soul-7318624383307-v1.2",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1711116926,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.2</summary>\n\n- Heels feet fixed\n</details>",
+        "assets": [
+          {
+            "name": "Blade.and.Soul.Pure.White-483107-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/blade-and-soul-7318624383307-v1.2/Blade.and.Soul.Pure.White-483107-v1.2.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "releaseTag": "blade-and-soul-7318624383307-v1.1",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1710784634,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Added ground meshes and KID file\n</details>",
+        "assets": [
+          {
+            "name": "Blade.and.Soul.Pure.White-481926-v1.1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/blade-and-soul-7318624383307-v1.1/Blade.and.Soul.Pure.White-481926-v1.1.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "blade-and-soul-7318624383307-v1",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1707114905,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Blade.and.Soul.Pure.White.CBBE.3BA.Bodyslide-467915-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/blade-and-soul-7318624383307-v1/Blade.and.Soul.Pure.White.CBBE.3BA.Bodyslide-467915-v1.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624383288": {
+    "id": "7318624383288",
+    "modId": 110904,
+    "name": "Foxmiko Rurosakura Kimono Xing",
+    "game": "skyrimspecialedition",
+    "summary": "Two kimono outfits with whole outfit variants or parts and some accessories.",
+    "description": "Includes two kimonos with SMP parts each with whole outfit variant and parts (top, skirt, band, clogs, bra/panties), and accessories (ear, tail, SMP earrings). Requires heels sounds and Faster SMP.\n\n[Original BHUNP version by Xing](https://www.patreon.com/posts/se-foxmiko-xing-40794933), upscaled to 2k/4k and converted to CBBE 3BA with additional color variants (black, gray, white, yellow, blue) and BS zap.\n\nBone weights for the SMP parts might be kind of janky because I did it by hand and didn't do a good job.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/foxmiko-rurosakura-kimono-7318624383288-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1.1",
+        "releaseTag": "foxmiko-rurosakura-kimono-7318624383288-v1.1",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1714010634,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Compressed textures better, reduced mask texture from 4K to 2K. File sizes should be smaller by quite a bit now.\n</details>",
+        "assets": [
+          {
+            "name": "Foxmiko.Rurosakura.Kimono-494481-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/foxmiko-rurosakura-kimono-7318624383288-v1.1/Foxmiko.Rurosakura.Kimono-494481-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "foxmiko-rurosakura-kimono-7318624383288-v1",
+        "updatedAt": "2025-07-29T15:30:41+00:00",
+        "uploadTimestamp": 1707113194,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Vindictus.Foxmiko.Rurosakura.Kimono.Xing.3BA-467909-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/foxmiko-rurosakura-kimono-7318624383288-v1/Vindictus.Foxmiko.Rurosakura.Kimono.Xing.3BA-467909-v1.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
   }
 }
