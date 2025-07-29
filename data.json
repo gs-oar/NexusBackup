@@ -735,5 +735,697 @@
         ]
       }
     ]
+  },
+  "7318624414675": {
+    "id": "7318624414675",
+    "modId": 142291,
+    "name": "Elvenia Armor",
+    "game": "skyrimspecialedition",
+    "summary": "Elvenia armor set originally by gutris1 reworked for 3BA and BHUNPv4 with custom textures and new pieces",
+    "description": "My version of the Elvenia armor set originally by [gutris1](https://www.nexusmods.com/skyrim/mods/80615). Shall we call this Elvenia 2025?\n\nSpecific changes:\n\nPieces separated out so they can be equipped and unequipped separately, some new pieces created from the same assets, added SMP to the belly tassels thing, and a variety of zap sliders and adjustment sliders. The pieces that you'd expect to have physics all have SMP physics now, yay!\n\nThis is partially based on kahvipannu84's 3BA version with squeeze sliders and weights, so this inherits all of the changes made there along with the original SE Kalessin42 3BA version that it's based on. Here I made some more uv, weights, and slider changes of my own, made some new pieces with the assets, and also brought those features to BHUNP because the cult of BHUNP graciously tests and takes screenshots for me.\n\nThis version also uses custom textures from xavbio instead of the vanilla elven armor textures. See credits.\n\nThis version is standalone thanks to the permissions of the previous iterations of this outfit. \n\nesl flagged esp. Use additemmenu, or there are actually crafting recipes this time as well that requires elven smithing. Build with bodyslide first.\n\n**Requirements:**\n\nCBBE 3BA or BHUNPv4\n\nBodyslide\n\nFSMP\ufeff\n\nRacemenu\n\n![Image](https://i.imgur.com/NAEELTf.png)\n\n9dm reposters:\n\nPlease do not rehost this directly on baidu and post it on 9dm. You are free to link to this page, but the original usage permissions precludes reuploads outside of Nexus.\n\nthis cat will get you if you are naughty\n\n9dm\u8f6c\u8f7d\u8005\uff1a\n\n\u8bf7\u52ff\u76f4\u63a5\u8f6c\u8f7d\u5230\u767e\u5ea6\uff0c\u5e76\u53d1\u5e03\u57289dm\u3002\u60a8\u53ef\u4ee5\u94fe\u63a5\u5230\u6b64\u9875\u9762\uff0c\u4f46\u539f\u59cb\u4f7f\u7528\u6743\u9650\u7981\u6b62\u5728Nexus\u4e4b\u5916\u8fdb\u884c\u91cd\u65b0\u4e0a\u4f20\u3002\n\n\u5982\u679c\u4f60\u4e0d\u542c\u8bdd\uff0c\u8fd9\u53ea\u732b\u4f1a\u6293\u4f4f\u4f60\u7684\u3002\n\n<details><summary>Spoiler</summary>\n\n![Image](https://i.imgur.com/EQsW3FZ.jpeg)\n\n</details>",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/elvenia-armor-7318624414675-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1.3",
+        "releaseTag": "elvenia-armor-7318624414675-v1.3",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1740881204,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.3</summary>\n\n- 3BA weight painting changes in bra, boots, and gauntlets\n</details>",
+        "assets": [
+          {
+            "name": "Elvenia.Armor.BHUNP-597786-v1.3.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/elvenia-armor-7318624414675-v1.3/Elvenia.Armor.BHUNP-597786-v1.3.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Elvenia.Armor.CBBE.3BA-600721-v1.3.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/elvenia-armor-7318624414675-v1.3/Elvenia.Armor.CBBE.3BA-600721-v1.3.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.03",
+        "releaseTag": "elvenia-armor-7318624414675-v1.03",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1740192172,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Elvenia.Armor.CBBE.3BA-597550-v1.03.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/elvenia-armor-7318624414675-v1.03/Elvenia.Armor.CBBE.3BA-597550-v1.03.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.2",
+        "releaseTag": "elvenia-armor-7318624414675-v1.2",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1743100436,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.2</summary>\n\n- Added a slider for bra metal size, should hide clipping for those that experience it\n- Fixed temper recipes\n</details>",
+        "assets": [
+          {
+            "name": "Elvenia.Armor.CBBE.3BA-597785-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/elvenia-armor-7318624414675-v1.2/Elvenia.Armor.CBBE.3BA-597785-v1.2.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "Black.Retextures-610518-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/elvenia-armor-7318624414675-v1.2/Black.Retextures-610518-v1.2.7z",
+            "category": "OPTIONAL"
+          }
+        ]
+      },
+      {
+        "version": "1.02",
+        "releaseTag": "elvenia-armor-7318624414675-v1.02",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1740185104,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Elvenia.Armor.CBBE.3BA-597535-v1.02.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/elvenia-armor-7318624414675-v1.02/Elvenia.Armor.CBBE.3BA-597535-v1.02.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "releaseTag": "elvenia-armor-7318624414675-v1.1",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1740604382,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Fixed crafting recipes\n</details>",
+        "assets": [
+          {
+            "name": "Elvenia.Armor.BHUNP-597632-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/elvenia-armor-7318624414675-v1.1/Elvenia.Armor.BHUNP-597632-v1.1.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "Elvenia.Armor.CBBE.3BA-597633-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/elvenia-armor-7318624414675-v1.1/Elvenia.Armor.CBBE.3BA-597633-v1.1.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "Black.Retextures-599470-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/elvenia-armor-7318624414675-v1.1/Black.Retextures-599470-v1.1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.01",
+        "releaseTag": "elvenia-armor-7318624414675-v1.01",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1740181057,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Elvenia.Armor.CBBE.3BA-597521-v1.01.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/elvenia-armor-7318624414675-v1.01/Elvenia.Armor.CBBE.3BA-597521-v1.01.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "elvenia-armor-7318624414675-v1",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1740175021,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Elvenia.Armor.CBBE.3BA-597223-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/elvenia-armor-7318624414675-v1/Elvenia.Armor.CBBE.3BA-597223-v1.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "Elvenia.Armor.BHUNP-597224-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/elvenia-armor-7318624414675-v1/Elvenia.Armor.BHUNP-597224-v1.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "Black.Retextures-597487-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/elvenia-armor-7318624414675-v1/Black.Retextures-597487-v1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624414407": {
+    "id": "7318624414407",
+    "modId": 142023,
+    "name": "Martha Wayne Outfit",
+    "game": "skyrimspecialedition",
+    "summary": "Martha Wayne's outfit from Batman Arkham Knight converted for CBBE 3BA and BHUNP",
+    "description": "I was asked by [Nuascura ](https://next.nexusmods.com/profile/Nuascura)last year to take over [this old outfit](https://www.loverslab.com/files/file/5387-martha-wayne-outfit-sultry-shawls-rev). I said I will do it later - a wizard is never late or early, so I totally did not just forget about this until a couple months later. I am not the hero SSE deserves or needs, I just convert obscure old outfits badly.\n\nAside from modernizing the bodyslide files to 3BA and BHUNP v4 alongside other stuff like converting to form 44, NiOverride heels instead of HDT, I also gave it some touch ups like using texturesets to save on mesh space, and added a couple of retexture colors. There are four colors for the dress, three for the fur jacket, two for the heels. \n\nIf you have sound record distributor and heels sounds, the heels will have heels sounds.\n\nesl flagged esp. Use additemmenu. Build with bodyslide first. No crafting recipes.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/martha-wayne-outfit-7318624414407-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "martha-wayne-outfit-7318624414407-v1",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1739723596,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Martha.Wayne.BHUNP-595472-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/martha-wayne-outfit-7318624414407-v1/Martha.Wayne.BHUNP-595472-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Martha.Wayne.CBBE.3BA-595473-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/martha-wayne-outfit-7318624414407-v1/Martha.Wayne.CBBE.3BA-595473-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624414377": {
+    "id": "7318624414377",
+    "modId": 141993,
+    "name": "Aether",
+    "game": "skyrimspecialedition",
+    "summary": "DEM Aether outfit remade for CBBE 3BA and BHUNP",
+    "description": "![Image](https://i.imgur.com/duK5fXe.png)\n\nMetal and cloth and gems. For mages or something, idk\n\nThis is a rework of Krista's DEM Aether outfit from Skyrim LE with texture upscaling, new colors, and various adjustments and new pieces I made.\n\nOutfit includes separate pieces for: bracelet, armlet, choker, chest, waist belt, top belt, panty, thigh ring, earrings, anklet. \n\n4k/2k textures, options are the combinatorical results of silver/gold metal, red/blue gem, black/white cloth.\n\nesl flagged esp. Use additemmenu. Build with bodyslide first. No crafting recipes.\n\nAlso needs FSMP for SMP pieces to work.\n\n![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/aether-7318624414377-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1.1",
+        "releaseTag": "aether-7318624414377-v1.1",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1740262507,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Added an adjustment slider for the top to make it bigger, should help for people who are getting clipping issues\n</details>",
+        "assets": [
+          {
+            "name": "Aether.CBBE.3BA-597874-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/aether-7318624414377-v1.1/Aether.CBBE.3BA-597874-v1.1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Aether.BHUNP-597875-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/aether-7318624414377-v1.1/Aether.BHUNP-597875-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "aether-7318624414377-v1",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1739782341,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Aether.CBBE.3BA-595355-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/aether-7318624414377-v1/Aether.CBBE.3BA-595355-v1.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "Aether.BHUNP-595357-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/aether-7318624414377-v1/Aether.BHUNP-595357-v1.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "Aether.BHUNP-595756-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/aether-7318624414377-v1/Aether.BHUNP-595756-v1.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "Aether.CBBE.3BA-595757-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/aether-7318624414377-v1/Aether.CBBE.3BA-595757-v1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624414228": {
+    "id": "7318624414228",
+    "modId": 141844,
+    "name": "The Last Vampire Hunter CBBE 3BA",
+    "game": "skyrimspecialedition",
+    "summary": "CBBE 3BA bodyslide conversions for hyruledm's the last vampire hunter with my opinionated changes",
+    "description": "A port of a port! \n\nSome additional changes I made to my own taste:\n\nSMP parameter adjustments. I made the cloth weightier, so they are flappier than the original. \n\nI also separated out the sash/tie thing into its own mesh and gave it SMP bones.\n\nI did ~~not~~ convert the chest belt piece, because weight painting and manually adjusting all the sliders was driving me crazy - someone please do this? *I did this, it was a pain in the ass. It doesn't work very well but you get what you get*\n\nRequires the original [mod ](https://www.nexusmods.com/skyrimspecialedition/mods/141426)for textures and esp. You will also need SMP.\n\nStep by step guide:\n\n[list=1]\n\n* Download the original BHUNP mod for assets and esp\n\n* Download SMP if you haven't\n\n* Download the bodyslide files here\n\n* Build bodyslide files\n\n* yay! you did it\n\n![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/the-last-vampire-7318624414228-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1.2",
+        "releaseTag": "the-last-vampire-7318624414228-v1.2",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1740077731,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.2</summary>\n\n- changed pants partitions\n</details>",
+        "assets": [
+          {
+            "name": "The.Last.Vampire.Hunter.CBBE.3BA.Bodyslide-597000-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/the-last-vampire-7318624414228-v1.2/The.Last.Vampire.Hunter.CBBE.3BA.Bodyslide-597000-v1.2.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "releaseTag": "the-last-vampire-7318624414228-v1.1",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1739612888,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- minor smp changes, I sucked it up and did the chest belt\n</details>",
+        "assets": [
+          {
+            "name": "The.Last.Vampire.Hunter.CBBE.3BA.Bodyslide-594919-v1.1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/the-last-vampire-7318624414228-v1.1/The.Last.Vampire.Hunter.CBBE.3BA.Bodyslide-594919-v1.1.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "the-last-vampire-7318624414228-v1",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1739577094,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "The.Last.Vampire.Hunter.CBBE.3BA.Bodyslide-594746-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/the-last-vampire-7318624414228-v1/The.Last.Vampire.Hunter.CBBE.3BA.Bodyslide-594746-v1.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624403844": {
+    "id": "7318624403844",
+    "modId": 131460,
+    "name": "See La Mer",
+    "game": "skyrimspecialedition",
+    "summary": "Beach and ocean themed See La Mer outfit set converted from Oldrim UNPB to CBBE 3BA and BHUNP with SMP.",
+    "description": "I found this set in an Oldrim armor compilations pack for CBBE. Based on what I could find I believe this was first attributed to Melodic for Oldrim UNPB and 7B. I updated it for SSE 3BA and BHUNP with some of my own changes.\n\nAdded SMP to the cloth pieces, and repainted the bra shell pieces bone weights to be rigid with more realistic physic behavior. Also added gold and purple recolors.\n\nesl flagged esp. Use additemmenu and build with bodyslide. Needs FSMP for SMP pieces to work.\n\nNo need to tell me about missing textures in bodyslide, they will show up in game correctly, just trust.\n\n![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/see-la-mer-7318624403844-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1.1",
+        "releaseTag": "see-la-mer-7318624403844-v1.1",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1728907559,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- actually mark the esp as esl\n</details>",
+        "assets": [
+          {
+            "name": "See.La.Mer.3BA-552036-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/see-la-mer-7318624403844-v1.1/See.La.Mer.3BA-552036-v1.1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "See.La.Mer.BHUNP-552037-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/see-la-mer-7318624403844-v1.1/See.La.Mer.BHUNP-552037-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "see-la-mer-7318624403844-v1",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1728845669,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "See.La.Mer.3BA-551854-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/see-la-mer-7318624403844-v1/See.La.Mer.3BA-551854-v1.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "See.La.Mer.BHUNP-551857-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/see-la-mer-7318624403844-v1/See.La.Mer.BHUNP-551857-v1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624402058": {
+    "id": "7318624402058",
+    "modId": 129674,
+    "name": "Dragon Song",
+    "game": "skyrimspecialedition",
+    "summary": "Egyptian themed outfit converted from Oblivion with additional pieces created for CBBE 3BA, BHUNP and UBE",
+    "description": "I don't know why this set is called dragon song, it seems to be Egyptian themed and there are no dragons there. From what I can find it seems like it was originally made for Oblivion by **[GSBmodders](https://www.loverslab.com/profile/190-gsbmodders/)**         \n\nOutfit includes separate pieces for: forearm, upper arm, necklace, chest, waist ring, belly piercing, panty, thigh, calves, feet. \n\nI added new waist ring, thigh and feet pieces that I made using the assets, and also added SMP to the necklace, chest chain, belly piercing, and the ankh on the panty. Also added red and blue recolors and upscaled the textures.\n\nesl flagged esp. Use additemmenu. Default zeroed sliders meshes and .tri files are prebuilt and packed in the bsa this time for 3BA and UBE. \n\nAlso needs FSMP for SMP pieces to work.\n\n![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/dragon-song-7318624402058-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1.3",
+        "releaseTag": "dragon-song-7318624402058-v1.3",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1741515360,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.3</summary>\n\n- Added rings and chain only chestpiece<br />BHUNP bodyslide adjustments\n</details>",
+        "assets": [
+          {
+            "name": "Dragon.Song.CBBE.3BA-545575-v1.3.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dragon-song-7318624402058-v1.3/Dragon.Song.CBBE.3BA-545575-v1.3.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "BHUNP.Bodyslide-545611-v1.3.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dragon-song-7318624402058-v1.3/BHUNP.Bodyslide-545611-v1.3.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "BHUNP.Bodyslide-545824-v1.3.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dragon-song-7318624402058-v1.3/BHUNP.Bodyslide-545824-v1.3.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "Dragon.Song.BHUNP-546395-v1.3.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dragon-song-7318624402058-v1.3/Dragon.Song.BHUNP-546395-v1.3.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "Dragon.Song.BHUNP-603531-v1.3.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dragon-song-7318624402058-v1.3/Dragon.Song.BHUNP-603531-v1.3.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Dragon.Song.UBE-603532-v1.3.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dragon-song-7318624402058-v1.3/Dragon.Song.UBE-603532-v1.3.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.2",
+        "releaseTag": "dragon-song-7318624402058-v1.2",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1727091834,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.2</summary>\n\n- Forgot to remove texture from collision body, fixed\n</details>",
+        "assets": [
+          {
+            "name": "BHUNP.Bodyslide-545300-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dragon-song-7318624402058-v1.2/BHUNP.Bodyslide-545300-v1.2.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "Dragon.Song.CBBE.3BA-545301-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dragon-song-7318624402058-v1.2/Dragon.Song.CBBE.3BA-545301-v1.2.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "releaseTag": "dragon-song-7318624402058-v1.1",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1727068323,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Decreased polygon count of collision mesh, should help with SMP dropping fps\n</details>",
+        "assets": [
+          {
+            "name": "BHUNP.Bodyslide-545218-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dragon-song-7318624402058-v1.1/BHUNP.Bodyslide-545218-v1.1.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "Dragon.Song.CBBE.3BA-545219-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dragon-song-7318624402058-v1.1/Dragon.Song.CBBE.3BA-545219-v1.1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "dragon-song-7318624402058-v1",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1726930137,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Dragon.Song-544055-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dragon-song-7318624402058-v1/Dragon.Song-544055-v1.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "Dragon.Song.UBE-544417-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dragon-song-7318624402058-v1/Dragon.Song.UBE-544417-v1.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "BHUNP.Bodyslide-544570-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dragon-song-7318624402058-v1/BHUNP.Bodyslide-544570-v1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624401789": {
+    "id": "7318624401789",
+    "modId": 129405,
+    "name": "Lady Mask",
+    "game": "skyrimspecialedition",
+    "summary": "Adds 11 masks and veils with SMP physics and bodyslide options",
+    "description": "This is an old Oblivion mod.\n\nI upscaled the textures to 2K/4K, added some recolor options for the veil, added bodyslide zap and adjustment sliders, and added SMP to the veil.\n\nThere's 11 mask varieties, and each comes with 4 options for veils. Bodyslide includes zaps for mask and veil, and also some basic movement sliders in case it doesn't fit on your character's face very well.\n\nYou need FSMP for the veil physics to work.\n\nesl flagged esp. No prebuilt meshes, build with bodyslide and use additemmenu. No crafting recipes. This uses slot 44.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/lady-mask-7318624401789-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.2",
+        "releaseTag": "lady-mask-7318624401789-v1.2",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1741646293,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.2</summary>\n\n- Fixed the zaps\n</details>",
+        "assets": [
+          {
+            "name": "Lady.Mask-604193-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/lady-mask-7318624401789-v1.2/Lady.Mask-604193-v1.2.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "releaseTag": "lady-mask-7318624401789-v1.1",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1726755732,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Added standalone veils, bsa packed\n</details>",
+        "assets": [
+          {
+            "name": "Lady.Mask-543850-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/lady-mask-7318624401789-v1.1/Lady.Mask-543850-v1.1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "lady-mask-7318624401789-v1",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1726507097,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Lady.Mask-542928-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/lady-mask-7318624401789-v1/Lady.Mask-542928-v1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624401549": {
+    "id": "7318624401549",
+    "modId": 129165,
+    "name": "Tea Maid Outfit",
+    "game": "skyrimspecialedition",
+    "summary": "Maid outfit with Chinese characteristics for CBBE 3BA with SMP skirt and apron. 4 colors and 8 outfit pieces.",
+    "description": "Outfit pieces are headband, dress, apron, bracelet, socks, stockings, loafers, and heels.\n\nFour colors, red/black, white/blue, white/black, and red/gold. Each colorway has a couple of patterns. Loafers, socks and heels come in 7 colors. Stockings in 2 colors. Default textures are 4k/2k with full 4k available in optional downloads.\n\nesl flagged esp. No prebuilt meshes, build with bodyslide and use additemmenu. No crafting recipes.\n\nYou will need Racemenu for NiOverride heels and FSMP for the dress.\n\nIf you have both heels sound and [sound record distributor ](https://www.nexusmods.com/skyrimspecialedition/mods/77815)installed, the heels will have heel sounds.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/tea-maid-outfit-7318624401549-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "tea-maid-outfit-7318624401549-v1",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1726277041,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Full.4K.textures-541852-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/tea-maid-outfit-7318624401549-v1/Full.4K.textures-541852-v1.7z",
+            "category": "OPTIONAL"
+          },
+          {
+            "name": "Tea.Maid-541855-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/tea-maid-outfit-7318624401549-v1/Tea.Maid-541855-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624401400": {
+    "id": "7318624401400",
+    "modId": 129016,
+    "name": "Delilah Dress",
+    "game": "skyrimspecialedition",
+    "summary": "CBBE 3BA dress with SMP. 10 colors.",
+    "description": "This was previously ported to 7B body by [Army](https://x.com/Army_Skyrim/status/1286059475732967430) which is how I found this. I went to find the original assets, converted it to CBBE 3BA, added a couple of colors from there, and also added SMP for the dress. It was a lot of work to rig and paint the weights for this, and it's still a little wonky but I guess it is just how it is.\n\nesl flagged esp. No prebuilt meshes, build with bodyslide and use additemmenu. No crafting recipes.\n\nRequirements:\n\nCBBE 3BA\n\nBodyslide\n\nFSMP\ufeff\n\nRacemenu\n\nCommon sense\n\n![Image](https://files.catbox.moe/exzqmr.gif)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/delilah-dress-7318624401400-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.2",
+        "releaseTag": "delilah-dress-7318624401400-v1.2",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1739614443,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Delilah.Dress-594928-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/delilah-dress-7318624401400-v1.2/Delilah.Dress-594928-v1.2.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "releaseTag": "delilah-dress-7318624401400-v1.1",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1726188862,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Delilah.Dress-541535-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/delilah-dress-7318624401400-v1.1/Delilah.Dress-541535-v1.1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "delilah-dress-7318624401400-v1",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1726144410,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Delilah.Dress-541351-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/delilah-dress-7318624401400-v1/Delilah.Dress-541351-v1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624401223": {
+    "id": "7318624401223",
+    "modId": 128839,
+    "name": "Hkx Conversion Tool",
+    "game": "skyrimspecialedition",
+    "summary": "Windows GUI program for converting hkx files between Skyrim SE/LE formats and XML for modding",
+    "description": "HKX Conversion Tool\n\nHKX Conversion Tool is a GUI wrapper for [serde-hkx ](https://www.nexusmods.com/skyrimspecialedition/mods/126214)for converting Havok files between different formats for Skyrim modding.\n\nI initially started building a wrapper for [hkxcmd](https://github.com/figment/hkxcmd), but since that doesn't handle amd64 hkx files, I was also using [hkxconv ](https://github.com/ret2end/hkxconv)to convert those into xmls first and pushing those xmls through hkxcmd, and then I got upset that the solution was messy and started to look at their source code to try and build a modern version that handles win32, amd64 and xml format conversions between each other. Thankfully I didn't get too far into reinventing the wheel before I found out someone built this already, so I just repurposed the GUI tool for their CLI since It Just Works\u2122.\n\nWorking with havok files is really a pain in the ass, since Blender's hkx plugin can't import Skyrim SE/amd64 hkx formats, they have to all be converted to win32 Oldrim format first. A lot of the existing guides will tell you to find and install Havok Content Tools and use hctStandAloneFilterManager.exe. It annoyed me a lot that the animation modding toolchain basically relies on an obsolete and unsupported tool that you have to find a download for on some google drive folder.\n\nMaybe someone will also reimplement hkanno to not rely on HCT and just work off of xml for annotations editing, then animating and animation modding in 2024 wouldn't be excruciatingly tedious for anyone that has to work with existing animations.\n\nFeatures\n\n* Convert HKX files to XML format and between formats for Skyrim LE and SE\n\n* Convert XML files to HKX format for Skyrim LE and SE\n\n* Batch conversion support\n\n* User-friendlier GUI interface\n\n* Specify output folder and suffix options\n\nInstallation\n\n[list=1]\n\n* Download the latest release.\n\n* Extract the zip file to your desired location.\n\n* Run hkxtools.exe file.\n\nUsage\n\n[list=1]\n\n* Launch the application.\n\n* Click \"Browse Input Files\" to select the HKX or XML files you want to convert.\n\n* (Optional) Set the output folder by clicking \"Browse\" next to \"Output Folder\".\n\n* (Optional) Enter a suffix for the output files.\n\n* Select the desired output format (XML, Skyrim LE, or Skyrim SE).\n\n* Click \"Run Conversion\" to start the conversion process.\n\nLicense\n\nThis project is licensed under the MIT License - see below for details:\n\nMIT License\n\nCopyright (c) 2023\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\n\nof this software and associated documentation files (the \"Software\"), to deal\n\nin the Software without restriction, including without limitation the rights\n\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n\ncopies of the Software, and to permit persons to whom the Software is\n\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\n\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n\nSOFTWARE.\n\nCredits\n\n* hkxc.exe: This project uses the CLI hkxc.exe from [serde-hkx](https://www.nexusmods.com/skyrimspecialedition/mods/126214/) by SARDONYX.\n\nSource\n\n[here](https://github.com/gs-oar/hkxtools)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/hkx-conversion-tool-7318624401223-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.6",
+        "releaseTag": "hkx-conversion-tool-7318624401223-v1.6",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1731720167,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.6</summary>\n\n- update hkxc binary build version\n</details>",
+        "assets": [
+          {
+            "name": "hkxtools-562686-v1.6.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/hkx-conversion-tool-7318624401223-v1.6/hkxtools-562686-v1.6.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.5",
+        "releaseTag": "hkx-conversion-tool-7318624401223-v1.5",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1730412223,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.5</summary>\n\n- moved the files block to the bottom, added a scroll bar, and made it resize with the window.\n- also added file tree structure to it\n- set the language in file manifest to US english which maybe makes windows defender less upset\n- added a linux build for fun\n</details>",
+        "assets": [
+          {
+            "name": "hkxtools-557594-v1.5.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/hkx-conversion-tool-7318624401223-v1.5/hkxtools-557594-v1.5.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "hkxtools-linux-557601-v1.5.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/hkx-conversion-tool-7318624401223-v1.5/hkxtools-linux-557601-v1.5.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.4",
+        "releaseTag": "hkx-conversion-tool-7318624401223-v1.4",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1729871211,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.4</summary>\n\n- Added folder selection\n</details>",
+        "assets": [
+          {
+            "name": "hkxtools-555406-v1.4.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/hkx-conversion-tool-7318624401223-v1.4/hkxtools-555406-v1.4.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.3",
+        "releaseTag": "hkx-conversion-tool-7318624401223-v1.3",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1726189423,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.3</summary>\n\n- Updated to use hkxc only now that it just works\n</details>",
+        "assets": [
+          {
+            "name": "hkxtools-541536-v1.3.exe",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/hkx-conversion-tool-7318624401223-v1.3/hkxtools-541536-v1.3.exe",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.2",
+        "releaseTag": "hkx-conversion-tool-7318624401223-v1.2",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1726043493,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.2</summary>\n\n- Uses hkxc to deserialize and hkxcmd to serialize, makes compiled executable smaller than before by 2/3<br />\n</details>",
+        "assets": [
+          {
+            "name": "hkxtools-540981-v1.2.exe",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/hkx-conversion-tool-7318624401223-v1.2/hkxtools-540981-v1.2.exe",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "releaseTag": "hkx-conversion-tool-7318624401223-v1.1",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1725948422,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- hkxcmd-hkxconv based version since hkxc doesn't seem to work properly. works but now the compiled binary is really big which is not ideal\n</details>",
+        "assets": [
+          {
+            "name": "Hkxtool-540619-v1.1.exe",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/hkx-conversion-tool-7318624401223-v1.1/Hkxtool-540619-v1.1.exe",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "hkx-conversion-tool-7318624401223-v1",
+        "updatedAt": "2025-07-29T12:10:08+00:00",
+        "uploadTimestamp": 1725935154,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Hkxtool-540597-v1.exe",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/hkx-conversion-tool-7318624401223-v1/Hkxtool-540597-v1.exe",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
   }
 }
