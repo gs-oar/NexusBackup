@@ -1,0 +1,335 @@
+{
+  "7318624417215": {
+    "id": "7318624417215",
+    "modId": 144831,
+    "name": "Rookie Warrior",
+    "game": "skyrimspecialedition",
+    "summary": "Heavy armor set for a rookie warrior, for CBBE 3BA, BHUNP, and HIMBO",
+    "description": "There are seven modular pieces: the chestplate, the gambeson, pants, poleyns, boots, bracers, and gloves.\n\nFor the gambeson and the pants, there are six color variants that you can mix and match. I think black and red looks pretty good.\n\nFor 3BA and BHUNP, the gambeson has two versions, one with physics enables and one which does not, the non physics one is for wearing with the chestplate, or if you just enjoy no physics. The boots also come in high heels or regular boots for women.\n\nThe chestplate does not jiggle, this is by design.\n\nRequirements:\n\nCBBE 3BA or BHUNPv4 or HIMBO\n\nBodyslide\n\nRacemenu\n\nesl flagged esp. Use additemmenu, or craft and also temper with steel smithing perk because I found an xedit script that does this for me.\n\nBuild with bodyslide first.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/rookie-warrior-7318624417215-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "rookie-warrior-7318624417215-v1",
+        "updatedAt": "2025-07-29T11:52:39+00:00",
+        "uploadTimestamp": 1748641115,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Rookie.Warrior.CBBE.3BA-632996-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/rookie-warrior-7318624417215-v1/Rookie.Warrior.CBBE.3BA-632996-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Rookie.Warrior.BHUNP-632997-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/rookie-warrior-7318624417215-v1/Rookie.Warrior.BHUNP-632997-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Rookie.Warrior.HIMBO-632998-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/rookie-warrior-7318624417215-v1/Rookie.Warrior.HIMBO-632998-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624419296": {
+    "id": "7318624419296",
+    "modId": 146912,
+    "name": "Sprites",
+    "game": "skyrimspecialedition",
+    "summary": "Sprites set for 3BA and BHUNPv4; Elemental sprite/faerie wear in 4 colors.",
+    "description": "No, not the lemon-lime soda.\n\nPieces:\n\n- Bra\n\n- Panty\n\n- Necklace\n\n- Sleeves\n\n- Crown\n\n - Anklets\n\n- Earrings\n\n- Thighband\n\nAll the little silver leaf pieces move with SMP, it was quite a lot of work so I can only hope it's worth it.\n\nesl flagged esp. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)); no crafting recipes. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first.\n\nRequirements:\n\nCBBE 3BA or BHUNPv4\n\nBodyslide\n\nFSMP\ufeff\n\nRacemenu\n\nScreenshots:\n\n[myst](https://x.com/Myst314)\ufeff\n\n[url=https://x.com/NuuweiNoir]nuuwei\n\n[/url][thewheel](https://x.com/Thewheel_Skyrim)\n\n  ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/sprites-7318624419296-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "sprites-7318624419296-v1",
+        "updatedAt": "2025-07-29T11:52:39+00:00",
+        "uploadTimestamp": 1746227408,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Sprites.CBBE.3BA-623044-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/sprites-7318624419296-v1/Sprites.CBBE.3BA-623044-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Sprites.BHUNP-623045-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/sprites-7318624419296-v1/Sprites.BHUNP-623045-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624419534": {
+    "id": "7318624419534",
+    "modId": 147150,
+    "name": "Forbidden Ebony Armor",
+    "game": "skyrimspecialedition",
+    "summary": "Ebony armor set for 3BA, BHUNPv4, and HIMBO",
+    "description": "A set of heavy armor, 10 pieces. Bodysuit in rubber or leather, heels or boots, vambraces, rerebraces, pauldrons, leggings, belt, gloves\n\nIt was originally a mashup for Oldrim 7B by Stevierage [here](https://www.loverslab.com/files/file/377-sevenbase-conversions-bombshell-and-cleavage-bbp/), I converted it to CBBE 3BA, BHUNP and HIMBO for SSE and replaced the base textures with xavbio's ebony textures, and separated out each piece.\n\nesl flagged esp. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)); crafting recipes require ebony smithing. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first.\n\nRequirements:\n\nOne of the body mods\n\nBodyslide\n\nRacemenu\n\nScreenshots:\n\n[sneedster](https://next.nexusmods.com/profile/eternalreminder)\n\n[thewheel](https://x.com/Thewheel_Skyrim)\n\n![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/forbidden-ebony-armor-7318624419534-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "forbidden-ebony-armor-7318624419534-v1",
+        "updatedAt": "2025-07-29T11:52:39+00:00",
+        "uploadTimestamp": 1745666513,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Forbidden.Ebony.Armor.CBBE.3BA-621237-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/forbidden-ebony-armor-7318624419534-v1/Forbidden.Ebony.Armor.CBBE.3BA-621237-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Forbidden.Ebony.Armor.BHUNP-621238-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/forbidden-ebony-armor-7318624419534-v1/Forbidden.Ebony.Armor.BHUNP-621238-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Forbidden.Ebony.Armor.HIMBO-621239-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/forbidden-ebony-armor-7318624419534-v1/Forbidden.Ebony.Armor.HIMBO-621239-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624420449": {
+    "id": "7318624420449",
+    "modId": 148065,
+    "name": "Arianne Follower",
+    "game": "skyrimspecialedition",
+    "summary": "Follower mod",
+    "description": "It's my 100th mod!\n\nThanks to [namtar55](https://next.nexusmods.com/profile/namtar55), who really did all of the hard work here, I can share the character I take screenshots with as a follower.\n\nYou can find her at the Winking Skeever.\n\nShe is a mage. The esp is esl flagged.\n\nCBBE 3BA Bodyslide presets are included, and there is a custom body shape path; there are prebuilt meshes, but you can build the shapes with your own presets, or use something like OBody.\n\nOutfits in screenshots:\n\n[Black Rose](https://www.nexusmods.com/skyrimspecialedition/mods/142926)\n\n[Crochet Bikini](https://www.nexusmods.com/skyrimspecialedition/mods/146397)\n\n[Tribal Clothes](https://www.nexusmods.com/skyrimspecialedition/mods/120203)\n\n[Floral Dress](https://www.nexusmods.com/skyrimspecialedition/mods/144834)\ufeff\n\n[Towels](https://www.nexusmods.com/skyrimspecialedition/mods/145113)\n\n[Invicta Couture Lingerie](https://www.nexusmods.com/skyrimspecialedition/mods/145126)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/arianne-follower-7318624420449-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "arianne-follower-7318624420449-v1",
+        "updatedAt": "2025-07-29T11:52:39+00:00",
+        "uploadTimestamp": 1745245785,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Arianne.Follower-619799-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/arianne-follower-7318624420449-v1/Arianne.Follower-619799-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624418781": {
+    "id": "7318624418781",
+    "modId": 146397,
+    "name": "Crochet Bikini",
+    "game": "skyrimspecialedition",
+    "summary": "Crochet Bikini in 18 colors for CBBE 3BA and BHUNP",
+    "description": "Two pieces, top and bottom, there's 18 colors.\n\nIt sounds like a terrible idea to make a bikini out of yarn, it would feel really disgusting if it ever touches water for a split second.\n\nRequirements:\n\nOne of the aforementioned body mods\n\n[Bodyslide](https://www.nexusmods.com/skyrimspecialedition/mods/201)\n\nesl flagged esp. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)); [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first.\n\n ![Image](https://i.imgur.com/NAEELTf.png)\n\nScreenshots:\n\n[soggychicken](https://www.twitter.com/SoggyChicken_)\ufeff\n\n[nuuwei](https://x.com/NuuweiNoir)\n\n[url=https://next.nexusmods.com/profile/xtrareelz]xkopterx\n\n[/url][myst](https://x.com/Myst314)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/crochet-bikini-7318624418781-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "crochet-bikini-7318624418781-v1",
+        "updatedAt": "2025-07-29T11:52:39+00:00",
+        "uploadTimestamp": 1743790095,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Crochet.Bikini-613853-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/crochet-bikini-7318624418781-v1/Crochet.Bikini-613853-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624417510": {
+    "id": "7318624417510",
+    "modId": 145126,
+    "name": "Invicta Couture Lingerie CBBE 3BA",
+    "game": "skyrimspecialedition",
+    "summary": "CBBE 3BA bodyslide files for Invicta Couture Lingerie",
+    "description": "3ba when? now!\n\nRequires the [original mod ](https://www.nexusmods.com/skyrimspecialedition/mods/145202)for textures and esp, some common sense here and there, and SMP.\n\nStep by step guide:\n\n* Download the original BHUNP mod for assets and esp\n\n* Download SMP if you haven't\n\n* Download the bodyslide files here\n\n* Build bodyslide files\n\n* yay! you did it\n\nScreenshots:\n\n[soggychicken](https://www.twitter.com/SoggyChicken_)\ufeff\n\n[url=https://x.com/duuurekka]duuurekka\n\n[/url][thewheel](https://x.com/Thewheel_Skyrim)\ufeff\n\n[xkopterx](https://next.nexusmods.com/profile/xtrareelz)\n\n[nuuwei](https://x.com/NuuweiNoir)[url=https://x.com/Thewheel_Skyrim]\n\n[/url][yuih](https://x.com/YuiHSkyrim)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/invicta-couture-lingerie-7318624417510-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.2",
+        "releaseTag": "invicta-couture-lingerie-7318624417510-v1.2",
+        "updatedAt": "2025-07-29T11:52:39+00:00",
+        "uploadTimestamp": 1743849346,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Invicta.Lingerie.CBBE.3BA-614055-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/invicta-couture-lingerie-7318624417510-v1.2/Invicta.Lingerie.CBBE.3BA-614055-v1.2.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "releaseTag": "invicta-couture-lingerie-7318624417510-v1.1",
+        "updatedAt": "2025-07-29T11:52:39+00:00",
+        "uploadTimestamp": 1743775366,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Invicta.Lingerie.CBBE.3BA-613787-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/invicta-couture-lingerie-7318624417510-v1.1/Invicta.Lingerie.CBBE.3BA-613787-v1.1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "invicta-couture-lingerie-7318624417510-v1",
+        "updatedAt": "2025-07-29T11:52:39+00:00",
+        "uploadTimestamp": 1742430220,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Invicta.Lingerie.CBBE.3BA-607529-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/invicta-couture-lingerie-7318624417510-v1/Invicta.Lingerie.CBBE.3BA-607529-v1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624417497": {
+    "id": "7318624417497",
+    "modId": 145113,
+    "name": "Towels",
+    "game": "skyrimspecialedition",
+    "summary": "Comfy and soft, 100% Hammerfell cotton towels in 9 colors for CBBE 3BA, BHUNP, HIMBO, and UBE.",
+    "description": "Hat towel, shoulder towel, body towel, waist towel.\n\nThe shoulder and waist towels have SMP cloth physics.\n\nIf the cloth physics doesn't behave well, try increasing the simulation quality in the FSMP configs, if it tanks your fps, buy a 5090. SMP is very finicky with frame rate and sampling rate affecting the simulation outcome. Your mileage may vary, but it works on my setup.\n\nRequirements:\n\nOne of the aforementioned body mods\n\n[Bodyslide](https://www.nexusmods.com/skyrimspecialedition/mods/201)\n\n[Latest FSMP version\ufeff](https://www.nexusmods.com/skyrimspecialedition/mods/57339)\n\nesl flagged esp. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)); or you can craft this with 2 tundra cotton and temper with 1. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first.\n\nScreenshots:\n\n[myst](https://x.com/Myst314)\ufeff\n\n[nuuwei](https://x.com/NuuweiNoir)\n\n[xkopterx](https://next.nexusmods.com/profile/xtrareelz)\n\n[soggychicken](https://www.twitter.com/SoggyChicken_)\ufeff\n\n[temryuu](https://next.nexusmods.com/profile/Temryuu)\ufeff\n\ngryaznaya_svinya\n\n ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/towels-7318624417497-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "towels-7318624417497-v1",
+        "updatedAt": "2025-07-29T11:52:39+00:00",
+        "uploadTimestamp": 1743185015,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Towels-610972-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/towels-7318624417497-v1/Towels-610972-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Towels.UBE-610973-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/towels-7318624417497-v1/Towels.UBE-610973-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624417359": {
+    "id": "7318624417359",
+    "modId": 144975,
+    "name": "Riley Heels",
+    "game": "skyrimspecialedition",
+    "summary": "Heels in 10 colors and a variety of textures for CBBE 3BA, BHUNP, and UBE",
+    "description": "stilted\n\nRequires Racemenu for NiOverride high heels, and bodyslide to build the mesh.\n\nIf you have [sound record distributor ](https://www.nexusmods.com/skyrimspecialedition/mods/77815)and heels sounds, this will have heels sounds.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/riley-heels-7318624417359-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "riley-heels-7318624417359-v1",
+        "updatedAt": "2025-07-29T11:52:39+00:00",
+        "uploadTimestamp": 1742206540,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Riley.Heels-606596-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/riley-heels-7318624417359-v1/Riley.Heels-606596-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Riley.Heels.UBE.Patch-606597-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/riley-heels-7318624417359-v1/Riley.Heels.UBE.Patch-606597-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624417218": {
+    "id": "7318624417218",
+    "modId": 144834,
+    "name": "Floral Dress",
+    "game": "skyrimspecialedition",
+    "summary": "Floral dress and heels with SMP in 8 patterns for CBBE 3BA, BHUNPv4, and HIMBO",
+    "description": "A floral dress, I saw this on the daz store and thought it looked just beautiful, so here it is ported to SSE.\n\nIf the cloth physics doesn't behave well, try increasing the simulation quality in the FSMP configs, if it tanks your fps, buy a 5090. SMP is very finicky with frame rate and sampling rate affecting the simulation outcome. Your mileage may vary, but it works on my setup.\n\nRequirements:\n\nOne of the aforementioned body mods\n\n[Bodyslide](https://www.nexusmods.com/skyrimspecialedition/mods/201)\n\n[Latest FSMP version\ufeff](https://www.nexusmods.com/skyrimspecialedition/mods/57339)\n\nRacemenu\n\nesl flagged esp. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)); [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first.\n\n  ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/floral-dress-7318624417218-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "floral-dress-7318624417218-v1",
+        "updatedAt": "2025-07-29T11:52:39+00:00",
+        "uploadTimestamp": 1742685027,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Floral.Dress.CBBE.3BA-608579-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/floral-dress-7318624417218-v1/Floral.Dress.CBBE.3BA-608579-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Floral.Dress.BHUNP-608580-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/floral-dress-7318624417218-v1/Floral.Dress.BHUNP-608580-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Floral.Dress.HIMBO-608581-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/floral-dress-7318624417218-v1/Floral.Dress.HIMBO-608581-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624415310": {
+    "id": "7318624415310",
+    "modId": 142926,
+    "name": "Black Rose",
+    "game": "skyrimspecialedition",
+    "summary": "n8k's somewhat unreasonably revealing clothing set. Refreshed for 3BA, BHUNPv4, and HIMBO",
+    "description": "My reworked version of the Black Rose set originally by n8k for Oldrim. Previous conversions to SSE have all just coped with the issues with the meshes, which I have tried to address here. Let's say this is Black Rose Refreshed? This is a direct conversion from the [original UNPB mod page ](https://www.nexusmods.com/skyrim/mods/46580)from n8k.\n\nPieces separated out for mix and match enthuiasts. \n\nThe original meshes were fried in terms of polygons and normals (the heels normals were inside out for some reason), so I did some blender work to fix it up and subdivide the pieces so they have more than 20 polygons each, and a lot of small manual mesh edits. They should be less blocky now and generally have less jarring angular shapes. This is not perfect, of course, but it should at least go from 2013 to maybe 2018.\n\nSMP physics has been added to the dangly bits like the rings and the belt ends. On the textures side, the lace textures have been improved, and there are also two new recolors in the usual colors of roses - red and white.\n\nThere are hand painted weights for immersive physics, with special thanks to [PsychoWedge](https://next.nexusmods.com/profile/PsychoWedge) for doing the BHUNP weight painting.\u00a0\n\nAlso, some custom sliders that I will leave as an exercise for the reader to find out what they do.\n\n\ufeff![Image](https://i.imgur.com/gLNfhTJ.png)\ufeff\n\nThese things all have SMP now, yay!\n\nesl flagged esp. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)); no crafting recipes. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first.\n\nRequirements:\n\nCBBE 3BA or BHUNPv4\n\nBodyslide\n\nFSMP\ufeff\n\nRacemenu\n\nOptionally, if you have heels sounds and [sound records distributor](https://www.nexusmods.com/skyrimspecialedition/mods/77815), the heels will have heel footstep sounds.\n\nScreenshots:\n\n[myst](https://x.com/Myst314)\ufeff\n\n[nuuwei](https://x.com/NuuweiNoir)\n\n[thewheel](https://x.com/Thewheel_Skyrim)\ufeff\n\n[xkopterx](https://next.nexusmods.com/profile/xtrareelz)\n\n ![Image](https://i.imgur.com/NAEELTf.png)\n\n![Image](https://files.catbox.moe/cvf8jb.gif)\n\n[one more thing](https://imgur.com/R8QEfSL)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/black-rose-7318624415310-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "black-rose-7318624415310-v1",
+        "updatedAt": "2025-07-29T11:52:39+00:00",
+        "uploadTimestamp": 1742329213,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Black.Rose.BHUNP-606269-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/black-rose-7318624415310-v1/Black.Rose.BHUNP-606269-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Black.Rose.HIMBO-606270-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/black-rose-7318624415310-v1/Black.Rose.HIMBO-606270-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Black.Rose.CBBE.3BA-607152-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/black-rose-7318624415310-v1/Black.Rose.CBBE.3BA-607152-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  }
+}
