@@ -3356,5 +3356,298 @@
         ]
       }
     ]
+  },
+  "7318624386882": {
+    "id": "7318624386882",
+    "modId": 114498,
+    "name": "ProType Sakura Dress",
+    "game": "skyrimspecialedition",
+    "summary": "ProType's Sakura qipao dress converted from Oblivion. Six colors, transparency options, SMP optional, for CBBE 3BA.",
+    "description": "ProType's Sakura qipao dress originally from Oblivion, converted to SSE CBBE 3BA bodyslide with SMP. \n\nTexture upscaled to 4k and new color variants added. Comes in six colors and transparent variants for each color. Panty comes in red or white.\n\nesl flagged esp. Build with bodyslide and use AIM. Screenshots welcome.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/protype-sakura-dress-7318624386882-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.1",
+        "releaseTag": "protype-sakura-dress-7318624386882-v1.1",
+        "updatedAt": "2025-07-29T14:36:35+00:00",
+        "uploadTimestamp": 1711981753,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "ProType.Sakura.Dress.CBBE.3BA-486438-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/protype-sakura-dress-7318624386882-v1.1/ProType.Sakura.Dress.CBBE.3BA-486438-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "protype-sakura-dress-7318624386882-v1",
+        "updatedAt": "2025-07-29T14:36:35+00:00",
+        "uploadTimestamp": 1710864743,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "ProType.Sakura.Dress-482226-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/protype-sakura-dress-7318624386882-v1/ProType.Sakura.Dress-482226-v1.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624386826": {
+    "id": "7318624386826",
+    "modId": 114442,
+    "name": "Bodyslide Ground Mesh Generator",
+    "game": "skyrimspecialedition",
+    "summary": "Python automation script for converting bodyslide .nif mesh files to ground meshes for armor/clothing mods.",
+    "description": "Bodyslide Ground Mesh Generator\n\nThe Bodyslide Ground Mesh Generator is an automation tool for the process of generating ground (GND) mesh files for armor/clothing mods. Using Outfit Studio and Python's pywinauto library, this script automates the task of importing, modifying, and exporting .nif files. I am lazy and creating all of the ground meshes manually is incredibly time consuming and boring, so I came up with this solution instead since using vanilla ground meshes looks bad and not using ground meshes also creates problems. \n\nThe default movements to put meshes flat against the floor work the best with meshes covering the upper body, and it tries to avoid adjusting shoes/boots meshes by mesh name filtering. This won't be perfect but it will automate most of the annoying work, giving you a minimally viable ground mesh to further adjust or just use as is. Hopefully this saves other people some time!\n\nThis includs a config.json for you to point references/filepaths to custom locations, although the default setup will work out of the box.\n\nPrerequisites\n\nBefore you begin, ensure you have met the following requirements:\n\n* Python 3.6 or newer installed on your machine.\n\n* The pywinauto Python library for automating the Outfit Studio GUI tasks. (I used pywinauto 0.6.8)\n\n* Basic knowledge of programming/scripting for modding.\n\nInstallation\n\nPython Installation\n\nIf you don't have Python installed, download the latest Python version from [the official website](https://www.python.org/downloads/).\n\nInstalling pywinauto\n\nTo install pywinauto, open your command prompt or terminal and run the following command:\n\n[code]pip install -r requirements.txt[/code]\n\nConfiguration\n\nBefore running the script, you need to adjust several file paths according to your environment and needs:\n\n* **OUTFITSTUDIO_DIR**: Path to your Outfit Studio executable. (defaults to using the 32-bit executable, should probably also work on x64)\n\n* **GND_REF_PATH**: Path to the ground reference .nif file. (a default rectangle mesh is included)\n\n* **CONVERTING_MESHES_DIR**: Directory containing .nif files to be converted. (the default meshes/to_convert included here will work)\n\n* **FINISHED_GND_MESHES_DIR**: Output directory for the processed .nif files. (defaults to meshes/output)\n\nThese paths can be set in the config.json file, for which a default config is located in the same directory as the script. Here's an example for the default structure of config.json:\n\n[code]{\n\n\u00a0 \"OUTFITSTUDIO_DIR\": \"D:&#92;&#92;MO2&#92;&#92;Mods&#92;&#92;BodySlide and Outfit Studio&#92;&#92;CalienteTools&#92;&#92;BodySlide&#92;&#92;OutfitStudio.exe\",\n\n\u00a0 \"GND_REF_PATH\": \"meshes&#92;&#92;gnd_ref&#92;&#92;gnd_ref.nif\",\n\n\u00a0 \"CONVERTING_MESHES_DIR\": \"meshes&#92;&#92;to_convert&#92;&#92;\",\n\n\u00a0 \"FINISHED_GND_MESHES_DIR\": \"meshes&#92;&#92;output&#92;&#92;\"\n\n}\n\n[/code]\n\nThere are two other json properties that indicate which base shape mesh names to delete, and which names likely indicate footwear meshes and should not be moved down. You can also adjust these if you want.\n\nAdjust the paths in the config.json file to match your setup.\n\nUsing the Script\n\nGrab the mesh .nif files that you want to turn into ground meshes and drop them in the meshes/to_convert folder (or somewhere else specified in config.json)\n\nTo run the script, follow these steps:\n\n[list=1]\n\n* Open a powershell prompt or terminal.\n\n* Navigate to the directory containing the script.\n\n* Run the script using Python:\n\n[code]python BS_gnd_meshgen.py[/code]\n\nAlternatively, you can also run this in a Jupyter Notebook, whichever you prefer.\n\nOnce it starts, let Python automate through Outfit Studio. Don't touch it, go take a walk. Once it's done, the files will be in meshes/output (or wherever you pointed them)\n\nAdditional Information\n\nEnsure you are using copies of your .nif mesh files before running the script, as it will delete them from the meshes/to_convert folder after the ground meshes have been generated.\n\nThis script assumes familiarity with basic Python and command-line usage. If you're new to Python, consider going through introductory tutorials first.\n\nLicense\n\nMIT License\n\nMisc Credits\n\nThis description was converted from markdown with [md2nexus](https://www.nexusmods.com/skyrimspecialedition/mods/100441) by ceejbot. Thanks!",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/bodyslide-ground-mesh-7318624386826-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "bodyslide-ground-mesh-7318624386826-v1",
+        "updatedAt": "2025-07-29T14:36:35+00:00",
+        "uploadTimestamp": 1710805247,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Bodyslide.Ground.Mesh.Generator-482037-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/bodyslide-ground-mesh-7318624386826-v1/Bodyslide.Ground.Mesh.Generator-482037-v1.zip",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624386824": {
+    "id": "7318624386824",
+    "modId": 114440,
+    "name": "Dead End Sign",
+    "game": "skyrimspecialedition",
+    "summary": "A giant dead end sign greataxe to let your enemies know it's the end and they're dead.",
+    "description": "Have you ever wanted to let your enemies know they've reached a literal and figurative dead end? \n\nCraft with 5 steel ingots, additionally you can temper with 1 ingot.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/dead-end-sign-7318624386824-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "dead-end-sign-7318624386824-v1",
+        "updatedAt": "2025-07-29T14:36:35+00:00",
+        "uploadTimestamp": 1710803613,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Dead.End.Sign-482030-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dead-end-sign-7318624386824-v1/Dead.End.Sign-482030-v1.zip",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624386625": {
+    "id": "7318624386625",
+    "modId": 114241,
+    "name": "Tuna Toro Sushi",
+    "game": "skyrimspecialedition",
+    "summary": "Raw fish and rice delicacy from Akavir. Adds tuna nigiri sushi to the game. Craftable.",
+    "description": "Have you seen those warriors from Akavir? They eat raw fish. Raw... fish!\n\nRestores health, craftable at an oven with pogfish, wheat, and salt.\n\nesl flagged esp. You will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/tuna-toro-sushi-7318624386625-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "tuna-toro-sushi-7318624386625-v1",
+        "updatedAt": "2025-07-29T14:36:35+00:00",
+        "uploadTimestamp": 1710613686,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Tuna.Toro.Sushi-481224-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/tuna-toro-sushi-7318624386625-v1/Tuna.Toro.Sushi-481224-v1.zip",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624386536": {
+    "id": "7318624386536",
+    "modId": 114152,
+    "name": "Tamago Sushi",
+    "game": "skyrimspecialedition",
+    "summary": "Egg sushi dish from Akavir. Adds tamago sushi to the game. Craftable.",
+    "description": "New Akaviri dish with egg on top of rice wrapped in seaweed.\n\nRestores health, craftable at an oven with egg, wheat, and salt.\n\nesl flagged esp. You will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/tamago-sushi-7318624386536-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "tamago-sushi-7318624386536-v1",
+        "updatedAt": "2025-07-29T14:36:35+00:00",
+        "uploadTimestamp": 1710552878,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Tamago.Sushi-480980-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/tamago-sushi-7318624386536-v1/Tamago.Sushi-480980-v1.zip",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624386450": {
+    "id": "7318624386450",
+    "modId": 114066,
+    "name": "Dynamic Random Female Idles OAR Idles Organizer Utility",
+    "game": "skyrimspecialedition",
+    "summary": "Tool to rename and organize custom .hkx animation files for Dynamic Random Female Idles OAR version. Prebuilt executables for Windows.",
+    "description": "Dynamic Random Female Idles OAR Idles Organizer Helper Utility\n\nThis tool automatically renames and organizes .hkx animation files into the Dynamic Random Female Idles OAR file structure (\"Meshes&#92;&#92;Actors&#92;&#92;Character&#92;&#92;Animations&#92;&#92;OpenAnimationReplacer&#92;&#92;DynamicRandomFemaleIdles&#92;&#92;{ID}&#92;&#92;female&#92;&#92;\"), making it easier to add your own idles or overwrite the existing ones. It provides functionality similar to the GenerateIdles.jar script in the DAR version, where you supplied your own idle animations. This also generates the json configs for OAR.\n\nThere are two variants of the script, one of which creates a submod for each animation for random animations, and the other makes use of the new animation variants structure since OAR 1.2.0 and uses the \"_variants_mt_idle\" folder for idle anim variation. You can pick whichever one you prefer, but you'll probably want to delete the other idle anim submods if you use the variant structure.\n\nFeatures\n\n* Automatically renames .hkx and .HKX files to mt_idle.hkx (in the submod version; in the variants version, the filename is kept).\n\n* Organizes files into a directory structure starting from 4096/female/mt_idle.hkx.\n\n* Copies files without deleting the original ones.\n\n* Cross-platform compatibility (Windows, macOS, Linux).\n\n* Simple GUI for indicating completion.\n\nRequirements (if you're not using a prebuilt executable)\n\n* Rust and Cargo installed on your system for compiling the source code.\n\nCompilation\n\nTo compile the tool from source, navigate to the project directory in your terminal and run:\n\n[code]\n\ncargo build --release --all-targets\n\n[/code]\n\nThe compiled executable will be located in target/release/.\n\nUsage\n\nPlace the (pre)compiled executable or source Rust files in the same directory as your idle animation .hkx files.\n\nYour idle animation files will be automatically renamed and organized. A pop up will notify you when it finishes. Drop the resulting meshes folder into the directory of your Dynamic Random Female Idles V2 installation to replace them.\n\nOptionally, delete the submods containing the idle animations that you don't want.\n\nLicense\n\nThis project is licensed under the MIT License.\n\nMisc Complaints\n\nPreviously released as a Python script/executable but Nexus and Virustotal got mad at the files because executables packed from Python scripts get flagged as false positives. Executable now prebuilt with Rust 1.76.0 on a Windows runner CI/CD pipeline on Github Actions and hopefully doesn't trigger false positives.\n\nMisc Credits\n\nThis description was converted from markdown with [md2nexus ](https://www.nexusmods.com/skyrimspecialedition/mods/100441)by ceejbot. Thanks!",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/dynamic-random-female-7318624386450-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "dynamic-random-female-7318624386450-v1",
+        "updatedAt": "2025-07-29T14:36:35+00:00",
+        "uploadTimestamp": 1710466811,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1</summary>\n\n- Rebuilt and reuploaded, hopefully Virustotal stops complaining\n</details>",
+        "assets": [
+          {
+            "name": "OARAnimUtil-480657-v1.exe",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dynamic-random-female-7318624386450-v1/OARAnimUtil-480657-v1.exe",
+            "category": "MAIN"
+          },
+          {
+            "name": "OARVariantAnimUtil-480658-v1.exe",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dynamic-random-female-7318624386450-v1/OARVariantAnimUtil-480658-v1.exe",
+            "category": "MAIN"
+          },
+          {
+            "name": "Source-480659-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dynamic-random-female-7318624386450-v1/Source-480659-v1.zip",
+            "category": "OPTIONAL"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624386449": {
+    "id": "7318624386449",
+    "modId": 114065,
+    "name": "Bodyslide Preset Scaler Utility",
+    "game": "skyrimspecialedition",
+    "summary": "Tool for scaling Bodyslide presets. Quickly adjust preset values at weight 0 and 100 based on specified input factors. Prebuilt executable for Windows",
+    "description": "Bodyslide Preset Scaler Utility\n\nAn application for scaling Bodyslide presets. Quickly adjust preset values at weight 0 and 100 based on specified factors. This is for when you think some preset at 57 weight or something looks good and you want that as a new preset scaled to weight 100. You can also go crazy with it and find out what things look like at 500% if you want to.\n\nFeatures\n\n* **Factor Adjustment**: Modify preset slider values using user input factors at weight 0 and weight 100.\n\n* **GUI**: Easy to use executable to input factor values, file paths, and new preset names.\n\nUsage\n\n[list=1]\n\n* **Input Factor Values**: Enter the scaling factors for sliders as ratios where 0.5 means 50% and 2 means 200% and so on.\n\n* **Select Input File**: Click on the Browse button to choose the XML file containing the Bodyslide preset.\n\n* **Specify Output File**: Click on the Save As button to designate the file path and name for the modified preset.\n\n* **Optional Preset Name**: Optionally provide a new name for the preset.\n\n* **Run**: Click the Run button. The status message will indicate when the process is complete.\n\nInstallation\n\nIf you don't want to build this from source (probably most of you), prebuilt executable for Windows built using Rust 1.76.0 is available for download.\n\nIf you think my build environment is sus or you are on Linux, follow the steps below:\n\n[list=1]\n\n* Ensure you have Rust installed on your system. If not, follow the instructions [here](https://www.rust-lang.org/tools/install).\n\n* Download the source code to your local machine.\n\n* Navigate to the project directory.\n\n* Run the following command to build:\n\n[code]cargo build --release[/code]\n\nDependencies\n\n* **serde**\n\n* **rfd**\n\n* **druid**\n\n* **quick-xml**\n\nLicense\n\nThis project is licensed under the MIT License.\n\nMisc Credits\n\nThis description was converted from markdown with [md2nexus ](https://www.nexusmods.com/skyrimspecialedition/mods/100441)by ceejbot. Thanks!",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/bodyslide-preset-scaler-7318624386449-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "bodyslide-preset-scaler-7318624386449-v1",
+        "updatedAt": "2025-07-29T14:36:35+00:00",
+        "uploadTimestamp": 1710466440,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1</summary>\n\n- Rebuilt on a clean Windows runner on Github Actions CI/CD pipeline, releasing compiled executables on Nexus is a PITA\n</details>",
+        "assets": [
+          {
+            "name": "Prebuilt.Windows.Executable-480655-v1.exe",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/bodyslide-preset-scaler-7318624386449-v1/Prebuilt.Windows.Executable-480655-v1.exe",
+            "category": "MAIN"
+          },
+          {
+            "name": "Source-480656-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/bodyslide-preset-scaler-7318624386449-v1/Source-480656-v1.zip",
+            "category": "OPTIONAL"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624386331": {
+    "id": "7318624386331",
+    "modId": 113947,
+    "name": "ProType Love Me Dress",
+    "game": "skyrimspecialedition",
+    "summary": "ProType's Love Me dress converted from Oblivion for female characters. Six colors, CBBE 3BA and BHUNP bodyslide.",
+    "description": "ProType Love Me Dress originally from Oblivion, converted here to SSE CBBE 3BA and BHUNP bodyslide with texture upscaled to 4k. \n\nComes in six colors. I also included a BHUNP conversion this time, although I didn't test it since I don't use that. Let me know if this is something I should do more, or feel free to message me if anyone's interested in testing out the BHUNP conversions/take screenshots.\n\nesl flagged esp. Build with bodyslide.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/protype-love-me-7318624386331-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.1",
+        "releaseTag": "protype-love-me-7318624386331-v1.1",
+        "updatedAt": "2025-07-29T14:36:35+00:00",
+        "uploadTimestamp": 1710781882,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Added ground meshes and KID file\n</details>",
+        "assets": [
+          {
+            "name": "ProType.Love.Me.Dress-481906-v1.1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/protype-love-me-7318624386331-v1.1/ProType.Love.Me.Dress-481906-v1.1.zip",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "protype-love-me-7318624386331-v1",
+        "updatedAt": "2025-07-29T14:36:35+00:00",
+        "uploadTimestamp": 1710353880,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "ProType.Love.Me.Dress-480157-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/protype-love-me-7318624386331-v1/ProType.Love.Me.Dress-480157-v1.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624386273": {
+    "id": "7318624386273",
+    "modId": 113889,
+    "name": "Carl Johnson Armor",
+    "game": "skyrimspecialedition",
+    "summary": "All you had to do was follow the damn train CJ",
+    "description": "![Image](https://media1.tenor.com/m/cJRcMyUAiMcAAAAd/ah-shit-here-we-go-again-ah-shit.gif)\n\nAdds an equippable Carl Johnson armor. This takes up all the slots that normal armors use, so you won't be able to equip anything else with this.\n\nesl flagged esp. Craftable with 15 human flesh and 1 human heart.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/carl-johnson-armor-7318624386273-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "carl-johnson-armor-7318624386273-v1",
+        "updatedAt": "2025-07-29T14:36:35+00:00",
+        "uploadTimestamp": 1710305814,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Carl.Johnson-479943-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/carl-johnson-armor-7318624386273-v1/Carl.Johnson-479943-v1.zip",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624386230": {
+    "id": "7318624386230",
+    "modId": 113846,
+    "name": "Onigiri",
+    "game": "skyrimspecialedition",
+    "summary": "Rice ball from Akavir. Adds onigiri to the game. Craftable.",
+    "description": "Another Akaviri dish has made it to Skyrim. Onigiri are rice balls wrapped in seaweed.\n\nRestores health, craftable at an oven with wheat and salt. There's no rice in vanilla Skyrim unfortunately.\n\nesl flagged esp. You will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/onigiri-7318624386230-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "onigiri-7318624386230-v1",
+        "updatedAt": "2025-07-29T14:36:35+00:00",
+        "uploadTimestamp": 1710265770,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Onigiri-479788-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/onigiri-7318624386230-v1/Onigiri-479788-v1.zip",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
