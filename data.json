@@ -4632,5 +4632,137 @@
         ]
       }
     ]
+  },
+  "7318624383278": {
+    "id": "7318624383278",
+    "modId": 110894,
+    "name": "SMP Earrings and Necklaces",
+    "game": "skyrimspecialedition",
+    "summary": "10 earrings, 5 necklaces, 2 eyepatches, all with SMP.",
+    "description": "10 sets of earrings, 5 necklaces, 2 eyepatches. SMP physics.\n\nSource: 3dm modders\n\n[https://bbs.3dmgame.com/thread-5254554-1-445.html](https://bbs.3dmgame.com/thread-5254554-1-445.html)\n\n[https://bbs.3dmgame.com/thread-4634549-1-1.html](https://bbs.3dmgame.com/thread-4634549-1-1.html)\n\n[https://bbs.3dmgame.com/thread-4634954-1-1.html](https://bbs.3dmgame.com/thread-4634954-1-1.html)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/smp-earrings-and-7318624383278-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.1",
+        "releaseTag": "smp-earrings-and-7318624383278-v1.1",
+        "updatedAt": "2025-07-29T15:53:47+00:00",
+        "uploadTimestamp": 1707241678,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "SMP.Earrings.and.Necklaces-468410-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/smp-earrings-and-7318624383278-v1.1/SMP.Earrings.and.Necklaces-468410-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "smp-earrings-and-7318624383278-v1",
+        "updatedAt": "2025-07-29T15:53:47+00:00",
+        "uploadTimestamp": 1707241547,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "SMP.Earrings-467796-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/smp-earrings-and-7318624383278-v1/SMP.Earrings-467796-v1.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "Optional.upscaled.textures-468409-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/smp-earrings-and-7318624383278-v1/Optional.upscaled.textures-468409-v1.7z",
+            "category": "OPTIONAL"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624383274": {
+    "id": "7318624383274",
+    "modId": 110890,
+    "name": "Sexy Elves Outfit",
+    "game": "skyrimspecialedition",
+    "summary": "CBBE 3BA outfit, two variations and comes in gold or silver. Optional SMP physics for cloth",
+    "description": "Oblivion outfit mod converted to SSE for CBBE 3BA, I added gold variants and 5 gem color versions for the bracelets, separated the mesh into separate armor pieces and accessories, and added SMP for the cloth pieces.\n\nESL flagged esp. Build with bodyslide and use AIM. Screenshots welcome.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if you're below 1.6.1130. You will also need [FSMP ](https://www.nexusmods.com/skyrimspecialedition/mods/57339)for the SMP version.\n\nFor BHUNP users, there is [another conversion ](https://www.nexusmods.com/skyrimspecialedition/mods/114122)by [hyruledm](https://www.nexusmods.com/skyrimspecialedition/users/94893323)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/sexy-elves-outfit-7318624383274-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "2",
+        "releaseTag": "sexy-elves-outfit-7318624383274-v2",
+        "updatedAt": "2025-07-29T15:53:47+00:00",
+        "uploadTimestamp": 1710908025,
+        "changelog": "<details>\n<summary>Click to view Changelog for v2</summary>\n\n- Added KID ini, mesh changes, bodyslide redone now with optional SMP for cloth pieces. esp reorganization, now the top, bottom, bracelet, and calf pieces are separate. New bracelet gem recolor variants.\n</details>",
+        "assets": [
+          {
+            "name": "Sexy.Elves.Outfit-482405-v2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/sexy-elves-outfit-7318624383274-v2/Sexy.Elves.Outfit-482405-v2.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.2",
+        "releaseTag": "sexy-elves-outfit-7318624383274-v1.2",
+        "updatedAt": "2025-07-29T15:53:47+00:00",
+        "uploadTimestamp": 1707149701,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Sexy.Elves.Outfit.CBBE.3BA.Bodyslide-468028-v1.2.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/sexy-elves-outfit-7318624383274-v1.2/Sexy.Elves.Outfit.CBBE.3BA.Bodyslide-468028-v1.2.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "releaseTag": "sexy-elves-outfit-7318624383274-v1.1",
+        "updatedAt": "2025-07-29T15:53:47+00:00",
+        "uploadTimestamp": 1707096819,
+        "changelog": "",
+        "assets": []
+      },
+      {
+        "version": "1",
+        "releaseTag": "sexy-elves-outfit-7318624383274-v1",
+        "updatedAt": "2025-07-29T15:53:47+00:00",
+        "uploadTimestamp": 1707083629,
+        "changelog": "",
+        "assets": []
+      }
+    ]
+  },
+  "7318624364783": {
+    "id": "7318624364783",
+    "modId": 92399,
+    "name": "Elegant Jewelry - SE CBBE 3BA Bodyslide",
+    "game": "skyrimspecialedition",
+    "summary": "Add 3BA bodyslide files for zzjay's elegant jewelry mod",
+    "description": "Since the original mod was based on UNP, the armlet doesn't match up with CBBE body. This fixes that with bodyslide for it. I also did the necklace as well. Requires original mod: https://www.nexusmods.com/skyrimspecialedition/mods/91656",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/elegant-jewelry---7318624364783-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.1",
+        "releaseTag": "elegant-jewelry---7318624364783-v1.1",
+        "updatedAt": "2025-07-29T15:53:47+00:00",
+        "uploadTimestamp": 1685324298,
+        "changelog": "",
+        "assets": []
+      },
+      {
+        "version": "1",
+        "releaseTag": "elegant-jewelry---7318624364783-v1",
+        "updatedAt": "2025-07-29T15:53:47+00:00",
+        "uploadTimestamp": 1686275186,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Elegant.Jewelry.-.SE.3BA.Bodyslide-396161-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/elegant-jewelry---7318624364783-v1/Elegant.Jewelry.-.SE.3BA.Bodyslide-396161-v1.zip",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
