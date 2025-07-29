@@ -179,6 +179,79 @@ try:
 except (FileNotFoundError, json.JSONDecodeError):
     print(f"{DATA_FILE} not found or invalid. Starting with an empty dataset.")
 
+# --- Step 4.5: Sync with GitHub Releases (Self-Healing) ---
+print(f"\n--- SYNCING WITH GITHUB RELEASES (SELF-HEALING) ---")
+tags_in_data_file = set()
+data_sync_changed = False
+for mod in indexed_known_mods.values():
+    for release_data in mod.get('releases', []):
+        tags_in_data_file.add(release_data['releaseTag'])
+
+orphan_tags = EXISTING_RELEASES - tags_in_data_file
+
+if orphan_tags:
+    print(f"Found {len(orphan_tags)} orphan releases on GitHub not present in {DATA_FILE}. Reconstructing data...")
+    for tag in orphan_tags:
+        try:
+            print(f"  > Reconstructing data for tag: {tag}")
+            release = repo.get_release(tag)
+            uid = parse_uid_from_tag(tag)
+            if not uid:
+                print(f"    - WARNING: Could not parse UID from tag '{tag}'. Skipping.")
+                continue
+
+            # Reconstruct asset data
+            release_assets_data = []
+            thumbnail_url = None
+            for asset in release.get_assets():
+                if 'thumbnail' in asset.name:
+                    thumbnail_url = asset.browser_download_url
+                    continue
+                release_assets_data.append({
+                    "name": asset.name,
+                    "url": asset.browser_download_url,
+                    "category": "UNKNOWN" # We can't know the original category
+                })
+
+            # Reconstruct release data
+            reconstructed_release = {
+                "version": parse_version_from_tag(tag),
+                "releaseTag": tag,
+                "updatedAt": release.created_at.isoformat(),
+                "uploadTimestamp": int(release.created_at.timestamp()), # Best guess
+                "changelog": "", # Can't reconstruct this reliably
+                "assets": release_assets_data
+            }
+
+            # Add to the main data object
+            if uid not in indexed_known_mods:
+                mod_name_from_release = release.title.split(' - v')[0]
+                indexed_known_mods[uid] = {
+                    "id": uid, "modId": None, "name": mod_name_from_release, "game": "unknown",
+                    "summary": "Data reconstructed from an orphaned GitHub Release.",
+                    "description": "Data reconstructed from an orphaned GitHub Release.",
+                    "pictureUrl": thumbnail_url, "releases": []
+                }
+                print(f"    - Created new mod entry for '{mod_name_from_release}' (UID: {uid})")
+
+            indexed_known_mods[uid]["releases"].append(reconstructed_release)
+            data_sync_changed = True
+
+        except GithubException as e:
+            print(f"    - ERROR: Could not fetch release for tag '{tag}'. Maybe it was deleted? Error: {e}")
+        except Exception as e:
+            print(f"    - ERROR: An unexpected error occurred while processing tag '{tag}': {e}")
+else:
+    print("Local data is already in sync with GitHub releases. No orphans found.")
+
+if data_sync_changed:
+    print(f"Saving {DATA_FILE} after reconstructing orphan releases...")
+    try:
+        with open(DATA_FILE, 'w') as f:
+            json.dump(indexed_known_mods, f, indent=2)
+    except Exception as e:
+        print(f"ERROR: Could not write to {DATA_FILE} after sync. Error: {e}")
+
 # --- Step 5: Fetch Full Mod List from Nexus Mods API ---
 print("\n--- Step 4: GETTING MOD LIST FROM V2 API ---")
 V2_GQL_URL = "https://api.nexusmods.com/v2/graphql"
