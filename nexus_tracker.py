@@ -115,7 +115,7 @@ def requests_with_retry(method, url, **kwargs):
     # This line should not be reached if MAX_RETRIES > 0, but as a fallback:
     raise Exception(f"Request failed after {MAX_RETRIES} retries for {url}")
     
-def sanitize_filename(filename, mod_id, version):
+def sanitize_filename(filename, mod_id, version, file_id):
     """
     Cleans Nexus-style metadata from a filename and appends a canonical version.
     Example: "MyMod-12345-1-0.7z" -> "MyMod-v1.0.7z"
@@ -129,7 +129,7 @@ def sanitize_filename(filename, mod_id, version):
     # we fall back to a safe default name.
     if not clean_name_part:
         clean_name_part = f"modfile-{mod_id}"
-    return f"{clean_name_part}-v{version}{extension}"
+    return f"{clean_name_part}-{file_id}-v{version}{extension}"
     
 # --- Step 2: Configuration ---
 print("--- Step 1: CONFIGURATION ---")
@@ -352,7 +352,8 @@ for uid in mods_to_run_this_time:
                 download_jobs.append({
                     'url': download_uri, 'path': original_filepath,
                     'is_thumbnail': False, 'version': version_to_archive,
-                    'category': file_info.get("category_name", "UNKNOWN")
+                    'category': file_info.get("category_name", "UNKNOWN"),
+                    'file_id': file_id
                 })
                 time.sleep(1)
             except Exception as e:
@@ -375,7 +376,8 @@ for uid in mods_to_run_this_time:
                         if not job.get('is_thumbnail'):
                             version = job.get('version')
                             name_part, extension = os.path.splitext(downloaded_path)
-                            name = sanitize_filename(name_part, v1_mod_id, version)
+                            file_id = job.get('file_id') 
+                            name = sanitize_filename(name_part, v1_mod_id, version, file_id)
                             new_filepath = f"{name}{extension}"
                             os.rename(downloaded_path, new_filepath)
                             file_data['path'] = new_filepath
