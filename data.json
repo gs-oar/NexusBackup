@@ -1427,5 +1427,781 @@
         ]
       }
     ]
+  },
+  "7318624396843": {
+    "id": "7318624396843",
+    "modId": 124459,
+    "name": "Crawling Sneak Animations OAR",
+    "game": "skyrimspecialedition",
+    "summary": "Adds a set of crawling animations for female player character sneaking. Intended to be used with OAR and True Directional Movement",
+    "description": "I made some sneak animations for fun.\n\nOAR conditions trigger for female player character, sneaking and weapons sheathed.\n\nI only made two mt_idle variations, sneakwalk_forward, sneakrun_forward and some turning animations, so if you want to use this you will probably want to have some other mod that adjusts movement behavior to use forward movement in every direction, I use true directional movement.\n\nOther crawling animations by better animators [here ](https://www.nexusmods.com/skyrimspecialedition/mods/117127)and [here](https://www.nexusmods.com/skyrimspecialedition/mods/38160).\n\nPreviews:\n\n\ufeff<details><summary>Spoiler</summary>\n\n![Image](https://i.imgur.com/WT3YL8o.gif)\n\n</details>\n\n\ufeff<details><summary>Spoiler</summary>\n\n![Image](https://i.imgur.com/NJtye1N.gif)\n\n</details>\n\n\ufeff<details><summary>Spoiler</summary>\n\n![Image](https://i.imgur.com/BkSdtJl.gif)\n\n</details>",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/crawling-sneak-animations-7318624396843-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1.1",
+        "releaseTag": "crawling-sneak-animations-7318624396843-v1.1",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1725852933,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Added movement surface angle detection and up/down animations for moving up and down hills or stairs\n</details>",
+        "assets": [
+          {
+            "name": "Crawling.Sneak.Animations-540317-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/crawling-sneak-animations-7318624396843-v1.1/Crawling.Sneak.Animations-540317-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "crawling-sneak-animations-7318624396843-v1",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1725808189,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Crawling.Sneak.Animations-540076-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/crawling-sneak-animations-7318624396843-v1/Crawling.Sneak.Animations-540076-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624401010": {
+    "id": "7318624401010",
+    "modId": 128626,
+    "name": "3D Female Pubic Hair",
+    "game": "skyrimspecialedition",
+    "summary": "Adds 43 mesh-based pubic hair options for CBBE 3BA BHUNP, and UBE female characters applied through TNG. Matches hair color.",
+    "description": "Adds 43 mesh-based pubic hairstyles for female characters applied through [TNG](https://www.nexusmods.com/skyrimspecialedition/mods/104215). (rudimentary SoS patch now available, maybe someone will make a patch with full MCM support) \n\nMatches the color of the character's hair through [Hair Colour Sync](https://www.nexusmods.com/skyrimspecialedition/mods/121751). Non-AE users try [Sync Wig Hair Color](https://www.nexusmods.com/skyrimspecialedition/mods/48311?tab=description).\n\nRequires TNG distribution and either CBBE 3BA or BHUNP.\n\nSome options contain a lot of polygons and might impact performance. For people on modern computers as long as you don't have 30 naked characters in a single room it should probably be fine since it will normally be hidden on clothed characters.\n\nIt would probably be a lot more practical to use hair cards and textures instead of having individual hair strands, but I don't know how to do that so this is what you will get.\n\nBodyslide files for CBBE 3BA are included in the main files. BHUNP and UBE bodyslides available in optional files. No prebuilt meshes, batch building meshes required before use.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/3d-female-pubic-7318624401010-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1.3",
+        "releaseTag": "3d-female-pubic-7318624401010-v1.3",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1753205167,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.3</summary>\n\n- removed breton afflicted race from esp record, should hopefully fix the bretons issue; thanks to HanzoTheRazor and Dragofer\n</details>",
+        "assets": [
+          {
+            "name": "3D.Female.Pubic.Hair.CBBE.3BA-649344-v1.3.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/3d-female-pubic-7318624401010-v1.3/3D.Female.Pubic.Hair.CBBE.3BA-649344-v1.3.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.2",
+        "releaseTag": "3d-female-pubic-7318624401010-v1.2",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1741651456,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.2</summary>\n\n- Removed specular power, which prevents the meshes from glowing in the dark.\n- Also fixed esp record slot issues which made the body invisible for some people.\n- The specular power change is for 3BA only, I am too lazy to go through 40 something nif files for BHUNP.\n</details>",
+        "assets": [
+          {
+            "name": "3D.Female.Pubic.Hair.CBBE.3BA-604228-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/3d-female-pubic-7318624401010-v1.2/3D.Female.Pubic.Hair.CBBE.3BA-604228-v1.2.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "releaseTag": "3d-female-pubic-7318624401010-v1.1",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1726048408,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Added dependency on hair color sync, which solves tintmask persistence issue\n- Added BHUNP bodyslide. Why are BHUNP bodyslide files so large?\n- Added SoS patch esp\n</details>",
+        "assets": [
+          {
+            "name": "3D.Female.Pubic.Hair-539959-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/3d-female-pubic-7318624401010-v1.1/3D.Female.Pubic.Hair-539959-v1.1.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "BHUNP.Bodyslide.Files-539962-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/3d-female-pubic-7318624401010-v1.1/BHUNP.Bodyslide.Files-539962-v1.1.7z",
+            "category": "OPTIONAL"
+          },
+          {
+            "name": "SoS.Patch-539967-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/3d-female-pubic-7318624401010-v1.1/SoS.Patch-539967-v1.1.7z",
+            "category": "OPTIONAL"
+          },
+          {
+            "name": "UBE.Bodyslide.and.esp-540991-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/3d-female-pubic-7318624401010-v1.1/UBE.Bodyslide.and.esp-540991-v1.1.7z",
+            "category": "OPTIONAL"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "3d-female-pubic-7318624401010-v1",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1725778981,
+        "changelog": "",
+        "assets": []
+      }
+    ]
+  },
+  "7318624400888": {
+    "id": "7318624400888",
+    "modId": 128504,
+    "name": "Modern Sneakers",
+    "game": "skyrimspecialedition",
+    "summary": "Adds a dozen modern day sneakers.",
+    "description": "Hopefully this is considered fair use and big shoe doesn't go after me for making a shoe mod for a 13 year old game.\n\nI used the CBBE 3BA feet reference, it might work for BHUNP, it might not, I have no idea. \n\nesl flagged esp. No default meshes. Build with bodyslide and use additemmenu.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/modern-sneakers-7318624400888-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "modern-sneakers-7318624400888-v1",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1725725186,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Modern.Sneakers.1K-539185-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/modern-sneakers-7318624400888-v1/Modern.Sneakers.1K-539185-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "4K.Textures-539706-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/modern-sneakers-7318624400888-v1/4K.Textures-539706-v1.7z",
+            "category": "OPTIONAL"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624396992": {
+    "id": "7318624396992",
+    "modId": 124608,
+    "name": "Professional Dancer",
+    "game": "skyrimspecialedition",
+    "summary": "Adds a dance spell and 10 dance animations. Draw a crowd and get tipped.",
+    "description": "Become a professional dancer. This adds a dance spell and 13 dance animations, dancing draws a crowd of NPCs who will tip you for your performance.\n\nYou will be given a dance power in the shouts tab. Activate to start dancing, activate again to stop. Dances are chosen by you via message box.\n\nDances 1-10 are professional dances.\n\nDances 11, 12 and 13 are vanilla dances (made famous by Cicero).\n\nDance 14 is a vanilla cheering animation (music track and tipping are forcefully disabled for Dance 14).\n\n**Customization**\n\nFrom version 1.3, you can customize the mod in MCM.\n\nCustomization via console commands:\n\n<details><summary>Spoiler</summary>\n\n\u00a0\n\n**Enabling/disabling a dance from showing up in the message boxes\n\n**[spoiler]\n\n[code]\ufeffset bAllowDance1 to 0\n\n[/code]to disable a certain dance.\n\n[code]\ufeffset bAllowDance1 to 1\n\n[/code]to enable it back.\n\nBy default, all 14 Dances are enabled. The dance names are Dance1, Dance2 ... Dance14.\n\n</details>\n\n**Enabling/disabling the audience **from gathering and reacting to your performance\n\n<details><summary>Spoiler</summary>\n\n[code]\ufeffset bDanceAudienceEnabled\u00a0to 0\n\n[/code]to disable audience reaction.\n\n[code]\ufeffset bDanceAudienceEnabled\u00a0to 1\n\n[/code]to enable it back.\n\nEnabled by default.\n\n</details>\n\n**Enabling/disabling music playing **(drum track) while you dance\n\n<details><summary>Spoiler</summary>\n\n[code]\ufeffset\u00a0bDanceMusicEnabled\u00a0to 0\n\n[/code]to disable the drum track.\n\n[code]\ufeffset\u00a0bDanceMusicEnabled\u00a0to 1\n\n[/code]to enable it back.\n\nEnabled by default.\n\n</details>\n\n**Enabling/disabling notifications **on the dance being performed, tips earned etc.\n\n<details><summary>Spoiler</summary>\n\n[code]\ufeffset\u00a0bDanceEnableNotifications\u00a0to 0\n\n[/code]to disable\u00a0notifications.\n\n[code]\ufeffset\u00a0bDanceEnableNotifications\u00a0to 1\n\n[/code]to enable them back.\n\nEnabled by default.\n\n</details>\n\n**Enabling/disabling the tipping mechanic** (audience will tip you while you dance)\n\n<details><summary>Spoiler</summary>\n\n[code]\ufeffset\u00a0bDanceTippingEnabled\u00a0to 0\n\n[/code]to disable\u00a0tips.\n\n[code]\ufeffset\u00a0bDanceTippingEnabled\u00a0to 1\n\n[/code]to enable them back.\n\nEnabled by default.\n\n</details>\n\n**Enabling/disabling getting all the tips AFTER you're done dancing\n\n**<details><summary>Spoiler</summary>\n\n[code]\ufeffset\u00a0bDanceTippingAfterPerformance\u00a0to 0\n\n[/code]to disable\u00a0getting the tips after the dance is over.\n\n[code]\ufeffset\u00a0bDanceTippingAfterPerformance\u00a0to 1\n\n[/code]to enable it.\n\n**Disabled** by default.\n\n</details>\n\n**Setting the smallest single tip (in septims) you can get **(during the dance, you get multiple tips)\n\n<details><summary>Spoiler</summary>\n\n[code]\ufeffset\u00a0fDanceMinGoldAmount\u00a0to x\n\n[/code]to set a minimum single tip, where x is a number.\n\nDefault is 1.\n\n</details>\n\n**Setting the largest single tip\u00a0[b](in septims)** you can get\n\n[/b]<details><summary>Spoiler</summary>\n\n[code]\ufeffset\u00a0fDanceMaxGoldAmount\u00a0to x\n\n[/code]to set a maximum single tip, where x is a number.\n\nDefault is 2.\n\n</details>\n\n**Setting the multiplier for a single tip **(a random value between the min and max amount gets multiplied by this)\n\n<details><summary>Spoiler</summary>\n\n[code]\ufeffset\u00a0fDanceTippingEarnedMult\u00a0to x\n\n[/code]to set the multiplier, where x is a number.\n\nDefault is 1.\n\n</details>[/spoiler]\n\n**Installation**\n\nRun FNIS/Nemesis/Pandora after installation.\n\nSome previews [here](https://imgur.com/a/6yfhbpW)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/professional-dancer-7318624396992-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1.4",
+        "releaseTag": "professional-dancer-7318624396992-v1.4",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1743502077,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Professional.Dancer.BETA-612499-v1.4.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/professional-dancer-7318624396992-v1.4/Professional.Dancer.BETA-612499-v1.4.7z",
+            "category": "OPTIONAL"
+          }
+        ]
+      },
+      {
+        "version": "1.3.1",
+        "releaseTag": "professional-dancer-7318624396992-v1.3.1",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1743364820,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.3.1</summary>\n\n- fixed a typo in the script\n</details>",
+        "assets": [
+          {
+            "name": "Professional.Dancer-611863-v1.3.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/professional-dancer-7318624396992-v1.3.1/Professional.Dancer-611863-v1.3.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.3",
+        "releaseTag": "professional-dancer-7318624396992-v1.3",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1743352372,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.3</summary>\n\n- added MCM for customization\n</details>",
+        "assets": [
+          {
+            "name": "Professional.Dancer-611771-v1.3.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/professional-dancer-7318624396992-v1.3/Professional.Dancer-611771-v1.3.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.2.1",
+        "releaseTag": "professional-dancer-7318624396992-v1.2.1",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1743365983,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Professional.Dancer.-.Russian.Translation-611869-v1.2.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/professional-dancer-7318624396992-v1.2.1/Professional.Dancer.-.Russian.Translation-611869-v1.2.1.7z",
+            "category": "OPTIONAL"
+          }
+        ]
+      },
+      {
+        "version": "1.2",
+        "releaseTag": "professional-dancer-7318624396992-v1.2",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1726183954,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.2</summary>\n\n- Added Vanilla dances and cheer\n- Fixed music track\n- Added globals for customization, see description for details\n</details>",
+        "assets": [
+          {
+            "name": "Professional.Dancer-541517-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/professional-dancer-7318624396992-v1.2/Professional.Dancer-541517-v1.2.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "Professional.Dancer.-.Russian.Translation-541518-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/professional-dancer-7318624396992-v1.2/Professional.Dancer.-.Russian.Translation-541518-v1.2.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "releaseTag": "professional-dancer-7318624396992-v1.1",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1726146548,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Added a select dance menu courtesy of @davidgilbertking\n- Dances now can be disabled via console\n</details>",
+        "assets": [
+          {
+            "name": "Professional.Dancer-541369-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/professional-dancer-7318624396992-v1.1/Professional.Dancer-541369-v1.1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "professional-dancer-7318624396992-v1",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1721290187,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Professional.Dancer-522368-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/professional-dancer-7318624396992-v1/Professional.Dancer-522368-v1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624396974": {
+    "id": "7318624396974",
+    "modId": 124590,
+    "name": "J3 Goth Chel 3BA - My Version",
+    "game": "skyrimspecialedition",
+    "summary": "J3 Goth Chel outfit with some of my changes. SMP added, some sliders, recolors.",
+    "description": "My edits and adjustments to the [Goth Chel outfit ](https://www.nexusmods.com/skyrimspecialedition/mods/124553)by J0suk3. \n\nGiven:\n\n![Image](https://i.imgur.com/wjTPXwz.png)\n\nI did:\n\n> Squeeze slider added to stockings\n\nSome zap sliders for skirt\n\nChoker, earrings, skirt SMP added\n\nBodyslide group added, build under J3 Goth Chel CBBE 3BA\n\nSome esp ArmorAddon priority changes, items were sometimes not displaying\n\nTextures recompressed with BC7 linear, saves a little bit of disk space\n\nWhite recolors added for every part. White/pink recolor added for top.\n\nThis is standalone, but you still need to build meshes in bodyslide.\n\nPreview:\n\n![Image](https://i.imgur.com/yd2KWbT.gif)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/j3-goth-chel-7318624396974-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1.1",
+        "releaseTag": "j3-goth-chel-7318624396974-v1.1",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1721696441,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Crafting recipe dlc charcoal changed to base game charcoal\n</details>",
+        "assets": [
+          {
+            "name": "J3.Goth.Chel.3BA.-.My.Version-523992-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/j3-goth-chel-7318624396974-v1.1/J3.Goth.Chel.3BA.-.My.Version-523992-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "j3-goth-chel-7318624396974-v1",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1721266232,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "J3.Goth.Chel.3BA.-.My.Version-522285-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/j3-goth-chel-7318624396974-v1/J3.Goth.Chel.3BA.-.My.Version-522285-v1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624396333": {
+    "id": "7318624396333",
+    "modId": 123949,
+    "name": "Gunslicer Animations All in One OAR",
+    "game": "skyrimspecialedition",
+    "summary": "Gunslicer's animation replacers configured for OAR and bundled into a modular fomod installer. Includes adjusted varieties for some animations.",
+    "description": "This pack contains [Gunslicer's ](https://www.patreon.com/Gunslicer)\ufeffanimation replacers configured for use with Open Animation Replacer. This replaces animations for the female character character.\n\nOn top of the original animations by Gunslicer, there are some OAR config changes to improve condition triggers as well as some subjectively improved variations of existing animations. Currently only weapons-sheathed sneak and two handed sneak have adjusted variations, but there may be more to come later.\n\nfomod installer includes links to preview videos for some animations hosted on a [github pages site](https://gs-oar.github.io/gunslicer-oar/index.html), but so far it does not cover all of the animations currently included in the pack. Preview video submissions are welcomed as well as suggestions for OAR config changes or even animation changes if you wish to have them bundled in this pack, you can find guidelines on how to do so on the github repository readme [here](https://github.com/gs-oar/gunslicer-oar).",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-animations-all-7318624396333-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.14",
+        "releaseTag": "gunslicer-animations-all-7318624396333-v1.14",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1753573931,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.14</summary>\n\n- Add New Mining + Sword Dual by @momoyuki\n</details>",
+        "assets": [
+          {
+            "name": "Gunslicer.Animations.All.in.One.OAR-650439-v1.14.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-animations-all-7318624396333-v1.14/Gunslicer.Animations.All.in.One.OAR-650439-v1.14.zip",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.13.1",
+        "releaseTag": "gunslicer-animations-all-7318624396333-v1.13.1",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1739778457,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.13.1</summary>\n\n- fixed jump json configs\n</details>",
+        "assets": [
+          {
+            "name": "Gunslicer.Animations.All.in.One.OAR-595747-v1.13.1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-animations-all-7318624396333-v1.13.1/Gunslicer.Animations.All.in.One.OAR-595747-v1.13.1.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.13",
+        "releaseTag": "gunslicer-animations-all-7318624396333-v1.13",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1739734532,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.13</summary>\n\n- Update animations to the latest available at the time of this writing.\n- Collect common conditions into a Preset. Requires OAR 2.2 and newer.\n- Separate Drunk and Bleedout animations from MiscMovement.\n- Rename Dual_Destruction_Jump to Jump_Dual_Destruction.\n- Lower stool sit set priority.\n- Lower BasicMovement set priority.\n</details>",
+        "assets": [
+          {
+            "name": "Gunslicer.Animations.All.in.One.OAR-595536-v1.13.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-animations-all-7318624396333-v1.13/Gunslicer.Animations.All.in.One.OAR-595536-v1.13.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.12",
+        "releaseTag": "gunslicer-animations-all-7318624396333-v1.12",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1729872012,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.12</summary>\n\n- Update to gs bow sneak anims from Gunslicer\n- Update to a killmove\n</details>",
+        "assets": [
+          {
+            "name": "Gunslicer.Animations.All.in.One.OAR-555411-v1.12.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-animations-all-7318624396333-v1.12/Gunslicer.Animations.All.in.One.OAR-555411-v1.12.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.11",
+        "releaseTag": "gunslicer-animations-all-7318624396333-v1.11",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1728847115,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.11</summary>\n\n- Update to GS Sneak Animations v2 from Gunslicer\n- Update weapon sneak animations from Gunslicer\n</details>",
+        "assets": [
+          {
+            "name": "Gunslicer.Animations.All.in.One.OAR-551862-v1.11.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-animations-all-7318624396333-v1.11/Gunslicer.Animations.All.in.One.OAR-551862-v1.11.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.10",
+        "releaseTag": "gunslicer-animations-all-7318624396333-v1.10",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1726989528,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.10</summary>\n\n- Adjusted low sneak adjusted again to remove upper body swaying\n</details>",
+        "assets": [
+          {
+            "name": "Gunslicer.Animations.All.in.One.OAR-544835-v1.10.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-animations-all-7318624396333-v1.10/Gunslicer.Animations.All.in.One.OAR-544835-v1.10.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.9",
+        "releaseTag": "gunslicer-animations-all-7318624396333-v1.9",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1726449201,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.9</summary>\n\n- Added new dialogue animations\n</details>",
+        "assets": [
+          {
+            "name": "Gunslicer.Animations.All.in.One.OAR-542706-v1.9.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-animations-all-7318624396333-v1.9/Gunslicer.Animations.All.in.One.OAR-542706-v1.9.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.8",
+        "releaseTag": "gunslicer-animations-all-7318624396333-v1.8",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1725868337,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.8</summary>\n\n- dual destruction jump separated out and priority changed, crafting quiver node adjusted\n</details>",
+        "assets": [
+          {
+            "name": "Gunslicer.Animations.All.in.One.OAR-540351-v1.8.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-animations-all-7318624396333-v1.8/Gunslicer.Animations.All.in.One.OAR-540351-v1.8.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.7",
+        "releaseTag": "gunslicer-animations-all-7318624396333-v1.7",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1723450687,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.7</summary>\n\n- blleedout_transin.hkx filename fix, battleaxe sprint footstep annotations added, sword sneak isweapondrawn condition added\n</details>",
+        "assets": [
+          {
+            "name": "Gunslicer.Animations.All.in.One.OAR-530768-v1.7.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-animations-all-7318624396333-v1.7/Gunslicer.Animations.All.in.One.OAR-530768-v1.7.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.6",
+        "releaseTag": "gunslicer-animations-all-7318624396333-v1.6",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1721266670,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.6</summary>\n\n- footstep annotations removed from two animations in destruction dualcast\n</details>",
+        "assets": [
+          {
+            "name": "Gunslicer.Animations.All.in.One.OAR-522286-v1.6.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-animations-all-7318624396333-v1.6/Gunslicer.Animations.All.in.One.OAR-522286-v1.6.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.5",
+        "releaseTag": "gunslicer-animations-all-7318624396333-v1.5",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1721060168,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.5</summary>\n\n- Added option to use both sneak variations applied conditionally based on light levels\n</details>",
+        "assets": [
+          {
+            "name": "Gunslicer.Animations.All.in.One.OAR-521533-v1.5.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-animations-all-7318624396333-v1.5/Gunslicer.Animations.All.in.One.OAR-521533-v1.5.zip",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "Gunslicer.Animations.All.in.One.OAR-521542-v1.5.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-animations-all-7318624396333-v1.5/Gunslicer.Animations.All.in.One.OAR-521542-v1.5.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.4",
+        "releaseTag": "gunslicer-animations-all-7318624396333-v1.4",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1721034246,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.4</summary>\n\n- Added precision hkx annotations to bow bash, this also works without precision for some reason. Fixes bow bash having no hitbox\n</details>",
+        "assets": [
+          {
+            "name": "Gunslicer.Animations.All.in.One.OAR-521391-v1.4.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-animations-all-7318624396333-v1.4/Gunslicer.Animations.All.in.One.OAR-521391-v1.4.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.3",
+        "releaseTag": "gunslicer-animations-all-7318624396333-v1.3",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1720924675,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.3</summary>\n\n- Fixed walking animation footstep annotations\n</details>",
+        "assets": [
+          {
+            "name": "Gunslicer.Animations.All.in.One.OAR-520939-v1.3.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-animations-all-7318624396333-v1.3/Gunslicer.Animations.All.in.One.OAR-520939-v1.3.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.2",
+        "releaseTag": "gunslicer-animations-all-7318624396333-v1.2",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1720886117,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.2</summary>\n\n- Sneak priorities adjusted to fix conflict, 2h sneak upright added\n</details>",
+        "assets": [
+          {
+            "name": "Gunslicer.Animations.All.in.One.OAR-520772-v1.2.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-animations-all-7318624396333-v1.2/Gunslicer.Animations.All.in.One.OAR-520772-v1.2.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "releaseTag": "gunslicer-animations-all-7318624396333-v1.1",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1720853569,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Fixed OAR config.json for modular install\n</details>",
+        "assets": [
+          {
+            "name": "Gunslicer.Animations.All.in.One.OAR-520593-v1.1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-animations-all-7318624396333-v1.1/Gunslicer.Animations.All.in.One.OAR-520593-v1.1.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "gunslicer-animations-all-7318624396333-v1",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1720759131,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Gunslicer.Animations.All.in.One.OAR-520126-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-animations-all-7318624396333-v1/Gunslicer.Animations.All.in.One.OAR-520126-v1.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624394958": {
+    "id": "7318624394958",
+    "modId": 122574,
+    "name": "Elven Weaponry",
+    "game": "skyrimspecialedition",
+    "summary": "Adds three 1h swords, one 2h sword, one doublesword, a bow and a shield in fantasy elven style.",
+    "description": "Adds three 1h swords, one 2h sword, one doubleblade, a bow and a shield in fantasy elven style.\n\nTextures are 2K with 4K optionally available.\n\nCraft with 3 moonstone ingots, 3 quicksilver ingots, and 2 leather strips with elven smithing perk. Temper with 1 moonstone ingot.\n\nThe doubleblades are actually coded as a warhammer in the esp. I recommend using a MCO/BFCO doubleblades moveset. I use [this one](https://www.nexusmods.com/skyrimspecialedition/mods/71864)\ufeff and included the OAR configs for it in optional downloads. You still need to download the original animations to use it with this.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/elven-weaponry-7318624394958-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.3",
+        "releaseTag": "elven-weaponry-7318624394958-v1.3",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1727098525,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Elven.Weaponry-545347-v1.3.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/elven-weaponry-7318624394958-v1.3/Elven.Weaponry-545347-v1.3.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.2",
+        "releaseTag": "elven-weaponry-7318624394958-v1.2",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1720581163,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.2</summary>\n\n- Shield texture flag changes\n</details>",
+        "assets": [
+          {
+            "name": "Elven.Weaponry-519552-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/elven-weaponry-7318624394958-v1.2/Elven.Weaponry-519552-v1.2.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "releaseTag": "elven-weaponry-7318624394958-v1.1",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1720487019,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Elven.Weaponry-519187-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/elven-weaponry-7318624394958-v1.1/Elven.Weaponry-519187-v1.1.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "Elven.Weaponry-519188-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/elven-weaponry-7318624394958-v1.1/Elven.Weaponry-519188-v1.1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "elven-weaponry-7318624394958-v1",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1719208386,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Elven.Weaponry-514399-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/elven-weaponry-7318624394958-v1/Elven.Weaponry-514399-v1.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "4K.Textures-514400-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/elven-weaponry-7318624394958-v1/4K.Textures-514400-v1.7z",
+            "category": "OPTIONAL"
+          },
+          {
+            "name": "Doubleblades.MCO.moveset.OAR.config-514401-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/elven-weaponry-7318624394958-v1/Doubleblades.MCO.moveset.OAR.config-514401-v1.7z",
+            "category": "OPTIONAL"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624395869": {
+    "id": "7318624395869",
+    "modId": 123485,
+    "name": "Hirosin Azur Lane Chen Hai Dress - My Version CBBE 3BA",
+    "game": "skyrimspecialedition",
+    "summary": "Chen Hai's outfit from Azur Lane by Hirosin for CBBE 3BA with my additions and adjustments",
+    "description": "Azur Lane Chen Hai outfit originally made by [Hirosin](https://arca.live/b/tullius/107249552), with my own edits. See below for the list of changes made:\n\n> 1.0 changelog:\n\nOutfit parts separated for modularity\n\nHeels and feet meshes adjusted, original heel was too big for the size of the feet\n\nSMP physics added to belly, hip and back tassels\n\nSMP physics added to sleeves, static option also available since I'm not very happy with how it looks\n\nSkirt SMP adjusted\n\nDress bodyslide redone with 3BA uniboob reference\n\nDress shader flag fixed so that racemenu overlays show up beneath transparent cloth\n\nNormal map alpha increased to make things less reflective\n\nThere's two panty meshes in the original panty mesh file, they are slightly different so they've been separated out\n\nHead accessory size adjusted to fit vanilla head instead of Tera Elin Race\n\nBlack color variant added\n\nVarious minor clipping fixes on collar, heels, gloves, and stockings\n\nBodyslide group added for quality of life\n\nGround meshes added, now you can drop the items on the floor and pick them back up again\n\nAdded various zap sliders\n\nTwo colors, black and white, with SMP dress and accessories. Transparency and lewd variants.\n\nesl flagged esp. No prebuilt meshes, build with bodyslide and use additemmenu. No crafting recipes.\n\nYou will need [extended esl support](https://www.nexusmods.com/skyrimspecialedition/mods/106441) if your game version is below 1.6.1130, racemenu for NiOverride heels, and FSMP for the dress.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/hirosin-azur-lane-7318624395869-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "hirosin-azur-lane-7318624395869-v1",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1720232186,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Hirosin.Azur.Lane.Chen.Hai-518086-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/hirosin-azur-lane-7318624395869-v1/Hirosin.Azur.Lane.Chen.Hai-518086-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624395498": {
+    "id": "7318624395498",
+    "modId": 123114,
+    "name": "Clothing Mod Esp Record Automation Script for Spriggit",
+    "game": "skyrimspecialedition",
+    "summary": "Provides Python based automation scripts for generating yaml files for clothing mods for converting into esp files using Spriggit",
+    "description": "Clothing Mod Esp Record Automation Script for Spriggit\n\nOverview\n\nThis project provides an automation tool for generating yaml files for clothing mods for converting into esp files using [Spriggit](https://mutagen-modding.github.io/Spriggit/). The configuration and input data are specified in yaml files, and the tool handles the creation of necessary files and their conversion. This is primarily useful for outfit mods with multiple texture variants, as the scripts handle FormKey creation and naming for Armor, ArmorAddons and TextureSet records. \n\nIn my own workflow this goes after I have created the bodyslide files with the meshes and processed the textures, since this also contains a helper script to automatically generate the input mesh name list for use here based on bodyslide .osp files. I made this for my own use because creating color variants for items is very time consuming and repetitive, but hopefully this will also save other people time.\n\nFeatures\n\n* Generate TextureSet, ArmorAddon, and Armor records in yaml format.\n\n* Handles FormKey and EditorID creation and automatic renaming/renumbering, TextureSet texture map setting, AlternateTextures setting with 3D index and shape name inputs.\n\n* Intended for converting generated yaml files into esp files using Spriggit.\n\n* Inputs specified in inputs.yaml, settings configurable through config.yaml.\n\n* Automatically infers body slots based on item names and sets appropriate slots, keywords, and values using configurable mappings.\n\nPrerequisites\n\n* Python 3.x and its standard libraries\n\n* pyyaml\n\nSetup\n\n[list=1]\n\n* Clone the repository to your local machine.\n\n* Ensure you have Python 3.x installed.\n\n* Install pyyaml.\n\n* Configurate inputs.yaml to specify each clothing piece and texture variants.\n\n* Run GenerateModFromInputs.py to generate yaml_output which will contain the files for Spriggit.\n\n* Deserialize the yaml files back into an esp file with Spriggit.\n\n* Open CK or SSEEdit and apply the esl flag, Spriggit doesn't handle number of records correctly yet so you will need to fix this manually.\n\nConfiguration\n\nAll configuration settings are stored in the config.yaml file. Below is an example configuration:\n\n[code]spriggit_cli_path: \"./Path/To/Spriggit.CLI.exe\"\n\ninput_directory: \"./yaml_output\"\n\nesp_name: \"MyMod.esp\"\n\nmesh_output_dir: \"./meshes/output\"\n\ntexture_sets_dir: \"./yaml_output/TextureSets\"\n\narmor_addons_dir: \"./yaml_output/ArmorAddons\"\n\narmors_dir: \"./yaml_output/Armors\"\n\nrecord_data_path: \"./yaml_output/RecordData.yaml\"\n\nspriggit_meta_path: \"./yaml_output/spriggit.meta\"[/code]\n\nExample inputs.yaml\n\nThis is the primary input file where you specify armor records in plain text which will get converted into yaml files and eventually esp. This is a lot faster than working in CreaitonKit or SSEEdit because you can copy and paste blocks and add name suffixes or change texture paths easily. A more detailed schema is included in the default inputs.yaml file.\n\nI have also included a helper script ReadOspGenInputMeshes.py to generate the mesh_name_input list based on Bodyslide SliderSet folder contents. It will also provide you with a list of shapes for each mesh.\n\n[code]mesh_name_input:\n\n\u00a0 - MultipleTextureMesh\n\n\u00a0 - SingleTextureMesh\n\ntexture_set_input:\n\n\u00a0 MultipleTextureMesh:\n\n\u00a0\u00a0\u00a0 Red:\n\n\u00a0\u00a0\u00a0\u00a0\u00a0 - Diffuse: \"Path/To/Diffuse.dds\"\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 NormalOrGloss: \"Path/To/Normal.dds\"\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 MeshName: \"Mesh1\"\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 MeshIndex: 0\n\n\u00a0\u00a0\u00a0\u00a0\u00a0 - Diffuse: \"Path/To/Diffuse2.dds\"\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 NormalOrGloss: \"Path/To/Normal2.dds\"\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 MeshName: \"Mesh2\"\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 MeshIndex: 1\n\n\u00a0\u00a0\u00a0 Blue:\n\n\u00a0\u00a0\u00a0\u00a0\u00a0 - Diffuse: \"Path/To/BlueDiffuse.dds\"\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 NormalOrGloss: \"Path/To/BlueNormal.dds\"\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 MeshName: \"Mesh1\"\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 MeshIndex: 0\n\n\u00a0 SingleTextureMesh:\n\n\u00a0\u00a0\u00a0 Green:\n\n\u00a0\u00a0\u00a0\u00a0\u00a0 - Diffuse: \"Path/To/GreenDiffuse.dds\"\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 NormalOrGloss: \"Path/To/GreenNormal.dds\"\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 MeshName: \"Mesh2\"\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 MeshIndex: 0\n\n[/code]\n\nExample maps.yaml\n\nThe maps.yaml file sets configs for automating the process of adding keywords, setting bodyslots, and setting value, weight and armor rating for each piece of clothing. This file contains mappings that directs the script to automatically infer body slot types based on item names and set the appropriate slots, keywords, and values. I have included a default config for this file that I use, a simple example to demonstrate the schema below:\n\n[code]first_person_flags_map:\n\n\u00a0 Head: [\"Helmet\", \"Hat\"]\n\n\u00a0 Body: [\"Armor\", \"Robe\"]\n\nkeywords_map:\n\n\u00a0 Head: [\"ArmorHelmet\", \"ClothingHead\"] # Just for reference, you need to use the actual FormKeys of the keywords here\n\n\u00a0 Body: [\"ArmorBody\", \"ClothingBody\"]\n\narmor_values_map:\n\n\u00a0 Head:\n\n\u00a0\u00a0\u00a0 Value: 100\n\n\u00a0\u00a0\u00a0 Weight: 1.0\n\n\u00a0\u00a0\u00a0 ArmorRating: 10\n\n\u00a0 Body:\n\n\u00a0\u00a0\u00a0 Value: 500\n\n\u00a0\u00a0\u00a0 Weight: 5.0\n\n\u00a0\u00a0\u00a0 ArmorRating: 50\n\n[/code]\n\nProject Structure\n\n[code]\u251c\u2500\u2500 config.yaml            \u00a0 # Config file\n\n\u251c\u2500\u2500 ModGenClass.py         \u00a0 # Contains the class object for parsing config and input yamls\n\n\u251c\u2500\u2500 ReadOspGenInputMeshes.py # Helper script to automatically generate mesh names from Bodyslide SliderSet folders for input\n\n\u251c\u2500\u2500 GenerateModFromInputs.py # Main script to run the generation process\n\n\u251c\u2500\u2500 maps.yaml                # Yaml config to determine bodyslots, keywords and armor value mapping\n\n\u251c\u2500\u2500 inputs.yaml            \u00a0 # Yaml file to specify the inputs for each clothing piece of the mod\n\n\u251c\u2500\u2500 templates.py             # Contains text templates for esp record types\n\n\u2514\u2500\u2500 README.md                # This documentation file[/code]\n\nLicense\n\nThis project is licensed under the [MIT License](https://opensource.org/license/mit).",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/clothing-mod-esp-7318624395498-v1/thumbnail.gif",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "clothing-mod-esp-7318624395498-v1",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1719846539,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Spriggit.Clothing.Automation.Script-516684-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/clothing-mod-esp-7318624395498-v1/Spriggit.Clothing.Automation.Script-516684-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624395313": {
+    "id": "7318624395313",
+    "modId": 122929,
+    "name": "Gunslicer Sneak Animations - My Version",
+    "game": "skyrimspecialedition",
+    "summary": "My version of Gunslicer's sneak animations with neck and back adjusted to look more natural, formatted for OAR",
+    "description": "I made some edits to [Gunslicer's sneak animations](https://www.nexusmods.com/skyrimspecialedition/mods/61159). Because Skyrim's simplistic skeleton rig is not very good, the original animation's neck shape is very screwed up. See comparison photo.\n\nIn light of this, I adjusted the neck position. I made adjustments to the spine as well since I thought the original animation's spine/back was too flat, this also helped with the neck position, overall I think it looks less unnatural.\n\nI only adjusted sneakmtidle, sneakrun_forward, and sneakwalk_forward since I use true directional movement and the other animations don't get called. If you don't use true directional movement you will get the original animations when you move in other directions.\n\nThe animations are in OAR format, which means you will need it for this to work. The trigger conditions are female player character with weapons sheathed. \n\nI also threw in an alternate squat idle that I made that will be randomly chosen alongside Gunslicer's idle, you can delete the sneakmtidle2.hkx file if you don't like it.",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-sneak-animations-7318624395313-v1/thumbnail.jpeg",
+    "releases": [
+      {
+        "version": "1.4",
+        "releaseTag": "gunslicer-sneak-animations-7318624395313-v1.4",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1726989629,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.4</summary>\n\n- Removed upper body swaying\n</details>",
+        "assets": [
+          {
+            "name": "Gunslicer.Sneak.Animations-544836-v1.4.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-sneak-animations-7318624395313-v1.4/Gunslicer.Sneak.Animations-544836-v1.4.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.3",
+        "releaseTag": "gunslicer-sneak-animations-7318624395313-v1.3",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1720489289,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.3</summary>\n\n- Turn animations added to improve transition\n</details>",
+        "assets": [
+          {
+            "name": "Gunslicer.Sneak.Animations-516541-v1.3.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-sneak-animations-7318624395313-v1.3/Gunslicer.Sneak.Animations-516541-v1.3.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "Less.bent.knees.version-519198-v1.3.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-sneak-animations-7318624395313-v1.3/Less.bent.knees.version-519198-v1.3.7z",
+            "category": "OPTIONAL"
+          }
+        ]
+      },
+      {
+        "version": "1.2",
+        "releaseTag": "gunslicer-sneak-animations-7318624395313-v1.2",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1719880374,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.2</summary>\n\n- Squat idle clavicle and shoulder adjustments\n</details>",
+        "assets": [
+          {
+            "name": "Gunslicer.Sneak.Animations-516143-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-sneak-animations-7318624395313-v1.2/Gunslicer.Sneak.Animations-516143-v1.2.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "Less.bent.knees.version-516856-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-sneak-animations-7318624395313-v1.2/Less.bent.knees.version-516856-v1.2.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "releaseTag": "gunslicer-sneak-animations-7318624395313-v1.1",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1719798176,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Squat idle shoulder adjusted. GS sneak arrow quiver node adjusted.\n</details>",
+        "assets": [
+          {
+            "name": "Gunslicer.Sneak.Animations-515977-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-sneak-animations-7318624395313-v1.1/Gunslicer.Sneak.Animations-515977-v1.1.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "Less.bent.knees.version-516537-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-sneak-animations-7318624395313-v1.1/Less.bent.knees.version-516537-v1.1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "gunslicer-sneak-animations-7318624395313-v1",
+        "updatedAt": "2025-07-29T12:23:16+00:00",
+        "uploadTimestamp": 1720494810,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Gunslicer.Sneak.Animations-515842-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-sneak-animations-7318624395313-v1/Gunslicer.Sneak.Animations-515842-v1.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "Less.bent.knees.version-516289-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-sneak-animations-7318624395313-v1/Less.bent.knees.version-516289-v1.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "two.handed.sneak.test-519217-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-sneak-animations-7318624395313-v1/two.handed.sneak.test-519217-v1.7z",
+            "category": "OPTIONAL"
+          }
+        ]
+      }
+    ]
   }
 }
