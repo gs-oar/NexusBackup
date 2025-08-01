@@ -159,6 +159,34 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/invicta-couture-lingerie-7318624417510-v1/thumbnail.jpeg",
     "releases": [
       {
+        "version": "1.3.1",
+        "releaseTag": "invicta-couture-lingerie-7318624417510-v1.3.1",
+        "updatedAt": "2025-07-29T17:08:33+00:00",
+        "uploadTimestamp": 1753976984,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.3.1</summary>\n\n- really fix the seams\n</details>",
+        "assets": [
+          {
+            "name": "Invicta.Lingerie.CBBE.3BA-651643-v1.3.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/invicta-couture-lingerie-7318624417510-v1.3.1/Invicta.Lingerie.CBBE.3BA-651643-v1.3.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.3",
+        "releaseTag": "invicta-couture-lingerie-7318624417510-v1.3",
+        "updatedAt": "2025-07-29T17:08:33+00:00",
+        "uploadTimestamp": 1753969583,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.3</summary>\n\n- fix seams\n</details>",
+        "assets": [
+          {
+            "name": "Invicta.Lingerie.CBBE.3BA-651616-v1.3.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/invicta-couture-lingerie-7318624417510-v1.3/Invicta.Lingerie.CBBE.3BA-651616-v1.3.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
         "version": "1.2",
         "releaseTag": "invicta-couture-lingerie-7318624417510-v1.2",
         "updatedAt": "2025-07-29T11:52:39+00:00",
