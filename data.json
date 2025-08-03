@@ -4792,5 +4792,35 @@
         ]
       }
     ]
+  },
+  "7318624428395": {
+    "id": "7318624428395",
+    "modId": 156011,
+    "name": "Yurica Summer Dress",
+    "game": "skyrimspecialedition",
+    "summary": "Yurica summer dress set in two colors for CBBE 3BA and BHUNPv4 with SMP skirt",
+    "description": "This is a conversion of yurica's [summer dress set ](https://www.nexusmods.com/skyrim/mods/65777)from Oldrim. I also added SMP to the skirts and the bow ribbons. The heels also now use NiOverride.\n\nThere are three shapes of white dresses that have black or blue highlights; the accessories like hats and heels also are in black or blue. There's also two bracelets.\n\nesl flagged esp. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)); no crafting recipes. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first.\n\nRequirements:\n\nCBBE 3BA or BHUNPv4\n\nBodyslide\n\nFSMP\ufeff\n\nRacemenu\n\nScreenshots:\n\n[nuuwei](https://x.com/NuuweiNoir)\n\n[myst](https://x.com/Myst314)\ufeff\n\n ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/yurica-summer-dress-7318624428395-v1/thumbnail.jpg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "yurica-summer-dress-7318624428395-v1",
+        "updatedAt": "2025-08-01T05:26:11+00:00",
+        "uploadTimestamp": 1754129176,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Yurica.Summer.Dress.CBBE.3BA-652086-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/yurica-summer-dress-7318624428395-v1/Yurica.Summer.Dress.CBBE.3BA-652086-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Yurica.Summer.Dress.BHUNP-652087-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/yurica-summer-dress-7318624428395-v1/Yurica.Summer.Dress.BHUNP-652087-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
