@@ -4822,5 +4822,45 @@
         ]
       }
     ]
+  },
+  "7318624427917": {
+    "id": "7318624427917",
+    "modId": 155533,
+    "name": "Lady Morag Tong",
+    "game": "skyrimspecialedition",
+    "summary": "A set of light armor for vanilla, CBBE 3BA, BHUNPv4, and HIMBO",
+    "description": "The pieces are modular:\n\n- Belt\n\n- Body\n\n- Bra\n\n- Boots\n\n- Bracers\n\n- Drapes\n\n- Necklace\n\n- Vest\n\nThere are crafting recipes and temper recipes as well with leather and steel.\n\nesl flagged esp. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)). [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first.\n\nRequirements:\n\nOne of the body mods (3BA, BHUNP, HIMBO) or vanilla\n\nBodyslide\n\nRacemenu\n\nScreenshots:\n\n[soggychicken](https://www.twitter.com/SoggyChicken_)\ufeff\n\n[myst](https://x.com/Myst314)\ufeff\n\n ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/lady-morag-tong-7318624427917-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "lady-morag-tong-7318624427917-v1",
+        "updatedAt": "2025-08-03T05:21:38+00:00",
+        "uploadTimestamp": 1754246657,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Lady.Morag.Tong.CBBE.3BA-652503-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/lady-morag-tong-7318624427917-v1/Lady.Morag.Tong.CBBE.3BA-652503-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Lady.Morag.Tong.BHUNP-652504-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/lady-morag-tong-7318624427917-v1/Lady.Morag.Tong.BHUNP-652504-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Lady.Morag.Tong.HIMBO-652505-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/lady-morag-tong-7318624427917-v1/Lady.Morag.Tong.HIMBO-652505-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Lady.Morag.Tong.Vanilla-652506-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/lady-morag-tong-7318624427917-v1/Lady.Morag.Tong.Vanilla-652506-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
