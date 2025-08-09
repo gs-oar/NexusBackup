@@ -4862,5 +4862,30 @@
         ]
       }
     ]
+  },
+  "7318624428879": {
+    "id": "7318624428879",
+    "modId": 156495,
+    "name": "La Matadora CBBE 3BA",
+    "game": "skyrimspecialedition",
+    "summary": "CBBE 3BA conversion for La Matadora",
+    "description": "3ba nowwwwwww\n\nRequires the [original mod ](https://www.nexusmods.com/skyrimspecialedition/mods/156478)for textures and esp.\n\nStep by step guide:\n\n* Download the original BHUNP mod for assets and esp\n\n* Download the bodyslide files here\n\n* Build bodyslide files\n\n* yay! you did it\n\n ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/la-matadora-cbbe-7318624428879-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "la-matadora-cbbe-7318624428879-v1",
+        "updatedAt": "2025-08-06T05:25:01+00:00",
+        "uploadTimestamp": 1754677863,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "La.Matadora.CBBE.3BA-653914-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/la-matadora-cbbe-7318624428879-v1/La.Matadora.CBBE.3BA-653914-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
