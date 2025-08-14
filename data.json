@@ -1764,6 +1764,34 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-animations-all-7318624396333-v1/thumbnail.jpeg",
     "releases": [
       {
+        "version": "1.15.1",
+        "releaseTag": "gunslicer-animations-all-7318624396333-v1.15.1",
+        "updatedAt": "2025-08-09T05:13:21+00:00",
+        "uploadTimestamp": 1755111270,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.15.1</summary>\n\n- Fix sword dual wield conditions\n</details>",
+        "assets": [
+          {
+            "name": "Gunslicer.Animations.All.in.One.OAR-655290-v1.15.1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-animations-all-7318624396333-v1.15.1/Gunslicer.Animations.All.in.One.OAR-655290-v1.15.1.zip",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.15",
+        "releaseTag": "gunslicer-animations-all-7318624396333-v1.15",
+        "updatedAt": "2025-08-09T05:13:21+00:00",
+        "uploadTimestamp": 1755097048,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.15</summary>\n\n- Add Sneak 2, separated out walk/run/sprint\n</details>",
+        "assets": [
+          {
+            "name": "Gunslicer.Animations.All.in.One.OAR-655254-v1.15.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-animations-all-7318624396333-v1.15/Gunslicer.Animations.All.in.One.OAR-655254-v1.15.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
         "version": "1.14",
         "releaseTag": "gunslicer-animations-all-7318624396333-v1.14",
         "updatedAt": "2025-07-29T12:23:16+00:00",
