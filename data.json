@@ -4915,5 +4915,64 @@
         ]
       }
     ]
+  },
+  "7318624427916": {
+    "id": "7318624427916",
+    "modId": 155532,
+    "name": "Ribbon Outfit",
+    "game": "skyrimspecialedition",
+    "summary": "Ribbon outfit for CBBE 3BA and BHUNPv4 with SMP ribbon bows, comes in many colors",
+    "description": "Never look at a gift horse in the mouth?\n\nPieces:\n\n- Body\n\n- Wrist\n\n- Ankle\n\nThe big bow on the body piece, as well as the little bows on the wrists and ankles, move slightly with SMP.\n\nesl flagged esp. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)); no crafting recipes. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first.\n\nRequirements:\n\nCBBE 3BA or BHUNPv4\n\nBodyslide\n\nFSMP\ufeff\n\nRacemenu\n\nScreenshots:\n\n[nuuwei](https://x.com/NuuweiNoir)\n\n21312\n\n[soggychicken](https://www.twitter.com/SoggyChicken_)\ufeff\n\n![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/ribbon-outfit-7318624427916-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1.1",
+        "releaseTag": "ribbon-outfit-7318624427916-v1.1",
+        "updatedAt": "2025-08-14T05:14:47+00:00",
+        "uploadTimestamp": 1755352723,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- esl-fied\n</details>",
+        "assets": [
+          {
+            "name": "Ribbon.Outfit.CBBE.3BA-656183-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/ribbon-outfit-7318624427916-v1.1/Ribbon.Outfit.CBBE.3BA-656183-v1.1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Ribbon.Outfit.BHUNP-656184-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/ribbon-outfit-7318624427916-v1.1/Ribbon.Outfit.BHUNP-656184-v1.1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Ribbon.Outfit.Vanilla-656185-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/ribbon-outfit-7318624427916-v1.1/Ribbon.Outfit.Vanilla-656185-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "ribbon-outfit-7318624427916-v1",
+        "updatedAt": "2025-08-14T05:14:47+00:00",
+        "uploadTimestamp": 1755268570,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Ribbon.Outfit.CBBE.3BA-655883-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/ribbon-outfit-7318624427916-v1/Ribbon.Outfit.CBBE.3BA-655883-v1.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "Ribbon.Outfit.BHUNP-655885-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/ribbon-outfit-7318624427916-v1/Ribbon.Outfit.BHUNP-655885-v1.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "Ribbon.Outfit.Vanilla-655886-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/ribbon-outfit-7318624427916-v1/Ribbon.Outfit.Vanilla-655886-v1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
   }
 }
