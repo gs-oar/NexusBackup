@@ -4974,5 +4974,60 @@
         ]
       }
     ]
+  },
+  "7318624430284": {
+    "id": "7318624430284",
+    "modId": 157900,
+    "name": "Pirates of Skyrim - Saltair CBBE 3BA",
+    "game": "skyrimspecialedition",
+    "summary": "CBBE 3BA conversion of saltair outfit",
+    "description": "timbers are shivered\n\nRequires the [original mod ](https://www.nexusmods.com/skyrimspecialedition/mods/157792)for textures and esp.\n\nStep by step guide:\n\n* Download the original BHUNP mod for assets and esp\n\n* Download the bodyslide files here\n\n* Build bodyslide files\n\n* yay! you did it\n\n  ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/pirates-of-skyrim-7318624430284-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "pirates-of-skyrim-7318624430284-v1",
+        "updatedAt": "2025-08-17T05:14:03+00:00",
+        "uploadTimestamp": 1756325896,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Saltair.CBBE.3BA-659859-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/pirates-of-skyrim-7318624430284-v1/Saltair.CBBE.3BA-659859-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624428511": {
+    "id": "7318624428511",
+    "modId": 156127,
+    "name": "Revamped Dragonscale Armor",
+    "game": "skyrimspecialedition",
+    "summary": "Dragonscale themed light armor set for CBBE 3BA and BHUNP",
+    "description": "This was originally made for **[Oldrim 7B by gomaperopero ](https://gomaperopero.tumblr.com/post/126087847995/dragonscale-oppai-armor-revamped-dragonscale-armor)**and converted/updated here for SSE body mods and with pieces split up for mix and match. The loincloth now has SMP, and so do the bones and amulet; they swing slightly with movement.\n\nPieces:\n\n- Boots (two variants)\n\n- Chestplate\n\n- Amulet\n\n- Gauntlets\n\n- Bones\n\n- Waist\n\n- Panty\n\nesl flagged esp. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)); normal dragonscale crafting recipes. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first.\n\nRequirements:\n\nCBBE 3BA or BHUNPv4\n\nBodyslide\n\nFSMP\ufeff\n\nRacemenu\n\nScreenshots:\n\njust me this time, need 3ba screenarchers pls[url=https://x.com/Thewheel_Skyrim]\n\n[/url] ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/revamped-dragonscale-armor-7318624428511-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "revamped-dragonscale-armor-7318624428511-v1",
+        "updatedAt": "2025-08-17T05:14:03+00:00",
+        "uploadTimestamp": 1756158653,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Revamped.Dragonscale.Armor.CBBE.3BA-659216-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/revamped-dragonscale-armor-7318624428511-v1/Revamped.Dragonscale.Armor.CBBE.3BA-659216-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Revamped.Dragonscale.Armor.BHUNP-659217-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/revamped-dragonscale-armor-7318624428511-v1/Revamped.Dragonscale.Armor.BHUNP-659217-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
