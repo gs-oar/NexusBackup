@@ -5029,5 +5029,40 @@
         ]
       }
     ]
+  },
+  "7318624428273": {
+    "id": "7318624428273",
+    "modId": 155889,
+    "name": "Sleek Steel Armor",
+    "game": "skyrimspecialedition",
+    "summary": "Steel armor set with modular pieces for vanilla, CBBE 3BA and BHUNP female characters",
+    "description": "This was originally made for [Oldrim ](https://www.nexusmods.com/skyrim/mods/24065)by\u00a0[ReflexShooter](https://www.nexusmods.com/skyrim/users/2471844)\u00a0and converted/updated here for SSE body mods and with pieces split up for mix and match. I have also used xavbio's steel textures here as custom textures instead of default steel.\n\nPieces:\n\n- Boots\n\n- Bra\n\n- Chestplate with or without chainmail\n\n- Collar\n\n- Gauntlets\n\n- Leggings\n\n- Panty\n\nesl flagged esp. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)); normal steel crafting recipes. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first.\n\nRequirements:\n\nCBBE 3BA or BHUNPv4\n\nBodyslide\n\nFSMP\ufeff\n\nRacemenu\n\nScreenshots:\n\n[url=https://x.com/Thewheel_Skyrim]\n\n[/url] ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/sleek-steel-armor-7318624428273-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "sleek-steel-armor-7318624428273-v1",
+        "updatedAt": "2025-08-28T05:12:47+00:00",
+        "uploadTimestamp": 1756502098,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Sleek.Steel.Armor.BHUNP-660342-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/sleek-steel-armor-7318624428273-v1/Sleek.Steel.Armor.BHUNP-660342-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Sleek.Steel.Armor.Vanilla-660344-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/sleek-steel-armor-7318624428273-v1/Sleek.Steel.Armor.Vanilla-660344-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Sleek.Steel.Armor.CBBE.3BA-660442-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/sleek-steel-armor-7318624428273-v1/Sleek.Steel.Armor.CBBE.3BA-660442-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
