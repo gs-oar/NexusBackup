@@ -5089,5 +5089,30 @@
         ]
       }
     ]
+  },
+  "7318624430402": {
+    "id": "7318624430402",
+    "modId": 158018,
+    "name": "Compact Bikini",
+    "game": "skyrimspecialedition",
+    "summary": "Two piece bikini outfit for CBBE 3BA and BHUNP",
+    "description": "Two pieces, top and bottom, there's 13 colors.\n\nRequirements:\n\nBHUNP or CBBE 3BA\n\n[Bodyslide](https://www.nexusmods.com/skyrimspecialedition/mods/201)\n\nesl flagged esp. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)); [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first.\n\n  ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/compact-bikini-7318624430402-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "compact-bikini-7318624430402-v1",
+        "updatedAt": "2025-09-04T05:11:46+00:00",
+        "uploadTimestamp": 1757114521,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Compact.Bikini-662721-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/compact-bikini-7318624430402-v1/Compact.Bikini-662721-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
