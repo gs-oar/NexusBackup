@@ -5114,5 +5114,30 @@
         ]
       }
     ]
+  },
+  "7318624430406": {
+    "id": "7318624430406",
+    "modId": 158022,
+    "name": "Summer Mood Bikini",
+    "game": "skyrimspecialedition",
+    "summary": "Bikini set for CBBE 3BA and BHUNP",
+    "description": "One piece swimsuit, there's 13 colors.\n\nRequirements:\n\nBHUNP or CBBE 3BA\n\n[Bodyslide](https://www.nexusmods.com/skyrimspecialedition/mods/201)\n\nesl flagged esp. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)); [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first.\n\n![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/summer-mood-bikini-7318624430406-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "summer-mood-bikini-7318624430406-v1",
+        "updatedAt": "2025-09-06T05:11:39+00:00",
+        "uploadTimestamp": 1757554195,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Summer.Mood.Bikini-664565-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/summer-mood-bikini-7318624430406-v1/Summer.Mood.Bikini-664565-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
