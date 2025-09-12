@@ -5139,5 +5139,30 @@
         ]
       }
     ]
+  },
+  "7318624431340": {
+    "id": "7318624431340",
+    "modId": 158956,
+    "name": "PeroPero Mage Robes",
+    "game": "skyrimspecialedition",
+    "summary": "Mage robes for CBBE 3BA",
+    "description": "i put on my robe and wizard hat. converted by request of some commenters.\n\nThis was originally made for **[Oldrim 7B by gomaperopero ](https://gomaperopero.tumblr.com/post/138404787475/peropero-magerobes-replacer-for-7b)**and converted/updated for CBBE 3BA and with SMP added to the pieces, as well as textures from xavbio. There's mesh fixes and polygon subdivisions here and there to make the meshes behave better with smp and look semi-good, but these are still pretty old and generally low poly outfits, so just a caveat.\n\nOutfits:\n\nArchmage\n\nApprentice\u00a0Mage (three colors)\n\nJourneyman Mage\u00a0(three colors)\n\nMiraak\n\nMonk (this has a bunch of recolors, like blue, red, gray, brown, Vaermina, necromancer, so on)\n\nThalmor\n\nesl flagged esp. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)). [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. Craftable with 2 leather strips at a forge.\n\nRequirements:\n\nCBBE 3BA\n\nBodyslide\n\nFSMP\ufeff\n\n[url=https://x.com/Thewheel_Skyrim]\n\n[/url] ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/peropero-mage-robes-7318624431340-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "peropero-mage-robes-7318624431340-v1",
+        "updatedAt": "2025-09-11T05:12:24+00:00",
+        "uploadTimestamp": 1757640526,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "PeroPero.Mage.Robes-664877-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/peropero-mage-robes-7318624431340-v1/PeroPero.Mage.Robes-664877-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
