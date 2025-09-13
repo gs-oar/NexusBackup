@@ -5150,6 +5150,20 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/peropero-mage-robes-7318624431340-v1/thumbnail.png",
     "releases": [
       {
+        "version": "1.01",
+        "releaseTag": "peropero-mage-robes-7318624431340-v1.01",
+        "updatedAt": "2025-09-12T05:12:53+00:00",
+        "uploadTimestamp": 1757688972,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.01</summary>\n\n- fixed bodyslide group names\n</details>",
+        "assets": [
+          {
+            "name": "PeroPero.Mage.Robes-664999-v1.01.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/peropero-mage-robes-7318624431340-v1.01/PeroPero.Mage.Robes-664999-v1.01.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
         "version": "1",
         "releaseTag": "peropero-mage-robes-7318624431340-v1",
         "updatedAt": "2025-09-11T05:12:24+00:00",
@@ -5159,6 +5173,31 @@
           {
             "name": "PeroPero.Mage.Robes-664877-v1.7z",
             "url": "https://github.com/gs-oar/NexusBackup/releases/download/peropero-mage-robes-7318624431340-v1/PeroPero.Mage.Robes-664877-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624431406": {
+    "id": "7318624431406",
+    "modId": 159022,
+    "name": "Whiterun Throne Replacer",
+    "game": "skyrimspecialedition",
+    "summary": "Replaces the throne in Dragonsreach with a better and more comfortable one",
+    "description": "it just works\n\nrequirements:\n\na whimsical notion; a jovial spirit\n\n ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/whiterun-throne-replacer-7318624431406-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "whiterun-throne-replacer-7318624431406-v1",
+        "updatedAt": "2025-09-12T05:12:53+00:00",
+        "uploadTimestamp": 1757695794,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Whiterun.Throne.Replacer-665009-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/whiterun-throne-replacer-7318624431406-v1/Whiterun.Throne.Replacer-665009-v1.7z",
             "category": "MAIN"
           }
         ]
