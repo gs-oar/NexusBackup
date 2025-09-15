@@ -5203,5 +5203,45 @@
         ]
       }
     ]
+  },
+  "7318624428094": {
+    "id": "7318624428094",
+    "modId": 155710,
+    "name": "Police Outfit",
+    "game": "skyrimspecialedition",
+    "summary": "Police department uniform for CBBE 3BA, BHUNPv4, HIMBO, or vanilla male/female",
+    "description": "NYPD open up\n\n8 pieces total. Belt, holster, hat, pants, radio, shoes, shirt, vest.\n\nesl flagged esp. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)); no crafting recipes. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first.\n\nRequirements:\n\nCBBE 3BA or BHUNPv4 or HIMBO or literally just vanilla if you're very vanilla\n\nBodyslide\n\n ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/police-outfit-7318624428094-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "police-outfit-7318624428094-v1",
+        "updatedAt": "2025-09-13T05:12:06+00:00",
+        "uploadTimestamp": 1757861680,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Police.Outfit.HIMBO-665698-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/police-outfit-7318624428094-v1/Police.Outfit.HIMBO-665698-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Police.Outfit.BHUNP-665700-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/police-outfit-7318624428094-v1/Police.Outfit.BHUNP-665700-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Police.Outfit.CBBE.3BA-665703-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/police-outfit-7318624428094-v1/Police.Outfit.CBBE.3BA-665703-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Police.Outfit.Vanilla-665704-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/police-outfit-7318624428094-v1/Police.Outfit.Vanilla-665704-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
