@@ -5243,5 +5243,30 @@
         ]
       }
     ]
+  },
+  "7318624430400": {
+    "id": "7318624430400",
+    "modId": 158016,
+    "name": "Apron",
+    "game": "skyrimspecialedition",
+    "summary": "Apron for CBBE 3BA, BHUNP and HIMBO",
+    "description": "Apron. There is SMP for the apron, and the bow tie in the back. There's the regular opaque version, and a transparent version, and full/damaged versions. So, 4 in total.\u00a0\n\nesl flagged esp. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)). [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first.\n\nRequirements:\n\n3BA, BHUNP, HIMBO\n\nBodyslide\n\nRacemenu\n\nScreenshots:\n\n[soggychicken](https://www.twitter.com/SoggyChicken_)\ufeff\n\n[psychowedge](https://next.nexusmods.com/profile/PsychoWedge)\n\n  ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/apron-7318624430400-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "apron-7318624430400-v1",
+        "updatedAt": "2025-09-15T05:13:34+00:00",
+        "uploadTimestamp": 1757859643,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Apron-665693-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/apron-7318624430400-v1/Apron-665693-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
