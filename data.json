@@ -5268,5 +5268,30 @@
         ]
       }
     ]
+  },
+  "7318624431719": {
+    "id": "7318624431719",
+    "modId": 159335,
+    "name": "Poetica Plus",
+    "game": "skyrimspecialedition",
+    "summary": "Mesh edits, slider adjustments and SMP additions to Poetica for CBBE 3BA",
+    "description": "i did a thing\n\nChanges:\n\n- The feathers on the hat now have SMP bones rigged for each individual feather and they'll move softly as you move\n\n- The shirt slider and weights have been adjusted\n\n- Misc mesh shape, bone weights, slider edits\n\n- The two gems at the bottom of the cloak chest flaps also now have SMP and move slightly\n\n- The tassels on the back of the cloak also have SMP, as well as the white heart shaped gem, and the blue tear shaped gem; these will all move slightly\n\n- The hat has some extra adjustment sliders\n\n- Cloak SMP has been adjusted so that each piece of the cloak moves independently, which I think is more natural\n\n- SRD yaml added for the heels, it'll get heels sounds if you have that installed\n\nRequirements:\n\nOriginal mod\n\nCBBE 3BA\n\nBodyslide\n\nRacemenu\n\nHow to install:\n\n1. Download the assets from either the [original ](https://gamer-mods.ru/load/skyrim_se/bronja/se_bdor_poetica_poehzija/167-1-0-16844)or my [catbox mirror](https://files.catbox.moe/199zrk.7z), install that\u00a0\n\n2.\u00a0Install this and let it overwrite\n\n3. Build bodyslide files under group \"Poetica CBBE 3BA\"\n\n![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/poetica-plus-7318624431719-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "poetica-plus-7318624431719-v1",
+        "updatedAt": "2025-09-16T05:12:36+00:00",
+        "uploadTimestamp": 1758006647,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Poetica.Plus-666303-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/poetica-plus-7318624431719-v1/Poetica.Plus-666303-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
