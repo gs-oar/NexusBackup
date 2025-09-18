@@ -5150,6 +5150,20 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/peropero-mage-robes-7318624431340-v1/thumbnail.png",
     "releases": [
       {
+        "version": "1.1",
+        "releaseTag": "peropero-mage-robes-7318624431340-v1.1",
+        "updatedAt": "2025-09-17T05:12:02+00:00",
+        "uploadTimestamp": 1758169049,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Added custom ground meshes made by hepari1\n</details>",
+        "assets": [
+          {
+            "name": "PeroPero.Mage.Robes-666858-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/peropero-mage-robes-7318624431340-v1.1/PeroPero.Mage.Robes-666858-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
         "version": "1.01",
         "releaseTag": "peropero-mage-robes-7318624431340-v1.01",
         "updatedAt": "2025-09-12T05:12:53+00:00",
@@ -5278,6 +5292,20 @@
     "description": "i did a thing\n\nChanges:\n\n- The feathers on the hat now have SMP bones rigged for each individual feather and they'll move softly as you move\n\n- The shirt slider and weights have been adjusted\n\n- Misc mesh shape, bone weights, slider edits\n\n- The two gems at the bottom of the cloak chest flaps also now have SMP and move slightly\n\n- The tassels on the back of the cloak also have SMP, as well as the white heart shaped gem, and the blue tear shaped gem; these will all move slightly\n\n- The hat has some extra adjustment sliders\n\n- Cloak SMP has been adjusted so that each piece of the cloak moves independently, which I think is more natural\n\n- SRD yaml added for the heels, it'll get heels sounds if you have that installed\n\nRequirements:\n\nOriginal mod\n\nCBBE 3BA\n\nBodyslide\n\nRacemenu\n\nHow to install:\n\n1. Download the assets from either the [original ](https://gamer-mods.ru/load/skyrim_se/bronja/se_bdor_poetica_poehzija/167-1-0-16844)or my [catbox mirror](https://files.catbox.moe/199zrk.7z), install that\u00a0\n\n2.\u00a0Install this and let it overwrite\n\n3. Build bodyslide files under group \"Poetica CBBE 3BA\"\n\n![Image](https://i.imgur.com/NAEELTf.png)",
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/poetica-plus-7318624431719-v1/thumbnail.png",
     "releases": [
+      {
+        "version": "2",
+        "releaseTag": "poetica-plus-7318624431719-v2",
+        "updatedAt": "2025-09-17T05:12:02+00:00",
+        "uploadTimestamp": 1758092258,
+        "changelog": "<details>\n<summary>Click to view Changelog for v2</summary>\n\n- Added leotard version based on Caeldfwlch's work\n</details>",
+        "assets": [
+          {
+            "name": "Poetica.Plus-666558-v2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/poetica-plus-7318624431719-v2/Poetica.Plus-666558-v2.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
       {
         "version": "1",
         "releaseTag": "poetica-plus-7318624431719-v1",
