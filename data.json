@@ -1286,6 +1286,25 @@
             "category": "MAIN"
           }
         ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "tea-maid-7318624401549-v1",
+        "updatedAt": "2025-09-18T05:13:08+00:00",
+        "uploadTimestamp": 1726277041,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Full.4K.textures-541852-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/tea-maid-7318624401549-v1/Full.4K.textures-541852-v1.7z",
+            "category": "OPTIONAL"
+          },
+          {
+            "name": "Tea.Maid-541855-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/tea-maid-7318624401549-v1/Tea.Maid-541855-v1.7z",
+            "category": "MAIN"
+          }
+        ]
       }
     ]
   },
