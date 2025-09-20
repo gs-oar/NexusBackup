@@ -774,6 +774,30 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/elvenia-armor-7318624414675-v1/thumbnail.png",
     "releases": [
       {
+        "version": "1.4",
+        "releaseTag": "elvenia-armor-7318624414675-v1.4",
+        "updatedAt": "2025-09-19T05:12:25+00:00",
+        "uploadTimestamp": 1758260960,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.4</summary>\n\n- Textures updated\n- Minor weight painting changes for 3BA\n- Added silver retextures\n</details>",
+        "assets": [
+          {
+            "name": "Elvenia.Armor.CBBE.3BA-667231-v1.4.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/elvenia-armor-7318624414675-v1.4/Elvenia.Armor.CBBE.3BA-667231-v1.4.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Elvenia.Armor.BHUNP-667232-v1.4.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/elvenia-armor-7318624414675-v1.4/Elvenia.Armor.BHUNP-667232-v1.4.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Silver.Retextures-667233-v1.4.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/elvenia-armor-7318624414675-v1.4/Silver.Retextures-667233-v1.4.7z",
+            "category": "OPTIONAL"
+          }
+        ]
+      },
+      {
         "version": "1.3",
         "releaseTag": "elvenia-armor-7318624414675-v1.3",
         "updatedAt": "2025-07-29T12:10:08+00:00",
