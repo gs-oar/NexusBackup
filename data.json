@@ -5364,5 +5364,40 @@
         ]
       }
     ]
+  },
+  "7318624431518": {
+    "id": "7318624431518",
+    "modId": 159134,
+    "name": "Tribal Warrior",
+    "game": "skyrimspecialedition",
+    "summary": "Tribal themed leather light armor set for CBBE 3BA/BHUNP/HIMBO",
+    "description": "The loincloth has SMP. There's also a sword.\n\nesl flagged esp, standalone. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)). [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. Craftable with 2 leather strips and quicksilver ingots and 1 saber cat pelt at a forge. Temperable with 1 saber cat pelt.\n\nRequirements:\n\nCBBE 3BA or BHUNP or HIMBO\n\nBodyslide\n\nSMP\ufeff\n\n  ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/tribal-warrior-7318624431518-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "tribal-warrior-7318624431518-v1",
+        "updatedAt": "2025-09-20T05:12:15+00:00",
+        "uploadTimestamp": 1758383310,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Tribal.Warrior.CBBE.3BA-667681-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/tribal-warrior-7318624431518-v1/Tribal.Warrior.CBBE.3BA-667681-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Tribal.Warrior.HIMBO-667682-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/tribal-warrior-7318624431518-v1/Tribal.Warrior.HIMBO-667682-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Tribal.Warrior.BHUNP-667683-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/tribal-warrior-7318624431518-v1/Tribal.Warrior.BHUNP-667683-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
