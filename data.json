@@ -5399,5 +5399,30 @@
         ]
       }
     ]
+  },
+  "7318624432032": {
+    "id": "7318624432032",
+    "modId": 159648,
+    "name": "Snake",
+    "game": "skyrimspecialedition",
+    "summary": "Snake armor for your body in 7 colors for CBBE 3BA and BHUNP",
+    "description": "solid snake or something idk. There's a squeeze slider.\n\n[randall ](https://next.nexusmods.com/profile/RandallSteele)made the bhunp conversion\n\nesl flagged esp. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)); craftable with dragon scales and leather strips.\u00a0[Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first.\n\nRequirements:\n\n3BA or BHUNP\n\nBodyslide\n\n![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/snake-7318624432032-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "snake-7318624432032-v1",
+        "updatedAt": "2025-09-21T05:12:21+00:00",
+        "uploadTimestamp": 1758673393,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Snake-668854-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/snake-7318624432032-v1/Snake-668854-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
