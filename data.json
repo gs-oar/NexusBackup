@@ -5424,5 +5424,44 @@
         ]
       }
     ]
+  },
+  "7318624432492": {
+    "id": "7318624432492",
+    "modId": 160108,
+    "name": "Speed Buster Heart Girl",
+    "game": "skyrimspecialedition",
+    "summary": "Hearty outfit for CBBE 3BA and BHUNP",
+    "description": "Originally an [Oblivion mod ](https://www.nexusmods.com/oblivion/mods/22017)by\u00a0[A-Type2/Speed Buster](https://next.nexusmods.com/profile/AGSTYPE2)\ufeff. Vintage!\n\nSince the original page/file has been lost to time I used the meshes and textures from Arsenic [here](https://www.loverslab.com/files/file/2174-spb-heart-girl-for-unp-jiggle/). It has been converted to CBBE 3BAv2 and BHUNPv4 with the boots mesh adjusted for racemenu high heels.\n\nThree colors: pink, purple, and white; there's also a couple of mixed variants.\n\nesl flagged esp. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)). [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first.\n\nRequirements:\n\n3BA or BHUNP\n\nBodyslide\n\nRacemenu\n\nScreenshots:\n\n[soggychicken](https://www.twitter.com/SoggyChicken_)\ufeff\n\n[crashnflash](https://next.nexusmods.com/profile/CrashnFlash)\n\n[sneedster](https://next.nexusmods.com/profile/SneedsterSneedington)\n\n![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/speed-buster-heart-7318624432492-v1/thumbnail.jpg",
+    "releases": [
+      {
+        "version": "1.1",
+        "releaseTag": "speed-buster-heart-7318624432492-v1.1",
+        "updatedAt": "2025-09-25T05:13:09+00:00",
+        "uploadTimestamp": 1759107936,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Improved clavicle bone weights for gloves\n</details>",
+        "assets": [
+          {
+            "name": "Speed.Buster.Heart.Girl-670339-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/speed-buster-heart-7318624432492-v1.1/Speed.Buster.Heart.Girl-670339-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "speed-buster-heart-7318624432492-v1",
+        "updatedAt": "2025-09-25T05:13:09+00:00",
+        "uploadTimestamp": 1759070181,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Speed.Buster.Heart.Girl-670180-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/speed-buster-heart-7318624432492-v1/Speed.Buster.Heart.Girl-670180-v1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
   }
 }
