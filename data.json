@@ -1807,6 +1807,20 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-animations-all-7318624396333-v1/thumbnail.jpeg",
     "releases": [
       {
+        "version": "1.15.2",
+        "releaseTag": "gunslicer-animations-all-7318624396333-v1.15.2",
+        "updatedAt": "2025-09-29T05:13:23+00:00",
+        "uploadTimestamp": 1759126333,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.15.2</summary>\n\n- fixed mt_runleft footstep annotations\n- updated jump conditions json\n- sneak 2 turn anims added\n</details>",
+        "assets": [
+          {
+            "name": "Gunslicer.Animations.All.in.One.OAR-670380-v1.15.2.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-animations-all-7318624396333-v1.15.2/Gunslicer.Animations.All.in.One.OAR-670380-v1.15.2.zip",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
         "version": "1.15.1",
         "releaseTag": "gunslicer-animations-all-7318624396333-v1.15.1",
         "updatedAt": "2025-08-09T05:13:21+00:00",
