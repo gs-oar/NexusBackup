@@ -5559,5 +5559,44 @@
         ]
       }
     ]
+  },
+  "7318624434271": {
+    "id": "7318624434271",
+    "modId": 161887,
+    "name": "Bryn Outfit CBBE 3BA",
+    "game": "skyrimspecialedition",
+    "summary": "CBBE 3BA conversion of Bryn outfit",
+    "description": "falafel\n\nRequires the [original mod ](https://www.nexusmods.com/skyrimspecialedition/mods/161869)for textures and esp.\n\nStep by step guide:\n\n* Download the original BHUNP mod for assets and esp\n\n* Download the bodyslide files here\n\n* Build bodyslide files\n\n* yay! you did it\n\n![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/bryn-outfit-cbbe-7318624434271-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1.1",
+        "releaseTag": "bryn-outfit-cbbe-7318624434271-v1.1",
+        "updatedAt": "2025-10-11T05:11:26+00:00",
+        "uploadTimestamp": 1760758849,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Bryn.Outfit.CBBE.3BA-677210-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/bryn-outfit-cbbe-7318624434271-v1.1/Bryn.Outfit.CBBE.3BA-677210-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "bryn-outfit-cbbe-7318624434271-v1",
+        "updatedAt": "2025-10-11T05:11:26+00:00",
+        "uploadTimestamp": 1760730684,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Bryn.Outfit.CBBE.3BA-677116-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/bryn-outfit-cbbe-7318624434271-v1/Bryn.Outfit.CBBE.3BA-677116-v1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
   }
 }
