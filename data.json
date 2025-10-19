@@ -5598,5 +5598,35 @@
         ]
       }
     ]
+  },
+  "7318624434084": {
+    "id": "7318624434084",
+    "modId": 161700,
+    "name": "Robe of the Sorceress",
+    "game": "skyrimspecialedition",
+    "summary": "a set of robes for a sorceress for CBBE 3BA and BHUNP",
+    "description": "This is a conversion of\u00a0[Robe of Sorceress ](https://www.nexusmods.com/skyrim/mods/101519)by\u00a0[Crown312\u00a0](https://www.nexusmods.com/skyrim/users/24956904)from Oldrim. I converted it to SSE 3BA and BHUNP, including the original HDT physics to SMP, with some of my own adjustments to the rig and meshes. This also uses racemenu high heels now instead of hdt high heels.\n\nMany of the pieces are SMP rigged, i.e. the loincloth, and also many others like the folds on the back of the top, the belt, the chains on the cuff, the choker pendant, and the book.\n\nPieces:\n\n- Boots\n\n- Bracelets\n\n- Dress\n\n- Choker\n\n- Cuff\n\n- Glasses\n\n- Gloves\n\n- Panty\n\n- Sleeves\n\n- Stockings\n\n- Book\n\nA couple of the pieces (dress, stockings, sleeves, gloves, boots) have a color variant.\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)).\n\nRequirements:\n\nCBBE 3BAv2 or BHUNPv4\n\nBodyslide\n\nRacemenu\n\nScreenshots:\n\n[sneedster](https://www.nexusmods.com/skyrimspecialedition/users/10001295)\n\n ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/robe-of-the-7318624434084-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "robe-of-the-7318624434084-v1",
+        "updatedAt": "2025-10-18T05:12:17+00:00",
+        "uploadTimestamp": 1760767891,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Robe.of.the.Sorceress.CBBE.3BA-677228-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/robe-of-the-7318624434084-v1/Robe.of.the.Sorceress.CBBE.3BA-677228-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Robe.of.the.Sorceress.BHUNP-677229-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/robe-of-the-7318624434084-v1/Robe.of.the.Sorceress.BHUNP-677229-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
