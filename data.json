@@ -5570,6 +5570,20 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/bryn-outfit-cbbe-7318624434271-v1/thumbnail.png",
     "releases": [
       {
+        "version": "1.2",
+        "releaseTag": "bryn-outfit-cbbe-7318624434271-v1.2",
+        "updatedAt": "2025-10-19T05:12:10+00:00",
+        "uploadTimestamp": 1760857499,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Bryn.Outfit.CBBE.3BA-677816-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/bryn-outfit-cbbe-7318624434271-v1.2/Bryn.Outfit.CBBE.3BA-677816-v1.2.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
         "version": "1.1",
         "releaseTag": "bryn-outfit-cbbe-7318624434271-v1.1",
         "updatedAt": "2025-10-11T05:11:26+00:00",
