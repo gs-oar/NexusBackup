@@ -5642,5 +5642,30 @@
         ]
       }
     ]
+  },
+  "7318624434902": {
+    "id": "7318624434902",
+    "modId": 162518,
+    "name": "Secret Style 17",
+    "game": "skyrimspecialedition",
+    "summary": "Pasty and thong for CBBE 3BA and BHUNP. 9 colors.",
+    "description": "This was previously converted by [Arsenic ](https://www.loverslab.com/files/file/18470-arsenic-secret-style-17-7bo/)for 7B and originally from renderosity by rudy_studio. Comes in 9 colors.\n\nI also rigged up the dangly butterflies for SMP so they now move.\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)).\n\nRequirements:\n\nCBBE 3BAv2 or BHUNPv4\n\nBodyslide\n\nRacemenu\n\nSMP\n\n  ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/secret-style-17-7318624434902-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "secret-style-17-7318624434902-v1",
+        "updatedAt": "2025-10-20T05:13:15+00:00",
+        "uploadTimestamp": 1761247922,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Secret.Style.17-679608-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/secret-style-17-7318624434902-v1/Secret.Style.17-679608-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
