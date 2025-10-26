@@ -5667,5 +5667,30 @@
         ]
       }
     ]
+  },
+  "7318624435052": {
+    "id": "7318624435052",
+    "modId": 162668,
+    "name": "Speed Buster Ribbons",
+    "game": "skyrimspecialedition",
+    "summary": "Maid themed revealing outfit for CBBE 3BA and BHUNP",
+    "description": "Originally an Oblivion mod by\u00a0[A-Type2/Speed Buster](https://next.nexusmods.com/profile/AGSTYPE2)\ufeff.\u00a0\n\nSince the original page/file has been lost to time I used the meshes and textures from Arsenic [here](https://www.loverslab.com/files/file/2122-spb-ribbon-15-for-unp-jiggle/). It has been converted to CBBE 3BAv2 and BHUNPv4. There are five colors.\n\nesl flagged esp. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)). [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first.\n\nRequirements:\n\n3BA or BHUNP\n\nBodyslide\n\nRacemenu\n\nSMP\n\n ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/speed-buster-ribbons-7318624435052-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "speed-buster-ribbons-7318624435052-v1",
+        "updatedAt": "2025-10-24T05:13:05+00:00",
+        "uploadTimestamp": 1761387672,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Speed.Buster.Ribbons-680209-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/speed-buster-ribbons-7318624435052-v1/Speed.Buster.Ribbons-680209-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
