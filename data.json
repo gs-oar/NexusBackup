@@ -1807,6 +1807,20 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-animations-all-7318624396333-v1/thumbnail.jpeg",
     "releases": [
       {
+        "version": "1.15.3",
+        "releaseTag": "gunslicer-animations-all-7318624396333-v1.15.3",
+        "updatedAt": "2025-10-26T05:12:27+00:00",
+        "uploadTimestamp": 1761601147,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.15.3</summary>\n\n- fixed dw_sprintforwardsword footstep annotations\n- fixed sneakwalk_frwrdright filename for twohanded sneak\n</details>",
+        "assets": [
+          {
+            "name": "Gunslicer.Animations.All.in.One.OAR-681118-v1.15.3.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-animations-all-7318624396333-v1.15.3/Gunslicer.Animations.All.in.One.OAR-681118-v1.15.3.zip",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
         "version": "1.15.2",
         "releaseTag": "gunslicer-animations-all-7318624396333-v1.15.2",
         "updatedAt": "2025-09-29T05:13:23+00:00",
@@ -5687,6 +5701,31 @@
           {
             "name": "Speed.Buster.Ribbons-680209-v1.7z",
             "url": "https://github.com/gs-oar/NexusBackup/releases/download/speed-buster-ribbons-7318624435052-v1/Speed.Buster.Ribbons-680209-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624435273": {
+    "id": "7318624435273",
+    "modId": 162889,
+    "name": "Ancient Nord Kai",
+    "game": "skyrimspecialedition",
+    "summary": "Ancient nord armor set for CBBE 3BA and BHUNP",
+    "description": "I convert very old outfits, it's a trend now\n\nOriginally made as a custom ancient nord set by Goma. Link has been lost to time, I used a loverslab mirror [here](https://www.loverslab.com/topic/21287-what-mod-is-this-vi/page/772/#findComment-1292607)\u00a0for meshes. Also added SMP to the loincloth.\n\nThis uses whatever textures you have installed.\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)), or craftable with iron ingots. Temperable with iron ingot as well.\n\nRequirements:\n\nCBBE 3BAv2 or BHUNPv4\n\nBodyslide\n\nRacemenu\n\nSMP\n\n ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/ancient-nord-kai-7318624435273-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "ancient-nord-kai-7318624435273-v1",
+        "updatedAt": "2025-10-26T05:12:27+00:00",
+        "uploadTimestamp": 1761602808,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Ancient.Nord.Kai-681124-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/ancient-nord-kai-7318624435273-v1/Ancient.Nord.Kai-681124-v1.7z",
             "category": "MAIN"
           }
         ]
