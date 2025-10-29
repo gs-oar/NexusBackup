@@ -1807,6 +1807,20 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-animations-all-7318624396333-v1/thumbnail.jpeg",
     "releases": [
       {
+        "version": "1.15.4",
+        "releaseTag": "gunslicer-animations-all-7318624396333-v1.15.4",
+        "updatedAt": "2025-10-28T05:14:13+00:00",
+        "uploadTimestamp": 1761694140,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.15.4</summary>\n\n- revert dw_sprintforwardsword change\n</details>",
+        "assets": [
+          {
+            "name": "Gunslicer.Animations.All.in.One.OAR-681431-v1.15.4.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gunslicer-animations-all-7318624396333-v1.15.4/Gunslicer.Animations.All.in.One.OAR-681431-v1.15.4.zip",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
         "version": "1.15.3",
         "releaseTag": "gunslicer-animations-all-7318624396333-v1.15.3",
         "updatedAt": "2025-10-26T05:12:27+00:00",
