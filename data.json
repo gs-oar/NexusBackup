@@ -5745,5 +5745,30 @@
         ]
       }
     ]
+  },
+  "7318624435688": {
+    "id": "7318624435688",
+    "modId": 163304,
+    "name": "Mammoth Lord",
+    "game": "skyrimspecialedition",
+    "summary": "Mammoth bone themed heavy armor for CBBE 3BA and BHUNP",
+    "description": "I've got a bone to pick with you. Is this Halloween appropriate?\n\nAnother Oldrim conversion. I don't know who made it originally but I found it [here](https://mitakusaner.blog.fc2.com/blog-entry-2542.html). I converted it and added squeeze sliders.\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)), or craftable with ebony ingots, mammoth tusks and leather strips at a forge with ebony smithing perk. Temperable with 1 ebony ingot.\n\nRequirements:\n\nCBBE 3BAv2 or BHUNPv4\n\nBodyslide\n\nRacemenu\n\n ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/mammoth-lord-7318624435688-v1/thumbnail.jpg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "mammoth-lord-7318624435688-v1",
+        "updatedAt": "2025-10-29T05:13:51+00:00",
+        "uploadTimestamp": 1762012004,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Mammoth.Lord-682648-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/mammoth-lord-7318624435688-v1/Mammoth.Lord-682648-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
