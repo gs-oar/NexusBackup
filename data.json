@@ -5095,6 +5095,25 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/revamped-dragonscale-armor-7318624428511-v1/thumbnail.png",
     "releases": [
       {
+        "version": "1.1",
+        "releaseTag": "revamped-dragonscale-armor-7318624428511-v1.1",
+        "updatedAt": "2025-11-02T05:12:24+00:00",
+        "uploadTimestamp": 1762565412,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- fix an issue with bhunp smp, no update to 3ba\n</details>",
+        "assets": [
+          {
+            "name": "Revamped.Dragonscale.Armor.CBBE.3BA-659216-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/revamped-dragonscale-armor-7318624428511-v1.1/Revamped.Dragonscale.Armor.CBBE.3BA-659216-v1.1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Revamped.Dragonscale.Armor.BHUNP-685078-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/revamped-dragonscale-armor-7318624428511-v1.1/Revamped.Dragonscale.Armor.BHUNP-685078-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
         "version": "1",
         "releaseTag": "revamped-dragonscale-armor-7318624428511-v1",
         "updatedAt": "2025-08-17T05:14:03+00:00",
@@ -5765,6 +5784,36 @@
           {
             "name": "Mammoth.Lord-682648-v1.7z",
             "url": "https://github.com/gs-oar/NexusBackup/releases/download/mammoth-lord-7318624435688-v1/Mammoth.Lord-682648-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624436037": {
+    "id": "7318624436037",
+    "modId": 163653,
+    "name": "Dreamburrow Sage",
+    "game": "skyrimspecialedition",
+    "summary": "A dress for a sage. Cloak and skirt SMP. CBBE 3BA, BHUNP, and UBE",
+    "description": "This is an Oldrim retexture by [DreamBurrow](https://www.nexusmods.com/skyrim/users/4543751)\ufeff for the [Dragon Quest sage outfit\ufeff by Backsteppo](https://www.nexusmods.com/skyrim/mods/9387). I converted it here to Skyrim SE for CBBE 3BA, BHUNP, and UBE\u00a0and added SMP. The textures were also upscaled to 4K.\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)), or craftable with elves ear and leather at a forge with ebony smithing perk. Temperable with 1 elves ear.\n\nRequirements:\n\nCBBE 3BAv2 or BHUNPv4 or UBE\u00a02.0\n\nBodyslide\n\nRacemenu\n\nSMP\n\nScreenshots:\n\n[SicParvisMagna](https://next.nexusmods.com/profile/SicParvisMagna1)\ufeff\n\n ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/dreamburrow-sage-7318624436037-v1/thumbnail.jpg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "dreamburrow-sage-7318624436037-v1",
+        "updatedAt": "2025-11-02T05:12:24+00:00",
+        "uploadTimestamp": 1762566558,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Dreamburrow.Sage.UBE-684135-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dreamburrow-sage-7318624436037-v1/Dreamburrow.Sage.UBE-684135-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Dreamburrow.Sage-685086-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dreamburrow-sage-7318624436037-v1/Dreamburrow.Sage-685086-v1.7z",
             "category": "MAIN"
           }
         ]
