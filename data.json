@@ -5800,6 +5800,20 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/dreamburrow-sage-7318624436037-v1/thumbnail.jpg",
     "releases": [
       {
+        "version": "1.1",
+        "releaseTag": "dreamburrow-sage-7318624436037-v1.1",
+        "updatedAt": "2025-11-08T05:12:43+00:00",
+        "uploadTimestamp": 1762611404,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- updated BHUNP weights\n</details>",
+        "assets": [
+          {
+            "name": "Dreamburrow.Sage-685246-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dreamburrow-sage-7318624436037-v1.1/Dreamburrow.Sage-685246-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
         "version": "1",
         "releaseTag": "dreamburrow-sage-7318624436037-v1",
         "updatedAt": "2025-11-02T05:12:24+00:00",
