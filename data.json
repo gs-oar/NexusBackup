@@ -628,6 +628,35 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/ebokini-7318624415049-v1/thumbnail.png",
     "releases": [
       {
+        "version": "1.4",
+        "releaseTag": "ebokini-7318624415049-v1.4",
+        "updatedAt": "2025-11-09T05:12:43+00:00",
+        "uploadTimestamp": 1763172628,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.4</summary>\n\n- added crossbow\n</details>",
+        "assets": [
+          {
+            "name": "Ebokini.CBBE.3BA-687536-v1.4.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/ebokini-7318624415049-v1.4/Ebokini.CBBE.3BA-687536-v1.4.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Ebokini.HIMBO-687537-v1.4.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/ebokini-7318624415049-v1.4/Ebokini.HIMBO-687537-v1.4.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Ebokini.BHUNP-687538-v1.4.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/ebokini-7318624415049-v1.4/Ebokini.BHUNP-687538-v1.4.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Ebokini.Vanilla-687539-v1.4.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/ebokini-7318624415049-v1.4/Ebokini.Vanilla-687539-v1.4.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
         "version": "1.3",
         "releaseTag": "ebokini-7318624415049-v1.3",
         "updatedAt": "2025-07-29T12:02:23+00:00",
@@ -2912,6 +2941,20 @@
             "category": "MAIN"
           }
         ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "lady-flirt-7318624389331-v1",
+        "updatedAt": "2025-11-09T05:12:43+00:00",
+        "uploadTimestamp": 1713304956,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Lady.Flirt-491619-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/lady-flirt-7318624389331-v1/Lady.Flirt-491619-v1.7z",
+            "category": "MAIN"
+          }
+        ]
       }
     ]
   },
@@ -3163,6 +3206,20 @@
         ]
       },
       {
+        "version": "1.1",
+        "releaseTag": "gilded-doublet-7318624387682-v1.1",
+        "updatedAt": "2025-11-09T05:12:43+00:00",
+        "uploadTimestamp": 1711721408,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Fixed pants zap/recolor issue\n</details>",
+        "assets": [
+          {
+            "name": "Gilded.Doublet-485317-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gilded-doublet-7318624387682-v1.1/Gilded.Doublet-485317-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
         "version": "1",
         "releaseTag": "gilded-doublet-smp-7318624387682-v1",
         "updatedAt": "2025-07-29T12:58:39+00:00",
@@ -3182,6 +3239,30 @@
           {
             "name": "Original.2K.Textures-485101-v1.7z",
             "url": "https://github.com/gs-oar/NexusBackup/releases/download/gilded-doublet-smp-7318624387682-v1/Original.2K.Textures-485101-v1.7z",
+            "category": "OPTIONAL"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "gilded-doublet-7318624387682-v1",
+        "updatedAt": "2025-11-09T05:12:43+00:00",
+        "uploadTimestamp": 1711670865,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Gilded.Doublet-485098-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gilded-doublet-7318624387682-v1/Gilded.Doublet-485098-v1.7z",
+            "category": "OLD_VERSION"
+          },
+          {
+            "name": "BHUNP.Bodyslide.Files-485100-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gilded-doublet-7318624387682-v1/BHUNP.Bodyslide.Files-485100-v1.7z",
+            "category": "OPTIONAL"
+          },
+          {
+            "name": "Original.2K.Textures-485101-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/gilded-doublet-7318624387682-v1/Original.2K.Textures-485101-v1.7z",
             "category": "OPTIONAL"
           }
         ]
@@ -5828,6 +5909,31 @@
           {
             "name": "Dreamburrow.Sage-685086-v1.7z",
             "url": "https://github.com/gs-oar/NexusBackup/releases/download/dreamburrow-sage-7318624436037-v1/Dreamburrow.Sage-685086-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624436877": {
+    "id": "7318624436877",
+    "modId": 164493,
+    "name": "Egypt Sibyl",
+    "game": "skyrimspecialedition",
+    "summary": "Egyptian themed outfit for CBBE 3BA",
+    "description": "Quick conversion, originally found [here](https://modtype.doorblog.jp/archives/43907858.html). \n\nI liked the design but it looked like the assets were probably ported from a game that's pretty old, and even with upscaling and some mesh adjustments it didn't look that good, but if you happen to be playing on 1080p monitors it won't look half bad I think. Also added SMP to the loincloth and separated out the pieces.\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)).\n\nRequirements:\n\nCBBE 3BAv2 or BHUNPv4\n\nBodyslide\n\nRacemenu\n\nSMP\n\n ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/egypt-sibyl-7318624436877-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "egypt-sibyl-7318624436877-v1",
+        "updatedAt": "2025-11-09T05:12:43+00:00",
+        "uploadTimestamp": 1763169305,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Egypt.Sibyl-687519-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/egypt-sibyl-7318624436877-v1/Egypt.Sibyl-687519-v1.7z",
             "category": "MAIN"
           }
         ]
