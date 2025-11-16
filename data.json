@@ -628,6 +628,35 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/ebokini-7318624415049-v1/thumbnail.png",
     "releases": [
       {
+        "version": "1.41",
+        "releaseTag": "ebokini-7318624415049-v1.41",
+        "updatedAt": "2025-11-15T05:14:41+00:00",
+        "uploadTimestamp": 1763205182,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.41</summary>\n\n- recompress esl\n</details>",
+        "assets": [
+          {
+            "name": "Ebokini.CBBE.3BA-687647-v1.41.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/ebokini-7318624415049-v1.41/Ebokini.CBBE.3BA-687647-v1.41.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Ebokini.HIMBO-687649-v1.41.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/ebokini-7318624415049-v1.41/Ebokini.HIMBO-687649-v1.41.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Ebokini.BHUNP-687651-v1.41.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/ebokini-7318624415049-v1.41/Ebokini.BHUNP-687651-v1.41.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Ebokini.Vanilla-687653-v1.41.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/ebokini-7318624415049-v1.41/Ebokini.Vanilla-687653-v1.41.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
         "version": "1.4",
         "releaseTag": "ebokini-7318624415049-v1.4",
         "updatedAt": "2025-11-09T05:12:43+00:00",
