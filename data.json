@@ -5339,6 +5339,20 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/summer-mood-bikini-7318624430406-v1/thumbnail.png",
     "releases": [
       {
+        "version": "1.1",
+        "releaseTag": "summer-mood-bikini-7318624430406-v1.1",
+        "updatedAt": "2025-11-16T05:13:25+00:00",
+        "uploadTimestamp": 1763570317,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- BHUNP sliders update, no change to 3BA\n</details>",
+        "assets": [
+          {
+            "name": "Summer.Mood.Bikini-689108-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/summer-mood-bikini-7318624430406-v1.1/Summer.Mood.Bikini-689108-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
         "version": "1",
         "releaseTag": "summer-mood-bikini-7318624430406-v1",
         "updatedAt": "2025-09-06T05:11:39+00:00",
