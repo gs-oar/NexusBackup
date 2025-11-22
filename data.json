@@ -5982,5 +5982,35 @@
         ]
       }
     ]
+  },
+  "7318624437171": {
+    "id": "7318624437171",
+    "modId": 164787,
+    "name": "Lady Ritual",
+    "game": "skyrimspecialedition",
+    "summary": "Outfit to do rituals in. CBBE 3BA or BHUNP",
+    "description": "Originally ported for Lady body by Krista. Converted and upscaled with SMP added to the loincloth. There is also a new color.\n\nStandalone, esl flagged esp. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)). [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first.\n\nRequirements:\n\nCBBE 3BA\u00a0or BHUNP\n\nBodyslide\n\nRacemenu\n\nSMP\n\nScreenshots:\n\n[sneedster](https://next.nexusmods.com/profile/SneedsterSneedington)\n\n[myst](https://x.com/Myst314)\ufeff\n\n[thewheel](https://x.com/Thewheel_Skyrim)\n\n[ashenimperium](https://x.com/AshenImperium)\n\n[soggychicken](https://www.twitter.com/SoggyChicken_)\ufeff\n\n  ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/lady-ritual-7318624437171-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "lady-ritual-7318624437171-v1",
+        "updatedAt": "2025-11-20T05:13:31+00:00",
+        "uploadTimestamp": 1763746413,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Lady.Ritual.CBBE.3BA-689706-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/lady-ritual-7318624437171-v1/Lady.Ritual.CBBE.3BA-689706-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Lady.Ritual.BHUNP-689707-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/lady-ritual-7318624437171-v1/Lady.Ritual.BHUNP-689707-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
