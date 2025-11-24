@@ -519,6 +519,20 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/succubus-lingerie-cbbe-7318624416483-v1/thumbnail.jpeg",
     "releases": [
       {
+        "version": "1.1",
+        "releaseTag": "succubus-lingerie-cbbe-7318624416483-v1.1",
+        "updatedAt": "2025-11-22T05:12:49+00:00",
+        "uploadTimestamp": 1763923997,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- fix wrist and ankle sliders at weight 0\n</details>",
+        "assets": [
+          {
+            "name": "Succubus.Lingerie.CBBE.3BA-690490-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/succubus-lingerie-cbbe-7318624416483-v1.1/Succubus.Lingerie.CBBE.3BA-690490-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
         "version": "1",
         "releaseTag": "succubus-lingerie-cbbe-7318624416483-v1",
         "updatedAt": "2025-07-29T12:02:23+00:00",
@@ -5967,6 +5981,20 @@
     "description": "Quick conversion, originally found [here](https://modtype.doorblog.jp/archives/43907858.html). \n\nI liked the design but it looked like the assets were probably ported from a game that's pretty old, and even with upscaling and some mesh adjustments it didn't look that good, but if you happen to be playing on 1080p monitors it won't look half bad I think. Also added SMP to the loincloth and separated out the pieces.\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)).\n\nRequirements:\n\nCBBE 3BAv2 or BHUNPv4\n\nBodyslide\n\nRacemenu\n\nSMP\n\n ![Image](https://i.imgur.com/NAEELTf.png)",
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/egypt-sibyl-7318624436877-v1/thumbnail.png",
     "releases": [
+      {
+        "version": "1.1",
+        "releaseTag": "egypt-sibyl-7318624436877-v1.1",
+        "updatedAt": "2025-11-22T05:12:49+00:00",
+        "uploadTimestamp": 1763923890,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- fixed arm ring texture path\n- added smp to veil\n</details>",
+        "assets": [
+          {
+            "name": "Egypt.Sibyl-690488-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/egypt-sibyl-7318624436877-v1.1/Egypt.Sibyl-690488-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
       {
         "version": "1",
         "releaseTag": "egypt-sibyl-7318624436877-v1",
