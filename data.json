@@ -6040,5 +6040,30 @@
         ]
       }
     ]
+  },
+  "7318624437322": {
+    "id": "7318624437322",
+    "modId": 164938,
+    "name": "Ebony Armor Kai",
+    "game": "skyrimspecialedition",
+    "summary": "Ebony armor set for CBBE 3BA and BHUNP",
+    "description": "Originally made as a custom ebony set by [GomaPero](https://mitakusaner.blog.fc2.com/blog-entry-884.html). There's a lot of zap sliders because I was lazy this time around and didn't want to spend time creating extra records to separate out all the pieces.\u00a0\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)), or craftable and temperable with ebony.\n\nRequirements:\n\nCBBE 3BAv2 or BHUNPv4\n\nBodyslide\n\nRacemenu\n\nSMP\n\nScreenshots:\n\n[BoredBoring](https://www.nexusmods.com/users/127871623)\n\n![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/ebony-armor-kai-7318624437322-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "ebony-armor-kai-7318624437322-v1",
+        "updatedAt": "2025-11-24T05:15:30+00:00",
+        "uploadTimestamp": 1763924482,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Ebony.Armor.Kai-690492-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/ebony-armor-kai-7318624437322-v1/Ebony.Armor.Kai-690492-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
