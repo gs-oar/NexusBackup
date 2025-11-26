@@ -6051,6 +6051,20 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/ebony-armor-kai-7318624437322-v1/thumbnail.png",
     "releases": [
       {
+        "version": "1.1",
+        "releaseTag": "ebony-armor-kai-7318624437322-v1.1",
+        "updatedAt": "2025-11-25T05:13:54+00:00",
+        "uploadTimestamp": 1764071439,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- fixed weight slider not enabled issue\n- fixed shadow issue from unweighted mesh\n</details>",
+        "assets": [
+          {
+            "name": "Ebony.Armor.Kai-691037-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/ebony-armor-kai-7318624437322-v1.1/Ebony.Armor.Kai-691037-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
         "version": "1",
         "releaseTag": "ebony-armor-kai-7318624437322-v1",
         "updatedAt": "2025-11-24T05:15:30+00:00",
