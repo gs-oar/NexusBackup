@@ -6079,5 +6079,35 @@
         ]
       }
     ]
+  },
+  "7318624438035": {
+    "id": "7318624438035",
+    "modId": 165651,
+    "name": "Aegyptus",
+    "game": "skyrimspecialedition",
+    "summary": "Egyptian themed outfit for CBBE 3BA and BHUNP",
+    "description": "The white pharaoh returns with his friends to bring you another outfit to celebrate thanksgiving.\n\nOriginally made by GomaPero as a part of [PeroPeroArmorPack3](https://gomaperopero.tumblr.com/post/172619525105/peroperoarmorpack3-for-7bo). I did a few things on top of it. \n\nThe beads on the headdress are SMP rigged now and each chain moves independently, that piece has more bones than the vanilla body, so beware of performance hit on potato pc. All the little metal tassel pieces on the heels are SMP rigged. I didn't do the arms because I got lazy.\n\nLoincloth also has SMP, and so do all of the turquoise gem hanging pieces on the collar and the pelvis piece. Also misc mesh adjustments that I pretty much forgot the specifics about.\u00a0\n\nAlso added some squeeze sliders, upscaled the main textures to 4k, and made some roughness maps for those who care about that. I think\u00a0it looks pretty good.\n\nThe pieces are also modular now.\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)), or craftable and temperable with standard elven crafting recipes. I have acquired new tech from [here ](https://www.nexusmods.com/skyrimspecialedition/mods/84941)and now there is a crafting book to avoid cluttering your forge. You can also craft the crafting book.\n\nRequirements:\n\n[CBBE 3BAv2](https://www.nexusmods.com/skyrimspecialedition/mods/30174)\u00a0or [BHUNPv4](https://www.nexusmods.com/skyrimspecialedition/mods/31126)\n\n[Bodyslide](https://www.nexusmods.com/skyrimspecialedition/mods/201)\n\n[Racemenu](https://www.nexusmods.com/skyrimspecialedition/mods/19080)\n\n[SMP](https://www.nexusmods.com/skyrimspecialedition/mods/57339)\n\nScreenshots:\n\n[sneedster](https://www.nexusmods.com/users/10001295)\n\n[soggychicken](https://www.twitter.com/SoggyChicken_)\ufeff\n\nyunan\n\n[boredboring](https://www.nexusmods.com/users/127871623)\n\n[url=https://x.com/Thewheel_Skyrim]thewheel\n\n[/url][ashenimperium](https://x.com/AshenImperium)\n\n ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/aegyptus-7318624438035-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "aegyptus-7318624438035-v1",
+        "updatedAt": "2025-11-26T05:13:37+00:00",
+        "uploadTimestamp": 1764326888,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Aegyptus.CBBE.3BA-692118-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/aegyptus-7318624438035-v1/Aegyptus.CBBE.3BA-692118-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Aegyptus.BHUNP-692119-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/aegyptus-7318624438035-v1/Aegyptus.BHUNP-692119-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
