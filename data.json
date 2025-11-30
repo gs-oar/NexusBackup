@@ -6090,6 +6090,25 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/aegyptus-7318624438035-v1/thumbnail.png",
     "releases": [
       {
+        "version": "1.1",
+        "releaseTag": "aegyptus-7318624438035-v1.1",
+        "updatedAt": "2025-11-29T05:13:27+00:00",
+        "uploadTimestamp": 1764454155,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- fixed hair normal map aspect ratio issue\n</details>",
+        "assets": [
+          {
+            "name": "Aegyptus.CBBE.3BA-692616-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/aegyptus-7318624438035-v1.1/Aegyptus.CBBE.3BA-692616-v1.1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Aegyptus.BHUNP-692618-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/aegyptus-7318624438035-v1.1/Aegyptus.BHUNP-692618-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
         "version": "1",
         "releaseTag": "aegyptus-7318624438035-v1",
         "updatedAt": "2025-11-26T05:13:37+00:00",
