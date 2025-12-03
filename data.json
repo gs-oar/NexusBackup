@@ -6128,5 +6128,35 @@
         ]
       }
     ]
+  },
+  "7318624437506": {
+    "id": "7318624437506",
+    "modId": 165122,
+    "name": "Peacekeeper Armor",
+    "game": "skyrimspecialedition",
+    "summary": "Steel heavy armor set for CBBE 3BA/BHUNP/HIMBO",
+    "description": "This was originally an [Oldrim armor set](https://www.nexusmods.com/skyrim/mods/93709)\u00a0by Billyro,\u00a0converted to 3BAv2, BHUNPv4, HIMBO.\n\nIn total there are four color variants available, both the original two and the revamped two. SMP has been added to the skirt as well as a little bit of physics to the hood of the helmet.\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)), or craftable with steel ingots and leather strips at a forge with steel smithing perk. Temperable with 1 steel\u00a0ingot.\n\nRequirements:\n\nCBBE 3BAv2 or BHUNPv4 or HIMBO\n\nBodyslide\n\nRacemenu\n\nSMP\n\nScreenshots:\n\n[sneedster](https://www.nexusmods.com/users/10001295)\n\nOther ports of this outfit:\n\n[spongeman131](https://www.nexusmods.com/skyrimspecialedition/mods/23661)\ufeff (CBBE SSE)\n\n[Tathrin](https://www.nexusmods.com/skyrimspecialedition/mods/76801)\ufeff (SSE male)\n\n[LukeCypher](https://www.nexusmods.com/skyrimspecialedition/mods/20068)\ufeff (SSE female)\n\n[urbon](https://www.nexusmods.com/skyrimspecialedition/mods/84837)\ufeff (BHUNP)\n\n ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/peacekeeper-armor-7318624437506-v1/thumbnail.jpg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "peacekeeper-armor-7318624437506-v1",
+        "updatedAt": "2025-11-30T05:13:41+00:00",
+        "uploadTimestamp": 1763897883,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Peacekeeper.Armor-690331-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/peacekeeper-armor-7318624437506-v1/Peacekeeper.Armor-690331-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Peacekeeper.Armor.HIMBO-690333-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/peacekeeper-armor-7318624437506-v1/Peacekeeper.Armor.HIMBO-690333-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
