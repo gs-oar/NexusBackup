@@ -6158,5 +6158,35 @@
         ]
       }
     ]
+  },
+  "7318624438268": {
+    "id": "7318624438268",
+    "modId": 165884,
+    "name": "Stoneheart Archmage",
+    "game": "skyrimspecialedition",
+    "summary": "A set of clothing and accessories for an archmage. CBBE 3BA and BHUNP.",
+    "description": "[Originally ](https://www.nexusmods.com/skyrim/mods/102003)a Skyrim LE outfit made by zoni84/StoneheartStudio. \n\nI was just going to do a conversion to 3BA and BHUNP, but I ended up adding my own pieces, so it is a conversion in a sense but also more like a new set based on zoni84's work instead of a faithful 1:1 conversion. [Sunjeong ](https://sunkeumjeong.wixsite.com/mysite/post/archmage-armor)and [bakafactory](https://www.nexusmods.com/skyrimspecialedition/mods/42094)\u00a0made previous conversions for 3BA and BHUNP respectively that should be more like the original.\n\nI separated out the pieces, added SMP to the cloak and the loose hanging belt, and added a strap/belt hook in the back to hold up the top because I though it was strange that it was just free hanging. Maybe it was glued on?\u00a0\n\nMisc uv/mesh edits, so on. I am not very good at them, but there are some squeeze sliders. For new pieces, I added a shawl and a pair of earrings based on the Winterhold college assets both with SMP, and a variety of other accessories. Oh and now the eye mask glows, I think that looks cooler.\n\nThis uses whatever textures for archmage robes and dwarven armor that you have installed.\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)). Craftable with leather for the cloth/leather parts, and dwarven ingot and leather for the metal parts along with dwarven crafting perk. Crafting book can be crafted at a tanning rack.\n\nRequirements:\n\n[CBBE 3BAv2](https://www.nexusmods.com/skyrimspecialedition/mods/30174)\u00a0or [BHUNPv4](https://www.nexusmods.com/skyrimspecialedition/mods/31126)\n\n[Bodyslide](https://www.nexusmods.com/skyrimspecialedition/mods/201)\n\n[Racemenu](https://www.nexusmods.com/skyrimspecialedition/mods/19080)\n\n[SMP](https://www.nexusmods.com/skyrimspecialedition/mods/57339)\n\nScreenshots:[url=https://x.com/Thewheel_Skyrim]\n\n[/url][ashenimperium](https://x.com/AshenImperium)\n\n[crashnflash](https://www.nexusmods.com/skyrimspecialedition/users/179718669)\n\n[boredboring](https://www.nexusmods.com/users/127871623)\n\n  ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/stoneheart-archmage-7318624438268-v1/thumbnail.jpg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "stoneheart-archmage-7318624438268-v1",
+        "updatedAt": "2025-12-03T05:14:16+00:00",
+        "uploadTimestamp": 1764971237,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Stoneheart.Archmage.CBBE.3BA-694780-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/stoneheart-archmage-7318624438268-v1/Stoneheart.Archmage.CBBE.3BA-694780-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Stoneheart.Archmage.BHUNP-694781-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/stoneheart-archmage-7318624438268-v1/Stoneheart.Archmage.BHUNP-694781-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
