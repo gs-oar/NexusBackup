@@ -6235,5 +6235,35 @@
         ]
       }
     ]
+  },
+  "7318624438648": {
+    "id": "7318624438648",
+    "modId": 166264,
+    "name": "Rose Santa",
+    "game": "skyrimspecialedition",
+    "summary": "Christmas themed robe and accessories for CBBE 3BA and BHUNP",
+    "description": "December is here, it's santaposting time\n\nI found a [Skyrim LE outfit ](https://kp4068.tistory.com/3608)that looked appropriate for the holiday season, so I spent some time to get it out before Christmas. There's one other Christmas outfit coming as well.\n\nAlongside the usual conversion to 3BA and BHUNP, I retextured the robe and the accessories since they were looking pretty fried, although I have never been good at texture work. I also added SMP to the pieces.\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)).\n\nRequirements:\n\n[CBBE 3BAv2](https://www.nexusmods.com/skyrimspecialedition/mods/30174)\u00a0or [BHUNPv4](https://www.nexusmods.com/skyrimspecialedition/mods/31126)\n\n[Bodyslide](https://www.nexusmods.com/skyrimspecialedition/mods/201)\n\n[Racemenu](https://www.nexusmods.com/skyrimspecialedition/mods/19080)\n\n[SMP](https://www.nexusmods.com/skyrimspecialedition/mods/57339)\n\nScreenshots:[url=https://x.com/Thewheel_Skyrim]\n\n[/url][ashenimperium](https://x.com/AshenImperium)\n\n[soggychicken](https://www.twitter.com/SoggyChicken_)\ufeff\n\n[thewheel](https://x.com/Thewheel_Skyrim)\n\n[crashnflash](https://www.nexusmods.com/skyrimspecialedition/users/179718669)\n\n[namtar55](https://www.nexusmods.com/skyrimspecialedition/users/1004623)\n\n[wedge](https://www.nexusmods.com/skyrimspecialedition/users/1110549)\n\n ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/rose-santa-7318624438648-v1/thumbnail.jpg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "rose-santa-7318624438648-v1",
+        "updatedAt": "2025-12-10T05:15:38+00:00",
+        "uploadTimestamp": 1765143315,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Rose.Santa.CBBE.3BA-695563-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/rose-santa-7318624438648-v1/Rose.Santa.CBBE.3BA-695563-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Rose.Santa.BHUNP-695564-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/rose-santa-7318624438648-v1/Rose.Santa.BHUNP-695564-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
