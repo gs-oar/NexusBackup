@@ -2271,6 +2271,20 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/hirosin-azur-lane-7318624395869-v1/thumbnail.jpeg",
     "releases": [
       {
+        "version": "1.2",
+        "releaseTag": "hirosin-azur-lane-7318624395869-v1.2",
+        "updatedAt": "2025-12-16T05:17:08+00:00",
+        "uploadTimestamp": 1766149968,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.2</summary>\n\n- fix seams\n</details>",
+        "assets": [
+          {
+            "name": "Hirosin.Azur.Lane.Chen.Hai-699624-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/hirosin-azur-lane-7318624395869-v1.2/Hirosin.Azur.Lane.Chen.Hai-699624-v1.2.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
         "version": "1.1",
         "releaseTag": "hirosin-azur-lane-7318624395869-v1.1",
         "updatedAt": "2025-12-07T05:12:48+00:00",
@@ -6279,6 +6293,31 @@
           {
             "name": "Rose.Santa.BHUNP-695564-v1.7z",
             "url": "https://github.com/gs-oar/NexusBackup/releases/download/rose-santa-7318624438648-v1/Rose.Santa.BHUNP-695564-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624439654": {
+    "id": "7318624439654",
+    "modId": 167270,
+    "name": "The Night Before Christmas",
+    "game": "skyrimspecialedition",
+    "summary": "Christmas themed outfit for CBBE 3BA and BHUNP",
+    "description": "It's time to be jolly. Last outfit of the year. 14 colors.\n\nThe bow ribbon in the back has SMP, the wrist/ankle ones also do and will wobble with movement.\n\nUnfortunately not posting this on the actual day before Christmas because I will be preoccupied and I assume most people also would be.\u00a0See you all next year.\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)). Craftable with 2 and temperable with 1 leather strip. Recipe book is craftable with 1 leather strips and 1 burned book at a tanning rack.\n\nRequirements:\n\n[CBBE 3BAv2](https://www.nexusmods.com/skyrimspecialedition/mods/30174)\u00a0or [BHUNPv4](https://www.nexusmods.com/skyrimspecialedition/mods/31126)\n\n[Bodyslide](https://www.nexusmods.com/skyrimspecialedition/mods/201)\n\n[Racemenu](https://www.nexusmods.com/skyrimspecialedition/mods/19080)\n\n[SMP](https://www.nexusmods.com/skyrimspecialedition/mods/57339)\n\nScreenshots:[url=https://x.com/Thewheel_Skyrim]\n\n[/url][boredboring](https://www.nexusmods.com/users/127871623)\n\n[nuuwei](https://x.com/NuuweiNoir)\n\n ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/the-night-before-7318624439654-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "the-night-before-7318624439654-v1",
+        "updatedAt": "2025-12-16T05:17:08+00:00",
+        "uploadTimestamp": 1766188251,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "The.Night.Before.Christmas-699777-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/the-night-before-7318624439654-v1/The.Night.Before.Christmas-699777-v1.7z",
             "category": "MAIN"
           }
         ]
