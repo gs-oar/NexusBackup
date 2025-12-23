@@ -270,6 +270,20 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/riley-heels-7318624417359-v1/thumbnail.png",
     "releases": [
       {
+        "version": "1.1",
+        "releaseTag": "riley-heels-7318624417359-v1.1",
+        "updatedAt": "2025-12-20T05:13:54+00:00",
+        "uploadTimestamp": 1766418582,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- fixed 3ba weight slider\n</details>",
+        "assets": [
+          {
+            "name": "Riley.Heels-700928-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/riley-heels-7318624417359-v1.1/Riley.Heels-700928-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
         "version": "1",
         "releaseTag": "riley-heels-7318624417359-v1",
         "updatedAt": "2025-07-29T11:52:39+00:00",
