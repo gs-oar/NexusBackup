@@ -6337,5 +6337,40 @@
         ]
       }
     ]
+  },
+  "7318624441355": {
+    "id": "7318624441355",
+    "modId": 168971,
+    "name": "Nightshade Armor",
+    "game": "skyrimspecialedition",
+    "summary": "Sneaky light armor. CBBE 3BA, BHUNP, HIMBO",
+    "description": "[Originally\u00a0](https://www.nexusmods.com/skyrim/mods/12070)made by calyps.\u00a0\n\nConverted, parts separated out (mask has two components, suit can be worn for top or bottom separately), and some new texture maps I added like metallic masking and dynamic cubemap. Also has a squeeze slider.\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)). Craftable and temperable with ebony. Crafting book can be crafted at a tanning rack.\n\nRequirements:\n\n[CBBE 3BAv2](https://www.nexusmods.com/skyrimspecialedition/mods/30174)\u00a0or [BHUNPv4](https://www.nexusmods.com/skyrimspecialedition/mods/31126)\u00a0or HIMBO\n\n[Bodyslide](https://www.nexusmods.com/skyrimspecialedition/mods/201)\n\n[Racemenu](https://www.nexusmods.com/skyrimspecialedition/mods/19080)\n\n[SMP](https://www.nexusmods.com/skyrimspecialedition/mods/57339)\n\nScreenshots:[url=https://x.com/Thewheel_Skyrim]\n\n[/url][soggychicken](https://www.twitter.com/SoggyChicken_)\ufeff\n\n ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/nightshade-armor-7318624441355-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "nightshade-armor-7318624441355-v1",
+        "updatedAt": "2025-12-23T05:18:44+00:00",
+        "uploadTimestamp": 1767969344,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Nightshade.Armor.CBBE.3BA-707332-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/nightshade-armor-7318624441355-v1/Nightshade.Armor.CBBE.3BA-707332-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Nightshade.Armor.BHUNP-707334-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/nightshade-armor-7318624441355-v1/Nightshade.Armor.BHUNP-707334-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Nightshade.Armor.HIMBO-707335-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/nightshade-armor-7318624441355-v1/Nightshade.Armor.HIMBO-707335-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
