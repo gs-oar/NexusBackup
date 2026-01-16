@@ -6093,6 +6093,20 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/ebony-armor-kai-7318624437322-v1/thumbnail.png",
     "releases": [
       {
+        "version": "1.2",
+        "releaseTag": "ebony-armor-kai-7318624437322-v1.2",
+        "updatedAt": "2026-01-10T05:16:03+00:00",
+        "uploadTimestamp": 1768496314,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.2</summary>\n\n- added the crafting recipes, i forgot\n</details>",
+        "assets": [
+          {
+            "name": "Ebony.Armor.Kai-709818-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/ebony-armor-kai-7318624437322-v1.2/Ebony.Armor.Kai-709818-v1.2.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
         "version": "1.1",
         "releaseTag": "ebony-armor-kai-7318624437322-v1.1",
         "updatedAt": "2025-11-25T05:13:54+00:00",
