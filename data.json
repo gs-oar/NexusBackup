@@ -6386,5 +6386,40 @@
         ]
       }
     ]
+  },
+  "7318624442198": {
+    "id": "7318624442198",
+    "modId": 169814,
+    "name": "Dagger Lady",
+    "game": "skyrimspecialedition",
+    "summary": "Armor for ladies with daggers; lords too if you are inclined. CBBE 3BA, BHUNP, HIMBO. SMP cloak.",
+    "description": "[Originally\u00a0](https://www.nexusmods.com/skyrim/mods/56962)made by [newermind43](https://www.nexusmods.com/skyrim/users/2959649).\u00a0\n\nConverted for SSE with parts separated, and SMP for cloak. Dagger lords are welcome too.\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)). Craftable and temperable with leather. Crafting book can be crafted at a tanning rack with a burned book.\n\nRequirements:\n\n[CBBE 3BAv2](https://www.nexusmods.com/skyrimspecialedition/mods/30174)\u00a0or [BHUNPv4](https://www.nexusmods.com/skyrimspecialedition/mods/31126)\u00a0or HIMBO\n\n[Bodyslide](https://www.nexusmods.com/skyrimspecialedition/mods/201)\n\n[Racemenu](https://www.nexusmods.com/skyrimspecialedition/mods/19080)\n\n[SMP](https://www.nexusmods.com/skyrimspecialedition/mods/57339)\n\nScreenshots:[url=https://x.com/Thewheel_Skyrim]\n\n[/url][boredboring](https://www.nexusmods.com/users/127871623)\n\n  ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/dagger-lady-7318624442198-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "dagger-lady-7318624442198-v1",
+        "updatedAt": "2026-01-16T05:20:04+00:00",
+        "uploadTimestamp": 1768487630,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Dagger.Lady.CBBE.3BA-709754-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dagger-lady-7318624442198-v1/Dagger.Lady.CBBE.3BA-709754-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Dagger.Lady.BHUNP-709755-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dagger-lady-7318624442198-v1/Dagger.Lady.BHUNP-709755-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Dagger.Lord-709756-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/dagger-lady-7318624442198-v1/Dagger.Lord-709756-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
