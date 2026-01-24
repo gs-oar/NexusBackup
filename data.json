@@ -6421,5 +6421,40 @@
         ]
       }
     ]
+  },
+  "7318624442775": {
+    "id": "7318624442775",
+    "modId": 170391,
+    "name": "Falmer Slayer",
+    "game": "skyrimspecialedition",
+    "summary": "Two heavy armor sets for slaying falmers. 3BA, BHUNP, HIMBO.",
+    "description": "Originally an armor set by [captain heiko](https://captain-heiko.tumblr.com/post/180334023624/falmer-slayer-armor-its-like-goblin-slayer-except),\u00a0converted to 3BAv2, BHUNPv4, HIMBO with adjustments here and there.\n\nIt has two armor sets, and both are unisex. I also added an alternate texture in gold/black based on xavbio's work.\n\nI separated out all the pieces, and made mesh adjustments so they are mostly mix and match between the two sets. Also added a kite shield.\n\n SMP has been added to the belt flappy piece on one set as well as a little bit of physics to the hood of the helmet. Overall this doesn't have very much physics however.\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)), or craftable and temperable with elven. Craft recipe book at tanning rack.\n\nRequirements:\n\nCBBE 3BAv2 or BHUNPv4 or HIMBO\n\nBodyslide\n\nRacemenu\n\nSMP\n\nScreenshots:\n\n[boredboring](https://www.nexusmods.com/users/127871623)\n\n[nuuwei](https://x.com/NuuweiNoir)\n\n  ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/falmer-slayer-7318624442775-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "falmer-slayer-7318624442775-v1",
+        "updatedAt": "2026-01-17T05:15:06+00:00",
+        "uploadTimestamp": 1769200162,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Falmer.Slayer.CBBE.3BA-712954-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/falmer-slayer-7318624442775-v1/Falmer.Slayer.CBBE.3BA-712954-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Falmer.Slayer.HIMBO-712956-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/falmer-slayer-7318624442775-v1/Falmer.Slayer.HIMBO-712956-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Falmer.Slayer.BHUNP-712958-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/falmer-slayer-7318624442775-v1/Falmer.Slayer.BHUNP-712958-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
