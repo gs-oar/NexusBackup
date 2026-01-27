@@ -6432,6 +6432,35 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/falmer-slayer-7318624442775-v1/thumbnail.png",
     "releases": [
       {
+        "version": "1.1",
+        "releaseTag": "falmer-slayer-7318624442775-v1.1",
+        "updatedAt": "2026-01-24T05:16:51+00:00",
+        "uploadTimestamp": 1769459001,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- Added vanilla m/f\n</details>",
+        "assets": [
+          {
+            "name": "Falmer.Slayer.CBBE.3BA-712954-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/falmer-slayer-7318624442775-v1.1/Falmer.Slayer.CBBE.3BA-712954-v1.1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Falmer.Slayer.HIMBO-712956-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/falmer-slayer-7318624442775-v1.1/Falmer.Slayer.HIMBO-712956-v1.1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Falmer.Slayer.BHUNP-712958-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/falmer-slayer-7318624442775-v1.1/Falmer.Slayer.BHUNP-712958-v1.1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Falmer.Slayer.Vanilla-714026-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/falmer-slayer-7318624442775-v1.1/Falmer.Slayer.Vanilla-714026-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
         "version": "1",
         "releaseTag": "falmer-slayer-7318624442775-v1",
         "updatedAt": "2026-01-17T05:15:06+00:00",
