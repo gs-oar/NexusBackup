@@ -6485,5 +6485,30 @@
         ]
       }
     ]
+  },
+  "7318624443211": {
+    "id": "7318624443211",
+    "modId": 170827,
+    "name": "Black Widow",
+    "game": "skyrimspecialedition",
+    "summary": "Sneaky armor for black widows. CBBE 3BA and BHUNP",
+    "description": "Originally made by GomaPero as a part of [PeroPeroArmorPack3](https://gomaperopero.tumblr.com/post/172619525105/peroperoarmorpack3-for-7bo). \n\nI did a few things on top of it. Not many things this time, just conversion, racemenu heels, some squeeze, SMP for the scarf. I made a little dagger but the sheathe doesn't seem to work properly.\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)), or craftable and temperable with standard leather crafting recipes. You can also craft the crafting book.\n\nRequirements:\n\n[CBBE 3BAv2](https://www.nexusmods.com/skyrimspecialedition/mods/30174)\u00a0or [BHUNPv4](https://www.nexusmods.com/skyrimspecialedition/mods/31126)\n\n[Bodyslide](https://www.nexusmods.com/skyrimspecialedition/mods/201)\n\n[Racemenu](https://www.nexusmods.com/skyrimspecialedition/mods/19080)\n\nSMP\n\nScreenshots:\n\n[crashnflash](https://www.nexusmods.com/skyrimspecialedition/users/179718669)\n\n[wedge](https://www.nexusmods.com/skyrimspecialedition/users/1110549)\n\n![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/black-widow-7318624443211-v1/thumbnail.jpg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "black-widow-7318624443211-v1",
+        "updatedAt": "2026-01-27T05:22:31+00:00",
+        "uploadTimestamp": 1769707604,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Black.Widow-715052-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/black-widow-7318624443211-v1/Black.Widow-715052-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
