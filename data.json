@@ -6510,6 +6510,20 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/black-widow-7318624443211-v1/thumbnail.jpg",
     "releases": [
       {
+        "version": "1.2",
+        "releaseTag": "black-widow-7318624443211-v1.2",
+        "updatedAt": "2026-02-01T05:56:43+00:00",
+        "uploadTimestamp": 1769985258,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.2</summary>\n\n- fixed dagger sheathe\n</details>",
+        "assets": [
+          {
+            "name": "Black.Widow-716299-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/black-widow-7318624443211-v1.2/Black.Widow-716299-v1.2.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
         "version": "1.1",
         "releaseTag": "black-widow-7318624443211-v1.1",
         "updatedAt": "2026-01-31T05:34:32+00:00",
