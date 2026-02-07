@@ -6552,5 +6552,30 @@
         ]
       }
     ]
+  },
+  "7318624443213": {
+    "id": "7318624443213",
+    "modId": 170829,
+    "name": "Leolic Armor",
+    "game": "skyrimspecialedition",
+    "summary": "Steel themed light armor for CBBE 3BA",
+    "description": "Originally made by xemoses.\n\nI thought it looked cool so I converted it from LE to SSE and did a few things on top of it.\u00a0\n\nThe chain has SMP now. I also did a bunch of squeeze sliders as practice. Also made gloves and boots from some other assets since the original only had the chestpiece. Some minor texture work.\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)), or craftable and temperable with standard steel crafting recipes. You can also craft the crafting book.\n\nRequirements:\n\n[CBBE 3BAv2](https://www.nexusmods.com/skyrimspecialedition/mods/30174)\n\n[Bodyslide](https://www.nexusmods.com/skyrimspecialedition/mods/201)\n\n[Racemenu](https://www.nexusmods.com/skyrimspecialedition/mods/19080)\n\n[SMP](https://www.nexusmods.com/skyrimspecialedition/mods/57339)\n\nScreenshots:\n\n![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/leolic-armor-7318624443213-v1/thumbnail.jpg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "leolic-armor-7318624443213-v1",
+        "updatedAt": "2026-02-02T05:59:16+00:00",
+        "uploadTimestamp": 1769707688,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Leolic.Armor-715053-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/leolic-armor-7318624443213-v1/Leolic.Armor-715053-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
