@@ -6577,5 +6577,30 @@
         ]
       }
     ]
+  },
+  "7318624443499": {
+    "id": "7318624443499",
+    "modId": 171115,
+    "name": "Cute Girly Dress",
+    "game": "skyrimspecialedition",
+    "summary": "A girly dress for CBBE 3BA and BHUNP with SMP. 10 colors.",
+    "description": "A cute dress ported to 3BAv2 and BHUNPv4 with SMP.\n\n10 colors: baby blue, lavender, white, black, mint, pink, gold, pine, navy, red.\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)), or craftable and temperable with leather. Craft recipe book at tanning rack.\n\nRequirements:\n\nCBBE 3BAv2 or BHUNPv4\n\nBodyslide\n\nRacemenu\n\nSMP\n\nScreenshots:\n\n[boredboring](https://www.nexusmods.com/users/127871623)\n\n  ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/cute-girly-dress-7318624443499-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "cute-girly-dress-7318624443499-v1",
+        "updatedAt": "2026-02-07T05:36:46+00:00",
+        "uploadTimestamp": 1769708358,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Cute.Girly.Dress-715066-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/cute-girly-dress-7318624443499-v1/Cute.Girly.Dress-715066-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
