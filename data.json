@@ -6602,5 +6602,30 @@
         ]
       }
     ]
+  },
+  "7318624443243": {
+    "id": "7318624443243",
+    "modId": 170859,
+    "name": "Goma Fine Clothes",
+    "game": "skyrimspecialedition",
+    "summary": "Two sets of fine clothes based on vanilla fine clothes sets. CBBE 3BA with SMP",
+    "description": "Originally made by GomaPeroPero, extracted from [GomaPeroLand](https://x.com/GomaPeroPero/status/1153595746014380033). Fixed all the texture variant issues, added SMP, so on.\n\nThis uses vanilla fine clothes textures, so it's recommended that you find a nice high resolution one to go with this.\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. \n\nUse [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)), or craftable and temperable with elven smithing and materials. Craft the recipe book at tanning rack.\n\nRequirements:\n\nCBBE 3BA\n\nBodyslide\n\nRacemenu\n\nSMP\n\nScreenshots:\n\n[thewheel](https://x.com/Thewheel_Skyrim)\n\n[soggychicken](https://www.twitter.com/SoggyChicken_)\ufeff\n\n[sneedster](https://www.nexusmods.com/users/10001295)\n\n[boredboring](https://www.nexusmods.com/users/127871623)\n\n  ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/goma-fine-clothes-7318624443243-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "goma-fine-clothes-7318624443243-v1",
+        "updatedAt": "2026-02-14T05:39:56+00:00",
+        "uploadTimestamp": 1769707753,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Goma.Fine.Clothes-715055-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/goma-fine-clothes-7318624443243-v1/Goma.Fine.Clothes-715055-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
