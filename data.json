@@ -6627,5 +6627,40 @@
         ]
       }
     ]
+  },
+  "7318624443240": {
+    "id": "7318624443240",
+    "modId": 170856,
+    "name": "Princess of Flowers",
+    "game": "skyrimspecialedition",
+    "summary": "For a princess of flowers; or a prince of flowers. CBBE 3BA, BHUNP, HIMBO, SMP.",
+    "description": "I found this in a Skyrim LE BBP compilation pack, went around to hunt it down, and apparently the furthest source back I could find was from\u00a0[\u6d6a\u6f2b\u7f42\u7c9f](https://bbs.3dmgame.com/space-uid-4659639.html)\u00a0on [3dm](https://bbs.3dmgame.com/forum.php?mod=viewthread&amp;tid=3838928), so I guess that's the original author.\n\nConverted to 3BAv2, BHUNPv4, HIMBO and SMP added. Both the long skirt and the headgear fabric will flutter around.\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)), or craftable and temperable with mountain flowers. Craft recipe book at tanning rack.\n\nRequirements:\n\nCBBE 3BAv2 or BHUNPv4 or HIMBO\n\nBodyslide\n\nRacemenu\n\nSMP\n\nScreenshots:\n\n[boredboring](https://www.nexusmods.com/users/127871623)\n\n[nuuwei](https://x.com/NuuweiNoir)\n\n  ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/princess-of-flowers-7318624443240-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "princess-of-flowers-7318624443240-v1",
+        "updatedAt": "2026-02-21T05:38:16+00:00",
+        "uploadTimestamp": 1769708502,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Princess.of.Flowers.CBBE.3BA-715067-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/princess-of-flowers-7318624443240-v1/Princess.of.Flowers.CBBE.3BA-715067-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Princess.of.Flowers.BHUNP-715068-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/princess-of-flowers-7318624443240-v1/Princess.of.Flowers.BHUNP-715068-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Prince.of.Flowers.HIMBO-715069-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/princess-of-flowers-7318624443240-v1/Prince.of.Flowers.HIMBO-715069-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
