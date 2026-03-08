@@ -6613,6 +6613,20 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/goma-fine-clothes-7318624443243-v1/thumbnail.png",
     "releases": [
       {
+        "version": "1.1",
+        "releaseTag": "goma-fine-clothes-7318624443243-v1.1",
+        "updatedAt": "2026-02-27T05:46:36+00:00",
+        "uploadTimestamp": 1772868825,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- fixed keywords\n</details>",
+        "assets": [
+          {
+            "name": "Goma.Fine.Clothes-728773-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/goma-fine-clothes-7318624443243-v1.1/Goma.Fine.Clothes-728773-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
         "version": "1",
         "releaseTag": "goma-fine-clothes-7318624443243-v1",
         "updatedAt": "2026-02-14T05:39:56+00:00",
@@ -6660,6 +6674,53 @@
             "category": "MAIN"
           }
         ]
+      }
+    ]
+  },
+  "7318624446499": {
+    "id": "7318624446499",
+    "modId": 174115,
+    "name": "Invicta Couture Black Rose",
+    "game": "skyrimspecialedition",
+    "summary": "CBBE 3BA bodyslide files for Invicta Couture Black Rose",
+    "description": "3ba nowwwwwww\n\nRequires the [original mod ](https://www.nexusmods.com/skyrimspecialedition/mods/173837)for textures and esp, some common sense here and there on installation.\n\nStep by step guide:\n\n* Download the original BHUNP mod for assets and esp, any of them will work.\n\n* Download the bodyslide files here. If you don't know how, look up a tutorial on youtube.\n\n* Build bodyslide files\n\n* yay! you did it, post screenshots.\n\nScreenshots:\n\n[crashnflash](https://www.nexusmods.com/skyrimspecialedition/users/179718669)\n\n[myst](https://x.com/Myst314)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/invicta-couture-black-7318624446499-v1/thumbnail.jpg",
+    "releases": [
+      {
+        "version": "1.2",
+        "releaseTag": "invicta-couture-black-7318624446499-v1.2",
+        "updatedAt": "2026-02-27T05:46:36+00:00",
+        "uploadTimestamp": 1772928258,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.2</summary>\n\n- updated thong shaderflag\n</details>",
+        "assets": [
+          {
+            "name": "Invicta.Couture.Black.Rose.CBBE.3BA-729081-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/invicta-couture-black-7318624446499-v1.2/Invicta.Couture.Black.Rose.CBBE.3BA-729081-v1.2.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "releaseTag": "invicta-couture-black-7318624446499-v1.1",
+        "updatedAt": "2026-02-27T05:46:36+00:00",
+        "uploadTimestamp": 1772872501,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- fix mesh index for bra\n</details>",
+        "assets": [
+          {
+            "name": "Invicta.Couture.Black.Rose.CBBE.3BA-728792-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/invicta-couture-black-7318624446499-v1.1/Invicta.Couture.Black.Rose.CBBE.3BA-728792-v1.1.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "invicta-couture-black-7318624446499-v1",
+        "updatedAt": "2026-02-27T05:46:36+00:00",
+        "uploadTimestamp": 1772868240,
+        "changelog": "",
+        "assets": []
       }
     ]
   }
