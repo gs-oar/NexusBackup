@@ -6723,5 +6723,30 @@
         "assets": []
       }
     ]
+  },
+  "7318624443500": {
+    "id": "7318624443500",
+    "modId": 171116,
+    "name": "Burlesque Dress",
+    "game": "skyrimspecialedition",
+    "summary": "A dress with SMP for CBBE 3BA.",
+    "description": "A nice dress ported to 3BAv2 with SMP added, originally made for Oldrim Demonica body by [Karter](https://kartermods.blogspot.com/).\n\nComes in two colors, red and blue.\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)), or craftable and temperable. Craft recipe book at tanning rack.\n\nRequirements:\n\nCBBE 3BAv2 or BHUNPv4\n\nBodyslide\n\nRacemenu\n\nSMP\n\nScreenshots:\n\n[boredboring](https://www.nexusmods.com/users/127871623)\n\n  ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/burlesque-dress-7318624443500-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "burlesque-dress-7318624443500-v1",
+        "updatedAt": "2026-03-08T05:38:59+00:00",
+        "uploadTimestamp": 1769708829,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Burlesque.Dress-715070-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/burlesque-dress-7318624443500-v1/Burlesque.Dress-715070-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
