@@ -6748,5 +6748,35 @@
         ]
       }
     ]
+  },
+  "7318624447173": {
+    "id": "7318624447173",
+    "modId": 174789,
+    "name": "Sorceress Armor",
+    "game": "skyrimspecialedition",
+    "summary": "Light armor set for sorceresses. 4 colors, sword, shield, staff. CBBE 3BA and BHUNP.",
+    "description": "Originally made by [davjes](https://www.nexusmods.com/skyrim/mods/48446)\ufeff for Skyrim LE. Painstakingly remapped all the meshes to use texturemaps, added SMP, some minor adjustments here and there.\n\nFour colors, black/red, gold/blue, copper/red, and silver.\u00a0\n\nDavjes originally had a little treasure map hunt with a quest it seemed like, but I don't want to bother with it, so now it's just craftable.\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. \n\nUse [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)), or craftable and temperable recipes with the recipe book at tanning rack.\n\nRequirements:\n\n[CBBE 3BAv2](https://www.nexusmods.com/skyrimspecialedition/mods/30174)\u00a0or [BHUNPv4](https://www.nexusmods.com/skyrimspecialedition/mods/31126)\n\n[Bodyslide](https://www.nexusmods.com/skyrimspecialedition/mods/201)\n\n[Racemenu](https://www.nexusmods.com/skyrimspecialedition/mods/19080)\n\n[SMP](https://www.nexusmods.com/skyrimspecialedition/mods/57339)\n\nScreenshots:\n\n[soggychicken](https://www.twitter.com/SoggyChicken_)\ufeff\n\n![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/sorceress-armor-7318624447173-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "sorceress-armor-7318624447173-v1",
+        "updatedAt": "2026-03-15T06:01:56+00:00",
+        "uploadTimestamp": 1774050792,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Sorceress.Armor.CBBE.3BA-733533-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/sorceress-armor-7318624447173-v1/Sorceress.Armor.CBBE.3BA-733533-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Sorceress.Armor.BHUNP-733535-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/sorceress-armor-7318624447173-v1/Sorceress.Armor.BHUNP-733535-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
