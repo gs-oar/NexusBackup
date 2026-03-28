@@ -6773,6 +6773,25 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/sorceress-armor-7318624447173-v1/thumbnail.png",
     "releases": [
       {
+        "version": "1.1",
+        "releaseTag": "sorceress-armor-7318624447173-v1.1",
+        "updatedAt": "2026-03-22T05:47:56+00:00",
+        "uploadTimestamp": 1774624591,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Sorceress.Armor.BHUNP-735699-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/sorceress-armor-7318624447173-v1.1/Sorceress.Armor.BHUNP-735699-v1.1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Sorceress.Armor.CBBE.3BA-735700-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/sorceress-armor-7318624447173-v1.1/Sorceress.Armor.CBBE.3BA-735700-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
         "version": "1",
         "releaseTag": "sorceress-armor-7318624447173-v1",
         "updatedAt": "2026-03-15T06:01:56+00:00",
@@ -6787,6 +6806,41 @@
           {
             "name": "Sorceress.Armor.BHUNP-733535-v1.7z",
             "url": "https://github.com/gs-oar/NexusBackup/releases/download/sorceress-armor-7318624447173-v1/Sorceress.Armor.BHUNP-733535-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624447644": {
+    "id": "7318624447644",
+    "modId": 175260,
+    "name": "Bean Sidhe",
+    "game": "skyrimspecialedition",
+    "summary": "Fairy outfit for CBBE 3BA, BHUNP and UBE",
+    "description": "Bean sidhe means banshee in irish.\n\nI forgot where I even found this, but I eventually tracked it down back to the source by [yangyang](https://bbs.3dmgame.com/thread-3028732-1-1.html) on 3dm.\n\nI converted it here for CBBE 3BA, BHUNP, and UBE. I also added SMP to the wings, which are kind of floaty instead of weighty since I think that might be more appropriate for a fairy like feeling.\n\nComes in a couple of colors. Gold/green, silver/blue, and black/red.\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)), or craftable and temperable with elven smithing. Craft recipe book at tanning rack.\n\nRequirements:\n\nCBBE 3BA, BHUNP, or UBE\n\nBodyslide\n\nRacemenu\n\nSMP\n\nScreenshots:\n\n[boredboring](https://www.nexusmods.com/users/127871623)\n\n![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/bean-sidhe-7318624447644-v1/thumbnail.jpg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "bean-sidhe-7318624447644-v1",
+        "updatedAt": "2026-03-22T05:47:56+00:00",
+        "uploadTimestamp": 1774553779,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Bean.Sidhe.UBE-735436-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/bean-sidhe-7318624447644-v1/Bean.Sidhe.UBE-735436-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Bean.Sidhe.CBBE.3BA-735438-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/bean-sidhe-7318624447644-v1/Bean.Sidhe.CBBE.3BA-735438-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Bean.Sidhe.BHUNP-735441-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/bean-sidhe-7318624447644-v1/Bean.Sidhe.BHUNP-735441-v1.7z",
             "category": "MAIN"
           }
         ]
