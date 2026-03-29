@@ -4872,6 +4872,20 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/blade-and-soul-7318624383307-v1/thumbnail.jpeg",
     "releases": [
       {
+        "version": "1.4",
+        "releaseTag": "blade-and-soul-7318624383307-v1.4",
+        "updatedAt": "2026-03-28T05:52:19+00:00",
+        "uploadTimestamp": 1774701720,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.4</summary>\n\n- added crafting recipes\n</details>",
+        "assets": [
+          {
+            "name": "Blade.and.Soul.Pure.White-735988-v1.4.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/blade-and-soul-7318624383307-v1.4/Blade.and.Soul.Pure.White-735988-v1.4.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
         "version": "1.3",
         "releaseTag": "blade-and-soul-7318624383307-v1.3",
         "updatedAt": "2025-07-29T15:30:41+00:00",
