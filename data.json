@@ -6787,6 +6787,25 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/sorceress-armor-7318624447173-v1/thumbnail.png",
     "releases": [
       {
+        "version": "1.2",
+        "releaseTag": "sorceress-armor-7318624447173-v1.2",
+        "updatedAt": "2026-03-29T06:07:59+00:00",
+        "uploadTimestamp": 1774866544,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.2</summary>\n\n- fix gem partition\n</details>",
+        "assets": [
+          {
+            "name": "Sorceress.Armor.CBBE.3BA-736665-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/sorceress-armor-7318624447173-v1.2/Sorceress.Armor.CBBE.3BA-736665-v1.2.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Sorceress.Armor.BHUNP-736667-v1.2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/sorceress-armor-7318624447173-v1.2/Sorceress.Armor.BHUNP-736667-v1.2.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
         "version": "1.1",
         "releaseTag": "sorceress-armor-7318624447173-v1.1",
         "updatedAt": "2026-03-22T05:47:56+00:00",
