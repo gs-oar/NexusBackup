@@ -6879,5 +6879,30 @@
         ]
       }
     ]
+  },
+  "7318624448724": {
+    "id": "7318624448724",
+    "modId": 176340,
+    "name": "Scarlet Valkyrie",
+    "game": "skyrimspecialedition",
+    "summary": "CBBE 3BA bodyslide files for Scarlet Valkyrie armor.",
+    "description": "3ba 3ba 3ba 3ba\n\nRequires the [original mod ](https://www.nexusmods.com/skyrimspecialedition/mods/176326)for textures and esp, some common sense on installation.\n\nStep by step guide:\n\n* Download the original BHUNP mod for assets and esp, any of them will work.\n\n* Download the bodyslide files here. If you don't know how, look up a tutorial on youtube.\n\n* Build bodyslide files\n\n* yay! you did it, post screenshots.\n\nScreenshots:\n\n[crashnflash](https://www.nexusmods.com/skyrimspecialedition/users/179718669)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/scarlet-valkyrie-7318624448724-v1/thumbnail.jpg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "scarlet-valkyrie-7318624448724-v1",
+        "updatedAt": "2026-03-31T06:13:13+00:00",
+        "uploadTimestamp": 1775159334,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Scarlet.Valkyrie.CBBE.3BA-737925-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/scarlet-valkyrie-7318624448724-v1/Scarlet.Valkyrie.CBBE.3BA-737925-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
