@@ -6918,5 +6918,40 @@
         ]
       }
     ]
+  },
+  "7318624449220": {
+    "id": "7318624449220",
+    "modId": 176836,
+    "name": "Shanoa Armor",
+    "game": "skyrimspecialedition",
+    "summary": "Shanoa armor for CBBE 3BA, BHUNP and UBE",
+    "description": "Shanoa's armor from Castlevania. Kurese made it for [Skyrim LE](https://www.nexusmods.com/skyrim/mods/52431). I just converted it to modern body types, upscaled the texture with some minor changes, and added SMP.\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first.\n\nUse [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)), or craftable and temperable recipes with the recipe book at tanning rack using vampire dust.\n\nRequirements:\n\n[CBBE 3BAv2](https://www.nexusmods.com/skyrimspecialedition/mods/30174)\u00a0or [BHUNPv4](https://www.nexusmods.com/skyrimspecialedition/mods/31126)\u00a0or UBE\n\n[Bodyslide](https://www.nexusmods.com/skyrimspecialedition/mods/201)\n\n[Racemenu](https://www.nexusmods.com/skyrimspecialedition/mods/19080)\n\n[SMP](https://www.nexusmods.com/skyrimspecialedition/mods/57339)\n\nScreenshots:\n\n[soggychicken](https://www.twitter.com/SoggyChicken_)\ufeff\n\n[crashnflash](https://www.nexusmods.com/skyrimspecialedition/users/179718669)\n\n ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/shanoa-armor-7318624449220-v1/thumbnail.jpg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "shanoa-armor-7318624449220-v1",
+        "updatedAt": "2026-04-04T05:50:42+00:00",
+        "uploadTimestamp": 1775861681,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Shanoa.Armor.CBBE.3BA-740630-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/shanoa-armor-7318624449220-v1/Shanoa.Armor.CBBE.3BA-740630-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Shanoa.Armor.UBE-740632-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/shanoa-armor-7318624449220-v1/Shanoa.Armor.UBE-740632-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Shanoa.Armor.BHUNP-740633-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/shanoa-armor-7318624449220-v1/Shanoa.Armor.BHUNP-740633-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
