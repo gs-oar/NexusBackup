@@ -6929,6 +6929,30 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/shanoa-armor-7318624449220-v1/thumbnail.jpg",
     "releases": [
       {
+        "version": "1.1",
+        "releaseTag": "shanoa-armor-7318624449220-v1.1",
+        "updatedAt": "2026-04-11T05:55:49+00:00",
+        "uploadTimestamp": 1775899635,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- marked esl\n</details>",
+        "assets": [
+          {
+            "name": "Shanoa.Armor.CBBE.3BA-740728-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/shanoa-armor-7318624449220-v1.1/Shanoa.Armor.CBBE.3BA-740728-v1.1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Shanoa.Armor.BHUNP-740729-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/shanoa-armor-7318624449220-v1.1/Shanoa.Armor.BHUNP-740729-v1.1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Shanoa.Armor.UBE-740730-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/shanoa-armor-7318624449220-v1.1/Shanoa.Armor.UBE-740730-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
         "version": "1",
         "releaseTag": "shanoa-armor-7318624449220-v1",
         "updatedAt": "2026-04-04T05:50:42+00:00",
