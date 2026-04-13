@@ -6977,5 +6977,30 @@
         ]
       }
     ]
+  },
+  "7318624449604": {
+    "id": "7318624449604",
+    "modId": 177220,
+    "name": "wolf mod",
+    "game": "skyrimspecialedition",
+    "summary": "replaces wolf with wolf",
+    "description": "inside you there are two wolves\n\n![Image](https://i.imgur.com/yA82HRK.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/wolf-mod-7318624449604-v1/thumbnail.jpg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "wolf-mod-7318624449604-v1",
+        "updatedAt": "2026-04-12T06:20:37+00:00",
+        "uploadTimestamp": 1776018476,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "wolf.mod-741204-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/wolf-mod-7318624449604-v1/wolf.mod-741204-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
