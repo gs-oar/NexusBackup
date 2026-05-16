@@ -7002,5 +7002,38 @@
         ]
       }
     ]
+  },
+  "7318624452493": {
+    "id": "7318624452493",
+    "modId": 180109,
+    "name": "Draugr Halloween Outfit CBBE 3BA",
+    "game": "skyrimspecialedition",
+    "summary": "Draugr Halloween Outfit by goampuja updated for CBBE 3BA with SMP",
+    "description": "[Draugr Halloween Outfit ](https://www.nexusmods.com/skyrimspecialedition/mods/41883)by goampuja, or draugr wanderer outfit, who knows, the naming is not consistent.\u00a0\n\nI added SMP to a couple of the pieces, minor mesh changes, and did some esp updates like adding keywords and eslify. I changed the armor class from light armor to heavy armor as well. This uses your installed textures for draugr/ancient nordic armor.\n\nFor BHUNP see [hyruledm's conversion](https://www.nexusmods.com/skyrimspecialedition/mods/114880). Our versions are somewhat different.\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first under the group name draugr wanderer outfit.\n\nUse [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)), temperable with iron. You can find the outfit in Valthume since goampuja put it there, I didn't add crafting recipes this time.\n\nRequirements:\n\n[CBBE 3BAv2](https://www.nexusmods.com/skyrimspecialedition/mods/30174)\n\n[Bodyslide](https://www.nexusmods.com/skyrimspecialedition/mods/201)\n\n[Racemenu](https://www.nexusmods.com/skyrimspecialedition/mods/19080)\n\n[SMP](https://www.nexusmods.com/skyrimspecialedition/mods/57339)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/draugr-halloween-outfit-7318624452493-v1/thumbnail.jpg",
+    "releases": [
+      {
+        "version": "1.01",
+        "releaseTag": "draugr-halloween-outfit-7318624452493-v1.01",
+        "updatedAt": "2026-04-13T07:10:24+00:00",
+        "uploadTimestamp": 1778886874,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Draugr.Halloween.Outfit-752705-v1.01.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/draugr-halloween-outfit-7318624452493-v1.01/Draugr.Halloween.Outfit-752705-v1.01.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "draugr-halloween-outfit-7318624452493-v1",
+        "updatedAt": "2026-04-13T07:10:24+00:00",
+        "uploadTimestamp": 1778871216,
+        "changelog": "",
+        "assets": []
+      }
+    ]
   }
 }
