@@ -7035,5 +7035,30 @@
         "assets": []
       }
     ]
+  },
+  "7318624452553": {
+    "id": "7318624452553",
+    "modId": 180169,
+    "name": "Neo Witch CBBE 3BA",
+    "game": "skyrimspecialedition",
+    "summary": "CBBE 3BA bodyslide files for Neo Witch outfit",
+    "description": "A conversion of\u00a0[neo witch ](https://www.nexusmods.com/skyrimspecialedition/mods/179570)by hyruledm.\n\nGo download the original mod[\u00a0](https://www.nexusmods.com/skyrimspecialedition/mods/176326)for textures and esp, you know the drill.\n\nStep by step guide:\n\n* Download the original BHUNP mod for assets and esp.[/*]\n\n* Download the bodyslide files here. If you don't know how, look up a tutorial on youtube.[/*]\n\n* Build bodyslide files[/*]\n\n* yay! you did it, post screenshots.[/*]",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/neo-witch-cbbe-7318624452553-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "neo-witch-cbbe-7318624452553-v1",
+        "updatedAt": "2026-05-16T07:11:54+00:00",
+        "uploadTimestamp": 1778938533,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Neo.Witch.CBBE.3BA-752889-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/neo-witch-cbbe-7318624452553-v1/Neo.Witch.CBBE.3BA-752889-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
