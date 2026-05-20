@@ -1724,6 +1724,20 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/modern-sneakers-7318624400888-v1/thumbnail.jpeg",
     "releases": [
       {
+        "version": "1.1",
+        "releaseTag": "modern-sneakers-7318624400888-v1.1",
+        "updatedAt": "2026-05-17T07:32:19+00:00",
+        "uploadTimestamp": 1779206494,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- fixed sole height issues\n</details>",
+        "assets": [
+          {
+            "name": "Modern.Sneakers.1K-754105-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/modern-sneakers-7318624400888-v1.1/Modern.Sneakers.1K-754105-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
         "version": "1",
         "releaseTag": "modern-sneakers-7318624400888-v1",
         "updatedAt": "2025-07-29T12:23:16+00:00",
