@@ -7074,5 +7074,40 @@
         ]
       }
     ]
+  },
+  "7318624454277": {
+    "id": "7318624454277",
+    "modId": 181893,
+    "name": "Victorian Dress",
+    "game": "skyrimspecialedition",
+    "summary": "A Victorian dress for CBBE 3BA, BHUNP, and UBE",
+    "description": "A nice dress ported to 3BAv2 with SMP, originally made for Oldrim Demonica body by [Karter](https://kartermods.blogspot.com/2015/09/victorian-dem-10-for-demonica.html).\n\nComes in three colors. There is a long skirt and a short skirt, and stockings/heels, as well as a hat.\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)), or craftable and temperable. Craft recipe book at tanning rack.\n\nRequirements:\n\nCBBE 3BAv2\n\nBodyslide\n\nRacemenu\n\nSMP\n\nScreenshots:\n\n[boredboring](https://www.nexusmods.com/users/127871623)\n\n[sneedster](https://www.nexusmods.com/users/10001295)\n\n![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/victorian-dress-7318624454277-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "victorian-dress-7318624454277-v1",
+        "updatedAt": "2026-05-20T08:21:59+00:00",
+        "uploadTimestamp": 1780850261,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Victorian.Dress.CBBE.3BA-760639-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/victorian-dress-7318624454277-v1/Victorian.Dress.CBBE.3BA-760639-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Victorian.Dress.BHUNP-760640-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/victorian-dress-7318624454277-v1/Victorian.Dress.BHUNP-760640-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Victorian.Dress.UBE-760644-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/victorian-dress-7318624454277-v1/Victorian.Dress.UBE-760644-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
