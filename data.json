@@ -6552,6 +6552,20 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/black-widow-7318624443211-v1/thumbnail.jpg",
     "releases": [
       {
+        "version": "1.3",
+        "releaseTag": "black-widow-7318624443211-v1.3",
+        "updatedAt": "2026-06-08T09:19:02+00:00",
+        "uploadTimestamp": 1781001544,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.3</summary>\n\n- Added zap slider for daggers\n</details>",
+        "assets": [
+          {
+            "name": "Black.Widow-761525-v1.3.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/black-widow-7318624443211-v1.3/Black.Widow-761525-v1.3.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
         "version": "1.2",
         "releaseTag": "black-widow-7318624443211-v1.2",
         "updatedAt": "2026-02-01T05:56:43+00:00",
@@ -7084,6 +7098,44 @@
     "description": "A nice dress ported to 3BAv2 with SMP, originally made for Oldrim Demonica body by [Karter](https://kartermods.blogspot.com/2015/09/victorian-dem-10-for-demonica.html).\n\nComes in three colors. There is a long skirt and a short skirt, and stockings/heels, as well as a hat.\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)), or craftable and temperable. Craft recipe book at tanning rack.\n\nRequirements:\n\nCBBE 3BAv2\n\nBodyslide\n\nRacemenu\n\nSMP\n\nScreenshots:\n\n[boredboring](https://www.nexusmods.com/users/127871623)\n\n[sneedster](https://www.nexusmods.com/users/10001295)\n\n![Image](https://i.imgur.com/NAEELTf.png)",
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/victorian-dress-7318624454277-v1/thumbnail.png",
     "releases": [
+      {
+        "version": "2",
+        "releaseTag": "victorian-dress-7318624454277-v2",
+        "updatedAt": "2026-06-08T09:19:02+00:00",
+        "uploadTimestamp": 1780996952,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Victorian.Dress.BHUNP-761507-v2.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/victorian-dress-7318624454277-v2/Victorian.Dress.BHUNP-761507-v2.7z",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "releaseTag": "victorian-dress-7318624454277-v1.1",
+        "updatedAt": "2026-06-08T09:19:02+00:00",
+        "uploadTimestamp": 1781047803,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- added crafting recipes\n</details>",
+        "assets": [
+          {
+            "name": "Victorian.Dress.CBBE.3BA-761767-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/victorian-dress-7318624454277-v1.1/Victorian.Dress.CBBE.3BA-761767-v1.1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Victorian.Dress.BHUNP-761768-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/victorian-dress-7318624454277-v1.1/Victorian.Dress.BHUNP-761768-v1.1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Victorian.Dress.UBE-761770-v1.1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/victorian-dress-7318624454277-v1.1/Victorian.Dress.UBE-761770-v1.1.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
       {
         "version": "1",
         "releaseTag": "victorian-dress-7318624454277-v1",
