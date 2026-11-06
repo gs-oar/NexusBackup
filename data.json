@@ -1067,6 +1067,25 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/aether-7318624414377-v1/thumbnail.png",
     "releases": [
       {
+        "version": "1.2",
+        "releaseTag": "aether-7318624414377-v1.2",
+        "updatedAt": "2026-06-27T07:45:58+00:00",
+        "uploadTimestamp": 1790035579,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.2</summary>\n\n- added crafting recipes, thanks to @Ashesofempires04\n</details>",
+        "assets": [
+          {
+            "name": "Aether.CBBE.3BA.141993.1-808944-v1.2.2.2026-09-22T00-06Z.31i7IobxL.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/aether-7318624414377-v1.2/Aether.CBBE.3BA.141993.1-808944-v1.2.2.2026-09-22T00-06Z.31i7IobxL.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Aether.BHUNP.141993.1-808945-v1.2.2.2026-09-22T00-06Z.Dc5uGkmpT.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/aether-7318624414377-v1.2/Aether.BHUNP.141993.1-808945-v1.2.2.2026-09-22T00-06Z.Dc5uGkmpT.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
         "version": "1.1",
         "releaseTag": "aether-7318624414377-v1.1",
         "updatedAt": "2025-07-29T12:10:08+00:00",
@@ -7189,6 +7208,238 @@
           {
             "name": "Victorian.Dress.UBE-760644-v1.7z",
             "url": "https://github.com/gs-oar/NexusBackup/releases/download/victorian-dress-7318624454277-v1/Victorian.Dress.UBE-760644-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624470074": {
+    "id": "7318624470074",
+    "modId": 197690,
+    "name": "Jack o Lanterns",
+    "game": "skyrimspecialedition",
+    "summary": "wear cool spooky pumpkin",
+    "description": "oh my gourd. there are nine faces, the inside lights up. so spooky.\u00a0\n\nwhy is the preview gooner? good question, why are halloween parties gooner?\n\nesl flagged esp, standalone. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)), or craftable at a forge with a gourd.\n\nRequirements:\n\nSMP, or not, whatever\n\nScreenshots:\n\n[soggychicken](https://www.twitter.com/SoggyChicken_)\n\n![Image](https://i.imgur.com/NAEELTf.png)\n\n\ufeff",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/jack-o-lanterns-7318624470074-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "jack-o-lanterns-7318624470074-v1",
+        "updatedAt": "2026-06-27T07:45:58+00:00",
+        "uploadTimestamp": 1793541862,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Jack.O.Lantern.197690.1.2026-11-01T14-04Z.eVtX7agb3-830447-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/jack-o-lanterns-7318624470074-v1/Jack.O.Lantern.197690.1.2026-11-01T14-04Z.eVtX7agb3-830447-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624469861": {
+    "id": "7318624469861",
+    "modId": 197477,
+    "name": "Bumper Cars",
+    "game": "skyrimspecialedition",
+    "summary": "adds summonable bumper cars",
+    "description": "kachow! it's silly halloween time. bumper cars in six colors, very cool.\n\ncraft summoning spellbook at forge with 2 tundra cottons and 2 skulls or use [additemmen.](https://www.nexusmods.com/skyrimspecialedition/mods/17563)\n\nRequirements:\n\nOpen animations replacer\n\nScreenshots:\n\n[sneedster](https://www.nexusmods.com/users/10001295)\n\n![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/bumper-cars-7318624469861-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "bumper-cars-7318624469861-v1",
+        "updatedAt": "2026-06-27T07:45:58+00:00",
+        "uploadTimestamp": 1793403725,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Bumpercar.197477.1.2026-10-30T23-42Z.izKcFpiOg-829308-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/bumper-cars-7318624469861-v1/Bumpercar.197477.1.2026-10-30T23-42Z.izKcFpiOg-829308-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624469040": {
+    "id": "7318624469040",
+    "modId": 196656,
+    "name": "Blood Mage",
+    "game": "skyrimspecialedition",
+    "summary": "Outfit for blood mages. CBBE 3BA and BHUNP",
+    "description": "Originally made for Demonica body by Krista. Now for SSE body shapes with SMP.\n\nThere is a long skirt and a corset thing with a short skirt.\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)), or craftable and temperable. Craft recipe book at tanning rack.\n\nRequirements:\n\nCBBE 3BA or BHUNP\n\nBodyslide\n\nRacemenu\n\nSMP\n\nScreenshots:\n\n[sneedster](https://www.nexusmods.com/users/10001295)\n\n[crashnflash](https://www.nexusmods.com/skyrimspecialedition/users/179718669)\n\n[myst](https://x.com/Myst314)\n\n![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/blood-mage-7318624469040-v1/thumbnail.jpg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "blood-mage-7318624469040-v1",
+        "updatedAt": "2026-06-27T07:45:58+00:00",
+        "uploadTimestamp": 1792859723,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Blood.Mage.CBBE.3BA.196656.1.2026-10-24T16-35Z.kATsMWpNp-825373-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/blood-mage-7318624469040-v1/Blood.Mage.CBBE.3BA.196656.1.2026-10-24T16-35Z.kATsMWpNp-825373-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Blood.Mage.BHUNP.196656.1.2026-10-24T16-35Z.31i7IoqK3-825374-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/blood-mage-7318624469040-v1/Blood.Mage.BHUNP.196656.1.2026-10-24T16-35Z.31i7IoqK3-825374-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624468150": {
+    "id": "7318624468150",
+    "modId": 195766,
+    "name": "Daughters of Coldharbour Bloodspiller CBBE 3BA",
+    "game": "skyrimspecialedition",
+    "summary": "CBBE 3BA conversion of bloodspiller armor",
+    "description": "A conversion of [daughters of coldharbour bloodspiller ](https://www.nexusmods.com/skyrimspecialedition/mods/195665)outfit by hyruledm.\n\nGo download the original mod[\u00a0](https://www.nexusmods.com/skyrimspecialedition/mods/176326)for textures and esp, you know the drill.\n\nStep by step guide:\n\n* Download the original BHUNP mod for assets and esp.[/*]\n\n* Download the bodyslide files here. If you don't know how, look up a tutorial on youtube.[/*]\n\n* Build bodyslide files[/*]\n\n* yay! you did it.[/*]\n\n ![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/daughters-of-coldharbour-7318624468150-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "daughters-of-coldharbour-7318624468150-v1",
+        "updatedAt": "2026-06-27T07:45:58+00:00",
+        "uploadTimestamp": 1792281712,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Daughters.of.Coldharbour.Bloodspiller.CBBE.3BA.195766.1.2026-10-18T00-01Z.31i7IonR4-821964-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/daughters-of-coldharbour-7318624468150-v1/Daughters.of.Coldharbour.Bloodspiller.CBBE.3BA.195766.1.2026-10-18T00-01Z.31i7IonR4-821964-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624467445": {
+    "id": "7318624467445",
+    "modId": 195061,
+    "name": "Daughters of Coldharbour Sovereign CBBE 3BA",
+    "game": "skyrimspecialedition",
+    "summary": "3BA Bodyslide conversions for sovereign outfit",
+    "description": "A conversion of [daughters of coldharbour sobereign ](https://www.nexusmods.com/skyrimspecialedition/mods/194751)outfit by hyruledm.\n\nGo download the original mod[\u00a0](https://www.nexusmods.com/skyrimspecialedition/mods/176326)for textures and esp, you know the drill.\n\nStep by step guide:\n\n* Download the original BHUNP mod for assets and esp.[/*]\n\n* Download the bodyslide files here. If you don't know how, look up a tutorial on youtube.[/*]\n\n* Build bodyslide files[/*]\n\n* yay! you did it, post screenshots.[/*]",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/daughters-of-coldharbour-7318624467445-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1.3",
+        "releaseTag": "daughters-of-coldharbour-7318624467445-v1.3",
+        "updatedAt": "2026-06-27T07:45:58+00:00",
+        "uploadTimestamp": 1791941030,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Daughters.of.Coldharbour.Sovereign.CBBE.3BA.195061.1-819882-v1.3.3.2026-10-14T01-23Z.IoFlhfCEC.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/daughters-of-coldharbour-7318624467445-v1.3/Daughters.of.Coldharbour.Sovereign.CBBE.3BA.195061.1-819882-v1.3.3.2026-10-14T01-23Z.IoFlhfCEC.zip",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
+        "version": "1.2",
+        "releaseTag": "daughters-of-coldharbour-7318624467445-v1.2",
+        "updatedAt": "2026-06-27T07:45:58+00:00",
+        "uploadTimestamp": 1791922767,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Daughters.of.Coldharbour.Sovereign.CBBE.3BA.195061.1-819782-v1.2.2.2026-10-13T20-19Z.HZCMOy6dr.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/daughters-of-coldharbour-7318624467445-v1.2/Daughters.of.Coldharbour.Sovereign.CBBE.3BA.195061.1-819782-v1.2.2.2026-10-13T20-19Z.HZCMOy6dr.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1.1",
+        "releaseTag": "daughters-of-coldharbour-7318624467445-v1.1",
+        "updatedAt": "2026-06-27T07:45:58+00:00",
+        "uploadTimestamp": 1791922534,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Daughters.of.Coldharbour.Sovereign.CBBE.3BA.195061.1-819780-v1.1.1.2026-10-13T20-15Z.vlGiB9SEf.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/daughters-of-coldharbour-7318624467445-v1.1/Daughters.of.Coldharbour.Sovereign.CBBE.3BA.195061.1-819780-v1.1.1.2026-10-13T20-15Z.vlGiB9SEf.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      },
+      {
+        "version": "1",
+        "releaseTag": "daughters-of-coldharbour-7318624467445-v1",
+        "updatedAt": "2026-06-27T07:45:58+00:00",
+        "uploadTimestamp": 1791838592,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Daughters.of.Coldharbour.Sovereign.CBBE.3BA.195061.1.2026-10-12T20-56Z.uhRBKsNuc-819029-v1.zip",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/daughters-of-coldharbour-7318624467445-v1/Daughters.of.Coldharbour.Sovereign.CBBE.3BA.195061.1.2026-10-12T20-56Z.uhRBKsNuc-819029-v1.zip",
+            "category": "OLD_VERSION"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624465565": {
+    "id": "7318624465565",
+    "modId": 193181,
+    "name": "Daughters of Coldharbour Harvester CBBE 3BA",
+    "game": "skyrimspecialedition",
+    "summary": "3BA Bodyslide conversions for harvester outfit",
+    "description": "A conversion of [daughters of coldharbour harvester ](https://www.nexusmods.com/skyrimspecialedition/mods/193081)by hyruledm.\n\nGo download the original mod[\u00a0](https://www.nexusmods.com/skyrimspecialedition/mods/176326)for textures and esp, you know the drill.\n\nStep by step guide:\n\n* Download the original BHUNP mod for assets and esp.[/*]\n\n* Download the bodyslide files here. If you don't know how, look up a tutorial on youtube.[/*]\n\n* Build bodyslide files[/*]\n\n* yay! you did it, post screenshots.[/*]",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/daughters-of-coldharbour-7318624465565-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "daughters-of-coldharbour-7318624465565-v1",
+        "updatedAt": "2026-06-27T07:45:58+00:00",
+        "uploadTimestamp": 1790467990,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Daughters.of.Coldharbour.Harvester.CBBE.3BA.193181.1.2026-09-27T00-13Z.s6Og0dkUd-811058-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/daughters-of-coldharbour-7318624465565-v1/Daughters.of.Coldharbour.Harvester.CBBE.3BA.193181.1.2026-09-27T00-13Z.s6Og0dkUd-811058-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
+  },
+  "7318624462865": {
+    "id": "7318624462865",
+    "modId": 190481,
+    "name": "Walking Time",
+    "game": "skyrimspecialedition",
+    "summary": "A modern blouse outfit for CBBE 3BA, BHUNP, and UBE",
+    "description": "A vest/blouse/kimono outfit thing, originally made by [Karter](https://kartermods.blogspot.com/2015/09/victorian-dem-10-for-demonica.html).\n\nThe blouse comes in like six or seven colors. There is a sweater and a short top as to what the main upperwear is, since the blouse/kimono piece is not slot 32.\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)), or craftable and temperable. Craft recipe book at tanning rack.\n\nRequirements:\n\nOne of the body mods\n\nBodyslide\n\nRacemenu\n\nScreenshots:\n\n[soggychicken](https://www.twitter.com/SoggyChicken_)\ufeff\u00a0\n\n[thewheel](https://x.com/Thewheel_Skyrim) \n\n![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/walking-time-7318624462865-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "walking-time-7318624462865-v1",
+        "updatedAt": "2026-06-27T07:45:58+00:00",
+        "uploadTimestamp": 1788361549,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Walking.Time.BHUNP.190481.1.2026-09-02T15-05Z.L5WQbqBiO-799233-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/walking-time-7318624462865-v1/Walking.Time.BHUNP.190481.1.2026-09-02T15-05Z.L5WQbqBiO-799233-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Walking.Time.UBE.190481.1.2026-09-02T15-05Z.Ks18n0fNy-799234-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/walking-time-7318624462865-v1/Walking.Time.UBE.190481.1.2026-09-02T15-05Z.Ks18n0fNy-799234-v1.7z",
+            "category": "MAIN"
+          },
+          {
+            "name": "Walking.Time.CBBE.3BA.190481.1.2026-09-02T15-05Z.hfH9s6PrW-799235-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/walking-time-7318624462865-v1/Walking.Time.CBBE.3BA.190481.1.2026-09-02T15-05Z.hfH9s6PrW-799235-v1.7z",
             "category": "MAIN"
           }
         ]
