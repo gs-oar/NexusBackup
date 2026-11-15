@@ -7445,5 +7445,30 @@
         ]
       }
     ]
+  },
+  "7318624471523": {
+    "id": "7318624471523",
+    "modId": 199139,
+    "name": "Daughters of Coldharbour Scheming Queen CBBE 3BA",
+    "game": "skyrimspecialedition",
+    "summary": "CBBE 3BA conversion of scheming queen set",
+    "description": "A conversion of [an outfit ](https://www.nexusmods.com/skyrimspecialedition/mods/198339)by hyruledm.\n\nGo download the original mod[\u00a0](https://www.nexusmods.com/skyrimspecialedition/mods/176326)for textures and esp, so on.\n\nStep by step guide:\n\n* Download the original BHUNP mod for assets and esp.[/*]\n\n* Download the bodyslide files here. If you don't know how, look up a tutorial on youtube.[/*]\n\n* Build bodyslide files[/*]\n\n* yay! you did it.[/*]\n\n![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/daughters-of-coldharbour-7318624471523-v1/thumbnail.jpg",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "daughters-of-coldharbour-7318624471523-v1",
+        "updatedAt": "2026-11-06T11:05:56+00:00",
+        "uploadTimestamp": 1794679503,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Daughters.of.Coldharbour.Scheming.Queen.CBBE.3BA.199139.1.2026-11-14T18-05Z.Ks18nTs0U-838790-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/daughters-of-coldharbour-7318624471523-v1/Daughters.of.Coldharbour.Scheming.Queen.CBBE.3BA.199139.1.2026-11-14T18-05Z.Ks18nTs0U-838790-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
