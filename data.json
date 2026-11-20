@@ -7470,5 +7470,30 @@
         ]
       }
     ]
+  },
+  "7318624472195": {
+    "id": "7318624472195",
+    "modId": 199811,
+    "name": "Simple Slip Dress",
+    "game": "skyrimspecialedition",
+    "summary": "a simple dress. CBBE 3BA or BHUNP",
+    "description": "it's a dress, it has SMP, it has many colors, wow.\u00a0\n\nesl flagged esp, standalone. [Build with bodyslide ](https://www.youtube.com/watch?v=45E8qqnqJDQ)first. Use [additemmenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563), [modex](https://www.nexusmods.com/skyrimspecialedition/mods/137877), or [console](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)), or craftable with tundra cotton.\n\nRequirements:\n\nCBBE 3BA or BHUNP\n\nBodyslide\n\nRacemenu\n\nSMP\n\n[bone limit extender](https://www.nexusmods.com/skyrimspecialedition/mods/177636)\n\nScreenshots:\n\n[soggychicken](https://www.twitter.com/SoggyChicken_)\n\n[silver](https://www.nexusmods.com/skyrimspecialedition/users/4126073)\n\n![Image](https://i.imgur.com/NAEELTf.png)",
+    "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/simple-slip-dress-7318624472195-v1/thumbnail.png",
+    "releases": [
+      {
+        "version": "1",
+        "releaseTag": "simple-slip-dress-7318624472195-v1",
+        "updatedAt": "2026-11-15T12:27:54+00:00",
+        "uploadTimestamp": 1795125942,
+        "changelog": "",
+        "assets": [
+          {
+            "name": "Simple.Slip.Dress.199811.1.2026-11-19T22-05Z.qTl1So1dj-841695-v1.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/simple-slip-dress-7318624472195-v1/Simple.Slip.Dress.199811.1.2026-11-19T22-05Z.qTl1So1dj-841695-v1.7z",
+            "category": "MAIN"
+          }
+        ]
+      }
+    ]
   }
 }
