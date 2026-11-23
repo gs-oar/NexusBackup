@@ -7456,6 +7456,20 @@
     "pictureUrl": "https://github.com/gs-oar/NexusBackup/releases/download/daughters-of-coldharbour-7318624471523-v1/thumbnail.jpg",
     "releases": [
       {
+        "version": "1.1",
+        "releaseTag": "daughters-of-coldharbour-7318624471523-v1.1",
+        "updatedAt": "2026-11-20T13:48:41+00:00",
+        "uploadTimestamp": 1795358405,
+        "changelog": "<details>\n<summary>Click to view Changelog for v1.1</summary>\n\n- added hood down cloak\n</details>",
+        "assets": [
+          {
+            "name": "Daughters.of.Coldharbour.Scheming.Queen.CBBE.3BA.199139.1-843383-v1.1.1.2026-11-22T14-40Z.6XybdtbN7.7z",
+            "url": "https://github.com/gs-oar/NexusBackup/releases/download/daughters-of-coldharbour-7318624471523-v1.1/Daughters.of.Coldharbour.Scheming.Queen.CBBE.3BA.199139.1-843383-v1.1.1.2026-11-22T14-40Z.6XybdtbN7.7z",
+            "category": "MAIN"
+          }
+        ]
+      },
+      {
         "version": "1",
         "releaseTag": "daughters-of-coldharbour-7318624471523-v1",
         "updatedAt": "2026-11-06T11:05:56+00:00",
